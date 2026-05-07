@@ -21,6 +21,9 @@ Abra `index.html` no navegador. O arquivo é apenas uma prévia local.
 - Fala.BR: <https://falabr.cgu.gov.br>
 - Processo SEI: 08016.009807/2026-98
 - Análise comparativa: `../Documentação/analise_dicom_onasp.md`
+- Comparativo Nota Técnica x página DCOM: `../Documentação/comparativo_nota_tecnica_vs_pagina_dicom.md`
+- Apontamentos para ofício à DCOM: `../Documentação/apontamentos_divergencias_notas_tecnicas_dcom.md`
+- Apontamentos em Word: `../Documentação/apontamentos_divergencias_notas_tecnicas_dcom.docx`
 - Roteiro de publicação: `../Documentação/roteiro_publicacao_govbr_senappen.md`
 - Melhorias visuais dentro da caixa gov.br/SENAPPEN: `../Documentação/melhorias_visuais_govbr_senappen.md`
 - Inventário técnico da estrutura gov.br/SENAPPEN: `../Documentação/inventario_estrutura_govbr_senappen.md`
@@ -30,6 +33,8 @@ Abra `index.html` no navegador. O arquivo é apenas uma prévia local.
 
 - Confirmar telefone oficial do banner de canais de atendimento.
 - Publicar o QR Code oficial localizado em `../Documentação/QRcode_Whatsapp.png`, sem usar placeholder visual como publicação final.
+- A prévia principal já usa os botões fiéis salvos em `../Documentação/Botao_Renospen.png`, `../Documentação/Botao_EMA.png`, `../Documentação/Botao_PenaJusta.png` e `../Documentação/Botao_RevistaBrasileira.png`.
+- As subpáginas locais também passaram a usar essas imagens em um cabeçalho visual simples, para manter coerência entre card e página temática.
 - Validar conteúdo final das quatro subpáginas.
 - Confirmar se o link dos relatórios deve apontar para PDF direto ou página agregadora.
 - Validar acessibilidade dos banners ricos em texto e iframes no ambiente gov.br.

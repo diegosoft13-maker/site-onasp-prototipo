@@ -50,6 +50,50 @@ h2 {
   font-weight: 700;
 }
 
+.subpage-preview {
+  padding-top: 18px;
+}
+
+.subpage-back-link {
+  margin-bottom: 18px;
+}
+
+.subpage-back-link a {
+  font-weight: 700;
+}
+
+.subpage-hero {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+  padding: 20px 0 12px;
+}
+
+.subpage-hero-media {
+  margin: 0;
+}
+
+.subpage-hero-media img {
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+  object-fit: contain;
+}
+
+.subpage-hero-copy h1 {
+  margin: 6px 0 12px;
+}
+
+.subpage-kicker {
+  margin: 0;
+  color: #1351b4;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 h3 {
   margin: 0 0 8px;
 }
@@ -58,21 +102,56 @@ section {
   margin-top: 24px;
 }
 
+#conteudo > section + section {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #d9d9d9;
+}
+
+#conteudo > section + section h2 {
+  margin-top: 0;
+}
+
 .linked-image,
 .standalone-image {
   display: block;
   margin: 16px 0;
 }
 
-.qrcode-block {
+.manifestacao-banner-crop {
+  height: clamp(300px, 42vw, 390px);
+  overflow: hidden;
+  margin: 8px 0 6px;
+}
+
+.manifestacao-banner-crop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 56%;
+}
+
+.compact-action-link {
+  margin: 4px 0 0;
+}
+
+.canais-atendimento-grid {
   display: grid;
-  grid-template-columns: minmax(160px, 240px) 1fr;
-  gap: 18px;
+  grid-template-columns: minmax(0, 1fr) 132px;
+  gap: 12px;
   align-items: center;
-  margin: 20px 0 0;
+}
+
+.canais-banner {
+  margin: 0;
+}
+
+.qrcode-block {
+  margin: 0;
   border: 1px solid #d1d5db;
   border-radius: 4px;
-  padding: 16px;
+  padding: 10px;
+  background: #ffffff;
 }
 
 .qrcode-block img {
@@ -80,20 +159,86 @@ section {
 }
 
 .qrcode-block figcaption {
+  margin-top: 8px;
+  color: #071d41;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.feature-link-list {
+  display: grid;
+  gap: 18px;
+}
+
+.feature-link {
+  display: grid;
+  grid-template-columns: 156px minmax(0, 1fr);
+  gap: 22px;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 14px 18px;
+  background: #ffffff;
+  color: #123c69;
+  text-decoration: none;
+}
+
+.feature-link:hover .feature-title,
+.feature-link:focus .feature-title {
+  text-decoration: underline;
+}
+
+.feature-image {
+  display: block;
+  width: 146px;
+  height: 146px;
+}
+
+.feature-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.feature-copy {
+  display: grid;
+  gap: 8px;
+}
+
+.feature-title {
+  color: #1351b4;
+  font-size: 1.12rem;
   font-weight: 700;
 }
 
-.card-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+.report-year-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 24px;
 }
 
-.card-list article {
-  border: 1px solid #d1d5db;
-  border-radius: 4px;
-  padding: 16px;
-  background: #ffffff;
+.report-year-grid a {
+  display: flex;
+  width: min(100%, 220px);
+  min-height: 54px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eeeeee;
+  background: #f7f7f7;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  color: #071d41;
+  font-size: 1.18rem;
+  text-decoration: none;
+}
+
+.report-year-grid a:hover,
+.report-year-grid a:focus {
+  color: #1351b4;
+  text-decoration: underline;
 }
 
 .embed {
@@ -107,15 +252,34 @@ section {
 }
 
 @media (max-width: 700px) {
-  .card-list {
+  .canais-atendimento-grid,
+  .feature-link,
+  .subpage-hero {
     grid-template-columns: 1fr;
   }
 
   .qrcode-block {
-    grid-template-columns: 1fr;
+    max-width: 180px;
   }
 
   h1 {
     font-size: 2rem;
+  }
+
+  .feature-image {
+    width: 128px;
+    height: 128px;
+  }
+
+  .subpage-hero-media img {
+    max-width: 148px;
+  }
+
+  .report-year-grid {
+    gap: 16px;
+  }
+
+  .report-year-grid a {
+    width: calc(50% - 8px);
   }
 }

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Rede de Ouvidorias">
+  <circle cx="82" cy="82" r="70" fill="#f7f7f7"/>
+  <circle cx="78" cy="78" r="68" fill="#ffffff" stroke="#222222" stroke-width="3"/>
+  <circle cx="78" cy="78" r="34" fill="none" stroke="#1351b4" stroke-width="5"/>
+  <circle cx="78" cy="38" r="8" fill="#1351b4"/>
+  <circle cx="112" cy="60" r="8" fill="#2e7d32"/>
+  <circle cx="103" cy="101" r="8" fill="#f9a825"/>
+  <circle cx="53" cy="101" r="8" fill="#2e7d32"/>
+  <circle cx="44" cy="60" r="8" fill="#f9a825"/>
+  <path d="M78 46v28M105 64 83 77M99 96 83 82M57 96 73 82M51 64 73 77" fill="none" stroke="#1351b4" stroke-width="4" stroke-linecap="round"/>
+  <text x="78" y="132" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1351b4">RENOSPEN</text>
+</svg>

@@ -24,6 +24,8 @@ A DCOM publicou uma atualização da página ONASP, mas a versão ainda parece p
 - Banners oficiais salvos em `Documentação/Banner_1.png`, `Documentação/Banner_2.png` e `Documentação/Banner_3.png`.
 - QR Code oficial salvo em `Documentação/QRcode_Whatsapp.png`.
 - Inventário técnico da estrutura gov.br/SENAPPEN salvo em `Documentação/inventario_estrutura_govbr_senappen.md`.
+- Comparativo literal entre Notas Técnicas e página publicada salvo em `Documentação/comparativo_nota_tecnica_vs_pagina_dicom.md`.
+- Documento de apontamentos para subsidiar ofício à DCOM salvo em `Documentação/apontamentos_divergencias_notas_tecnicas_dcom.md`.
 
 ## Ponto do diálogo com o Ouvidor
 
@@ -199,6 +201,8 @@ Texto sugerido para encaminhamento:
 - `Documentação/roteiro_publicacao_govbr_senappen.md`: roteiro técnico-editorial para a DCOM publicar no Plone/gov.br.
 - `Documentação/melhorias_visuais_govbr_senappen.md`: melhorias visuais possíveis sem sair da caixa oficial.
 - `Documentação/inventario_estrutura_govbr_senappen.md`: inventário técnico da estrutura Plone/gov.br observada no HTML publicado.
+- `Documentação/comparativo_nota_tecnica_vs_pagina_dicom.md`: lista do que a DCOM deixou de incluir e das diferenças textuais em relação às Notas Técnicas 9 e 10.
+- `Documentação/apontamentos_divergencias_notas_tecnicas_dcom.md`: versão formal dos apontamentos para subsidiar ofício de correção à DCOM.
 - `Documentação/modelo_dados_canonico_cdm.md`: Modelo de Dados Canônico criado para reaproveitamento em projetos futuros.
 - `Documentação/boas_praticas_para_outros_projetos.md`: base de boas práticas usada para orientar o CDM.
 - `Documentação/QRcode_Whatsapp.png`: QR Code oficial recebido.
@@ -218,6 +222,8 @@ O protótipo local já foi ajustado para:
 - Não usar placeholder de QR Code.
 - Carregar quatro imagens: Banner 1, Banner 2, QR Code e Banner 3.
 - Exibir cards como Rede de Ouvidorias, Ema - SIDH, Plano Pena Justa e Revista Brasileira de Execução Penal.
+- Usar nos links temáticos as imagens fiéis salvas em `Documentação/Botao_Renospen.png`, `Documentação/Botao_EMA.png`, `Documentação/Botao_PenaJusta.png` e `Documentação/Botao_RevistaBrasileira.png`.
+- Aplicar às quatro subpáginas internas um cabeçalho simples com a imagem oficial correspondente, título consistente com a página principal e manutenção explícita da nota de pendência de conteúdo.
 - Ter subpágina `plano-pena-justa.html`, não `programa-pena-justa.html`.
 
 Validação realizada:
