@@ -1,0 +1,65 @@
+# Roteiro de publicação gov.br/Plone para a página ONASP
+
+Data: 2026-05-07
+
+## Premissa
+
+A página da ONASP deve ser estruturada na mesma linguagem e lógica da página atual no gov.br/SENAPPEN, dentro do ambiente Plone/gov.br e com a caixa de ferramentas disponível para a DCOM. Este roteiro não propõe aplicação, front-end próprio, biblioteca externa, JavaScript customizado, ícone customizado, botão novo ou controle que não esteja disponível no portal.
+
+## Componentes permitidos neste roteiro
+
+Com base na página publicada analisada, a estrutura deve se limitar a componentes equivalentes a:
+
+- título e subtítulos;
+- texto rico com links simples;
+- banner/imagem institucional linkada;
+- iframe já aceito na página atual, como mapa e Power BI;
+- card/link de subpágina no padrão disponível no gov.br;
+- página/subpágina simples com título, texto e links/documentos oficiais.
+
+## Ordem da página principal
+
+| Ordem | Seção | Componente gov.br/Plone sugerido | Conteúdo conforme notas técnicas | Observação |
+| --- | --- | --- | --- | --- |
+| 1 | Ouvidoria Nacional de Serviços Penais | Título/subtítulo existente | Manter título atual da página. | Não criar hero customizado. |
+| 2 | Banner rotativo | Componente atual de banner/carrossel | Manter banners atuais de Canais de Comunicação e WhatsApp. | Ação da Nota Técnica 9: manter. |
+| 3 | Sobre a Ouvidoria | Texto rico | Substituir texto institucional pelo texto da Nota Técnica 9. | Usar link simples para Fala.BR se o editor permitir. |
+| 4 | Tipos de Manifestação | Texto rico + imagem/banner linkado | Inserir parágrafo da Nota Técnica 9 e Banner 1 clicável para Fala.BR. | Remover botões antigos, como pedido na nota. |
+| 5 | Canais de Atendimento | Imagem/banner linkado | Inserir Banner 2. | Remover bloco textual antigo para evitar conflito de telefone. |
+| 6 | QR Code do chatbot | Imagem estática oficial com legenda | Inserir na seção de canais, conforme Despacho 566. O arquivo foi localizado em `Documentação/QRcode_Whatsapp.png`. | Não usar placeholder na publicação final. |
+| 7 | Mapa de Localização | Iframe de mapa já usado na página atual | Manter componente logo abaixo do Banner 2. | Solicitar título acessível no iframe se a ferramenta permitir. |
+| 8 | Conteúdo Técnico e Projetos Estruturantes | Cards/links de subpágina disponíveis no gov.br | Criar quatro entradas: Rede de Ouvidorias, Ema - SIDH, Plano Pena Justa e Revista Brasileira de Execução Penal. | Não inventar ícones se a caixa de ferramentas não oferecer. |
+| 9 | Plano de Metas 2026 | Texto rico + imagem/banner | Inserir texto introdutório da Nota Técnica 9 e Banner 3. | Manter redação com "Onasp apresenta" para fidelidade documental. |
+| 10 | Relatório de Gestão | Texto rico + link simples destacado | Atualizar texto e usar link "Acessar Relatórios de Gestão (PDF)" se o destino for PDF. | Se o destino for página agregadora, registrar decisão de manter sem "PDF". |
+| 11 | Painel de Tratamento de Demandas | Texto rico + iframe Power BI | Manter iframe e substituir texto antigo pelo texto da Nota Técnica 9. | Solicitar título acessível no iframe se possível. |
+
+## Subpáginas
+
+As subpáginas devem ser simples, sem componentes customizados. O Despacho 566 informa que ainda permanece pendente o encaminhamento do conteúdo necessário para preenchimento. Portanto, a versão mínima fiel às notas deve conter somente o título e a descrição prevista, até que a ONASP encaminhe documentos, links ou textos adicionais.
+
+| Subpágina | Título fiel | Texto-base |
+| --- | --- | --- |
+| Rede de Ouvidorias | Rede de Ouvidorias | Iniciativa do Plano Pena Justa voltada à cooperação federativa, à harmonização de procedimentos e ao fortalecimento da proteção de direitos no âmbito das Ouvidorias de Serviços Penais. |
+| Ema | Ema - SIDH | Espaço da Equipe de Monitoramento e Acompanhamento das decisões e deliberações do SIDH, dedicado a fortalecer o cumprimento das determinações do Sistema Interamericano de Direitos Humanos em face do sistema penal brasileiro. |
+| Plano Pena Justa | Plano Pena Justa | Ambiente dedicado integralmente ao Plano, que disponibiliza o acesso a cronogramas, documentos técnicos e relatórios de acompanhamento. |
+| Revista Brasileira de Execução Penal | Revista Brasileira de Execução Penal | Em parceria com a Espen e a DCOM, a Onasp lança edição da Revista Brasileira de Execução Penal. Com o tema voltado à participação e transparência, a publicação reúne artigos e estudos que fortalecem o controle social e consolidam a Ouvidoria como ponte entre o Estado e a sociedade. |
+
+## Pontos que não devem ser enviados como requisito de implementação
+
+- Biblioteca de ícones externa.
+- Botões estilizados fora do padrão gov.br.
+- Cards com comportamento diferente do componente disponível no Plone.
+- JavaScript próprio.
+- Layout hero ou landing page promocional.
+- Placeholder gráfico de QR Code.
+- CSS local do protótipo como exigência de publicação.
+
+## Pendências objetivas para a DCOM
+
+- Confirmar qual telefone é oficial: o do Banner 2 ou o texto antigo remanescente na página publicada.
+- Publicar o QR Code oficial do chatbot localizado em `Documentação/QRcode_Whatsapp.png`.
+- Corrigir o nome do segundo card/subpágina para manter o acrônimo Ema, conforme Nota Técnica 9 e Nota Técnica 10.
+- Corrigir "Programa Pena Justa" para "Plano Pena Justa".
+- Restaurar a menção "Em parceria com a Espen e a DCOM" no texto da Revista, salvo decisão institucional em contrário.
+- Remover o bloco textual antigo de contato, se a orientação da Nota Técnica 9 continuar válida.
+- Preencher as subpáginas apenas com conteúdo oficial encaminhado pela ONASP.
