@@ -389,11 +389,16 @@ section {
 }
 
 .ouvidoria-map-shell {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
   padding: 22px;
   background: linear-gradient(180deg, #f8fbff 0%, #eef4fb 100%);
 }
 
 .ouvidoria-map-legend {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 10px 18px;
@@ -437,17 +442,34 @@ section {
 }
 
 .ouvidoria-map-grid {
+  position: relative;
   display: grid;
   width: min(100%, 620px);
   margin: 0 auto;
+  padding: 8px;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   grid-template-rows: repeat(11, 46px);
   gap: 7px;
 }
 
+.ouvidoria-map-grid::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.34;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 592' fill='none'%3E%3Cg opacity='0.92'%3E%3Cpath d='M180 34c21-8 38-2 54 8l31-7 28 10 37-4 39 17 13 29 44 13 23 36-2 35 20 34-6 36-28 20-5 31-28 10-11 27-33 23-21 39-31 15-25 54-46 12-41-18-24-45-13-49-33-14-18-34 5-41-21-35-2-38 12-40-26-29 8-35 39-26 26-47 42-26 34 1 19-31z' fill='%23dbeafe'/%3E%3Cpath d='M182 40c20-8 34-4 52 6l30-6 28 9 38-4 36 17 13 29 43 13 22 35-2 34 20 35-6 34-27 20-5 31-28 10-10 26-32 23-22 38-30 15-25 53-45 12-39-18-24-45-12-48-33-14-18-34 5-41-21-35-2-36 11-40-26-30 8-34 38-26 26-47 41-25 34 1 19-31z' stroke='%2381a3cf' stroke-width='5' stroke-linejoin='round'/%3E%3C/g%3E%3Cg opacity='0.78' fill='%23ffffff' stroke='%2397b4d9' stroke-width='2'%3E%3Crect x='154' y='16' width='58' height='58' rx='18'/%3E%3Crect x='362' y='16' width='58' height='58' rx='18'/%3E%3Crect x='102' y='68' width='58' height='58' rx='18'/%3E%3Crect x='258' y='68' width='58' height='58' rx='18'/%3E%3Crect x='310' y='120' width='58' height='58' rx='18'/%3E%3Crect x='414' y='120' width='58' height='58' rx='18'/%3E%3Crect x='466' y='120' width='58' height='58' rx='18'/%3E%3Crect x='50' y='172' width='58' height='58' rx='18'/%3E%3Crect x='102' y='172' width='58' height='58' rx='18'/%3E%3Crect x='258' y='172' width='58' height='58' rx='18'/%3E%3Crect x='362' y='172' width='58' height='58' rx='18'/%3E%3Crect x='466' y='172' width='58' height='58' rx='18'/%3E%3Crect x='206' y='224' width='58' height='58' rx='18'/%3E%3Crect x='362' y='224' width='58' height='58' rx='18'/%3E%3Crect x='414' y='224' width='58' height='58' rx='18'/%3E%3Crect x='258' y='276' width='58' height='58' rx='18'/%3E%3Crect x='310' y='276' width='58' height='58' rx='18'/%3E%3Crect x='414' y='276' width='58' height='58' rx='18'/%3E%3Crect x='466' y='276' width='58' height='58' rx='18'/%3E%3Crect x='206' y='328' width='58' height='58' rx='18'/%3E%3Crect x='310' y='328' width='58' height='58' rx='18'/%3E%3Crect x='362' y='328' width='58' height='58' rx='18'/%3E%3Crect x='310' y='380' width='58' height='58' rx='18'/%3E%3Crect x='362' y='380' width='58' height='58' rx='18'/%3E%3Crect x='310' y='432' width='58' height='58' rx='18'/%3E%3Crect x='310' y='484' width='58' height='58' rx='18'/%3E%3Crect x='258' y='536' width='58' height='58' rx='18'/%3E%3C/g%3E%3C/svg%3E");
+}
+
 .ouvidoria-map-button {
   grid-column: var(--col);
   grid-row: var(--row);
+  position: relative;
+  z-index: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -455,7 +477,7 @@ section {
   height: 100%;
   border: 1px solid #cbd5e1;
   border-radius: 12px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.94);
   color: #071d41;
   font: inherit;
   font-weight: 700;
@@ -739,6 +761,7 @@ section {
   }
 
   .ouvidoria-map-grid {
+    padding: 7px;
     grid-template-rows: repeat(11, 38px);
     gap: 5px;
   }
@@ -787,6 +810,7 @@ section {
   }
 
   .ouvidoria-map-grid {
+    padding: 6px;
     grid-template-rows: repeat(11, 32px);
     gap: 4px;
   }
