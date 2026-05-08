@@ -393,7 +393,7 @@ section {
   overflow: hidden;
   isolation: isolate;
   padding: 22px;
-  background: linear-gradient(180deg, #f8fbff 0%, #eef4fb 100%);
+  background: linear-gradient(180deg, #f7f8fb 0%, #e7ecf5 100%);
 }
 
 .ouvidoria-map-legend {
@@ -447,6 +447,8 @@ section {
   width: min(100%, 620px);
   margin: 0 auto;
   padding: 8px;
+  justify-items: center;
+  align-items: start;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   grid-template-rows: repeat(11, 46px);
   gap: 7px;
@@ -458,11 +460,11 @@ section {
   inset: -2px;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.7;
+  opacity: 1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url("./assets/mapa-brasil-uf-fundo.svg?v=20260508c");
+  background-image: url("./assets/mapa-brasil-uf-fundo.svg?v=20260508d");
 }
 
 .ouvidoria-map-button {
@@ -471,55 +473,108 @@ section {
   position: relative;
   z-index: 1;
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   height: 100%;
-  border: 1px solid #cbd5e1;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.94);
-  color: #071d41;
+  padding-top: 2px;
+  border: 0;
+  background: transparent;
+  color: #ffffff;
   font: inherit;
-  font-weight: 700;
-  letter-spacing: 0.03em;
   cursor: pointer;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  transition: transform 0.18s ease;
 }
 
 .ouvidoria-map-button:hover,
 .ouvidoria-map-button:focus {
-  transform: translateY(-1px);
-  box-shadow: 0 8px 18px rgba(7, 29, 65, 0.12);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.ouvidoria-map-button:focus-visible {
+  outline: none;
 }
 
 .ouvidoria-map-button.is-active {
-  border-color: #071d41;
-  box-shadow: 0 0 0 3px rgba(19, 81, 180, 0.2), 0 10px 20px rgba(7, 29, 65, 0.14);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.ouvidoria-map-marker-pin {
+  position: relative;
+  width: 26px;
+  height: 36px;
+  flex: 0 0 36px;
+  background: center / 100% 100% no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 36' fill='none'%3E%3Cpath d='M13 0C6.156 0 0.75 5.42 0.75 12.165C0.75 20.242 9.948 32.28 12.335 35.238C12.503 35.446 12.742 35.567 13 35.567C13.258 35.567 13.497 35.446 13.665 35.238C16.052 32.28 25.25 20.242 25.25 12.165C25.25 5.42 19.844 0 13 0Z' fill='white'/%3E%3C/svg%3E");
+  filter: drop-shadow(0 8px 12px rgba(31, 20, 47, 0.22));
+  transition: transform 0.18s ease, filter 0.18s ease;
+}
+
+.ouvidoria-map-marker-pin::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 34%;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  background: var(--marker-accent, #38bdf8);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.28);
+}
+
+.ouvidoria-map-marker-code {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 20px;
+  margin-top: -3px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.36);
+  color: #ffffff;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  text-shadow: 0 1px 2px rgba(7, 29, 65, 0.36);
+  transition: background 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.ouvidoria-map-button:hover .ouvidoria-map-marker-pin,
+.ouvidoria-map-button:focus-visible .ouvidoria-map-marker-pin,
+.ouvidoria-map-button.is-active .ouvidoria-map-marker-pin {
+  transform: translateY(-1px) scale(1.08);
+  filter: drop-shadow(0 12px 18px rgba(31, 20, 47, 0.28));
+}
+
+.ouvidoria-map-button:hover .ouvidoria-map-marker-code,
+.ouvidoria-map-button:focus-visible .ouvidoria-map-marker-code,
+.ouvidoria-map-button.is-active .ouvidoria-map-marker-code {
+  background: rgba(255, 255, 255, 0.95);
+  color: #071d41;
+  box-shadow: 0 8px 18px rgba(7, 29, 65, 0.16);
 }
 
 .is-norte {
-  background: #e0f2fe;
-  border-color: #38bdf8;
+  --marker-accent: #38bdf8;
 }
 
 .is-nordeste {
-  background: #fef3c7;
-  border-color: #f59e0b;
+  --marker-accent: #f59e0b;
 }
 
 .is-centro-oeste {
-  background: #dcfce7;
-  border-color: #22c55e;
+  --marker-accent: #22c55e;
 }
 
 .is-sudeste {
-  background: #fee2e2;
-  border-color: #f87171;
+  --marker-accent: #f87171;
 }
 
 .is-sul {
-  background: #ede9fe;
-  border-color: #8b5cf6;
+  --marker-accent: #8b5cf6;
 }
 
 .ouvidoria-state-panel {
@@ -761,9 +816,22 @@ section {
   }
 
   .ouvidoria-map-grid {
-    padding: 7px;
-    grid-template-rows: repeat(11, 38px);
-    gap: 5px;
+    padding: 6px;
+    grid-template-rows: repeat(11, 42px);
+    gap: 4px;
+  }
+
+  .ouvidoria-map-marker-pin {
+    width: 24px;
+    height: 34px;
+    flex-basis: 34px;
+  }
+
+  .ouvidoria-map-marker-code {
+    min-width: 26px;
+    height: 18px;
+    padding: 0 5px;
+    font-size: 0.68rem;
   }
 
   .ouvidoria-contacts-table th,
@@ -810,14 +878,26 @@ section {
   }
 
   .ouvidoria-map-grid {
-    padding: 6px;
-    grid-template-rows: repeat(11, 32px);
-    gap: 4px;
+    padding: 3px;
+    grid-template-rows: repeat(11, 36px);
+    gap: 2px;
   }
 
   .ouvidoria-map-button {
-    border-radius: 9px;
-    font-size: 0.76rem;
+    padding-top: 1px;
+  }
+
+  .ouvidoria-map-marker-pin {
+    width: 20px;
+    height: 28px;
+    flex-basis: 28px;
+  }
+
+  .ouvidoria-map-marker-code {
+    min-width: 22px;
+    height: 16px;
+    padding: 0 4px;
+    font-size: 0.6rem;
   }
 }
 

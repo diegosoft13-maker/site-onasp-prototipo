@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rede de Ouvidorias | Prévia gov.br/Plone</title>
-  <link rel="stylesheet" href="../styles.css?v=20260508c">
+  <link rel="stylesheet" href="../styles.css?v=20260508d">
 </head>
 <body>
   <main class="govbr-preview subpage-preview">
@@ -813,7 +813,18 @@
         button.style.setProperty('--row', layout[uf].row);
         button.setAttribute('aria-label', entry.state + ' (' + uf + ')');
         button.setAttribute('aria-pressed', 'false');
-        button.textContent = uf;
+
+        const pin = document.createElement('span');
+        pin.className = 'ouvidoria-map-marker-pin';
+        pin.setAttribute('aria-hidden', 'true');
+
+        const code = document.createElement('span');
+        code.className = 'ouvidoria-map-marker-code';
+        code.setAttribute('aria-hidden', 'true');
+        code.textContent = uf;
+
+        button.appendChild(pin);
+        button.appendChild(code);
         button.addEventListener('click', function () {
           renderState(uf);
         });
