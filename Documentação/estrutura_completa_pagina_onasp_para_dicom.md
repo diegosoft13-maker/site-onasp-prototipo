@@ -292,6 +292,16 @@ Itens para colar:
 
 Seção:
 
+Governança e cooperação técnica
+
+Texto para colar:
+
+No recorte da ONASP, a Rede de Ouvidorias pode ser apresentada como espaço permanente de articulação entre unidades responsáveis pela escuta institucional, com foco em difusão de referências técnicas, intercâmbio de práticas e aperfeiçoamento contínuo da atuação no sistema penal.
+
+Esse arranjo é reforçado por instrumentos que definem parâmetros mínimos para a estruturação das ouvidorias e institucionalizam a Renospen como instância de cooperação técnica, integração federativa e fortalecimento institucional.
+
+Seção:
+
 Quer saber mais sobre a Rede de Ouvidorias?
 
 Texto para colar:
