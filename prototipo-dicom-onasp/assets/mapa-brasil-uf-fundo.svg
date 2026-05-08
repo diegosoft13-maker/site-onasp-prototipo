@@ -3,16 +3,16 @@
   <desc id="map-desc">Mapa simplificado gerado a partir da malha territorial de unidades da federacao do IBGE.</desc>
   <defs>
     <linearGradient id="mapFill" x1="105" y1="54" x2="468" y2="548" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#d73797"/>
-      <stop offset="0.52" stop-color="#a334c8"/>
-      <stop offset="1" stop-color="#6937f2"/>
+      <stop offset="0" stop-color="#009739"/>
+      <stop offset="0.52" stop-color="#ffdf00"/>
+      <stop offset="1" stop-color="#002776"/>
     </linearGradient>
     <radialGradient id="mapGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(284 184) rotate(68) scale(316 348)">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.24"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
     <filter id="shadow" x="0" y="0" width="620" height="592" color-interpolation-filters="sRGB">
-      <feDropShadow dx="-12" dy="18" stdDeviation="16" flood-color="#332043" flood-opacity="0.18"/>
+      <feDropShadow dx="-12" dy="18" stdDeviation="16" flood-color="#052e1a" flood-opacity="0.2"/>
     </filter>
   </defs>
   <g filter="url(#shadow)">
