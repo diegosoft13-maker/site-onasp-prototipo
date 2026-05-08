@@ -273,11 +273,36 @@ Escopo desta subpágina
 
 Texto para colar:
 
-Esta prévia local organiza a apresentação visual da subpágina com base na imagem institucional já utilizada na página principal, preservando o padrão de publicação em gov.br/Plone e mantendo a redação institucional neutra já validada para a Rede de Ouvidorias.
+A Rede de Ouvidorias visa manter a articulação entre as unidades responsáveis pela escuta institucional no sistema penal, com o objetivo de fortalecer a cooperação federativa, qualificar o atendimento ao cidadão e ampliar a proteção de direitos em âmbito nacional.
 
-Nota interna, se a DCOM quiser registrar pendência:
+A segunda linha do escopo:
 
-Pendência de conteúdo: a DCOM informou no Despacho 566 que permanece pendente o encaminhamento do conteúdo necessário para preenchimento das subpáginas criadas.
+No contexto da Ouvidoria Nacional de Serviços Penais, esta subpágina reúne referências públicas da iniciativa, favorecendo o intercâmbio de práticas, a harmonização de procedimentos e a consolidação de parâmetros voltados à transparência e ao controle social.
+
+Seção:
+
+Objetivos da Rede
+
+Itens para colar:
+
+- Atuar como espaço de difusão de referências técnicas úteis às ouvidorias de serviços penais.
+- Fomentar o compartilhamento de práticas, fluxos e instrumentos voltados ao atendimento e ao encaminhamento de manifestações.
+- Estimular a cooperação entre a União, os Estados e o Distrito Federal para o aprimoramento da atuação institucional.
+- Fortalecer a participação social, a transparência pública e a proteção de direitos no sistema penal.
+
+Seção:
+
+Quer saber mais sobre a Rede de Ouvidorias?
+
+Texto para colar:
+
+Acesse documentos públicos relacionados ao fortalecimento das ouvidorias e à governança federativa no sistema penal:
+
+Links:
+
+- Clique e acesse a Instrução Normativa nº 75/2026: Subpages/Pena_justa/SEI_35153985_Instrucao_Normativa_75.pdf
+- Clique e acesse a Portaria nº 549/2026 - Renospen: Subpages/Pena_justa/SEI_35032761_Portaria_549.pdf
+- Clique e acesse o Plano Nacional Pena Justa: Subpages/Pena_justa/Plano_Nacional_Pena_Justa.pdf
 
 ## Subpágina 2 - Ema - SIDH
 
@@ -307,11 +332,30 @@ Escopo desta subpágina
 
 Texto para colar:
 
-Esta prévia local mantém o acrônimo Ema visível e utiliza a imagem institucional já separada na pasta Documentação, reforçando a coerência visual entre o card da página principal e a página temática correspondente.
+A Ema - SIDH corresponde ao espaço institucional dedicado ao monitoramento e ao acompanhamento das decisões e deliberações do Sistema Interamericano de Direitos Humanos com repercussão sobre o sistema penal brasileiro.
 
-Nota interna, se a DCOM quiser registrar pendência:
+A segunda linha do escopo:
 
-Pendência de conteúdo: a DCOM informou no Despacho 566 que permanece pendente o encaminhamento do conteúdo necessário para preenchimento das subpáginas criadas.
+No âmbito da Ouvidoria Nacional de Serviços Penais, a iniciativa reforça a leitura integrada entre direitos humanos, gestão pública e execução penal, apoiando a circulação de informações e o acompanhamento qualificado das determinações incidentes sobre a matéria.
+
+Seção:
+
+Frentes de acompanhamento
+
+Itens para colar:
+
+- Monitoramento de decisões e deliberações do SIDH relacionadas ao sistema penal brasileiro.
+- Articulação de referências institucionais voltadas ao cumprimento das determinações aplicáveis.
+- Organização de informações relevantes para o acompanhamento qualificado da pauta.
+- Fortalecimento do diálogo entre proteção de direitos, transparência e governança no sistema penal.
+
+Seção:
+
+Finalidade desta subpágina
+
+Texto para colar:
+
+Esta página temática reúne a apresentação institucional da Ema - SIDH e pode consolidar, à medida que forem oficialmente disponibilizados, conteúdos, referências e instrumentos voltados ao acompanhamento dessa agenda no âmbito da ONASP.
 
 ## Subpágina 3 - Plano Pena Justa
 
@@ -443,11 +487,49 @@ Escopo desta subpágina
 
 Texto para colar:
 
-Esta prévia mantém a redação institucional com menção à Espen e à DCOM e utiliza a imagem fiel já separada na pasta Documentação, de modo a alinhar a identidade visual da página temática ao material entregue para publicação.
+A Revista Brasileira de Execução Penal é o periódico técnico-científico da Secretaria Nacional de Políticas Penais (Senappen/MJSP) e constitui espaço de circulação de artigos, documentos inéditos, entrevistas, relatos de experiência e boas práticas relacionados à execução penal.
 
-Nota interna, se a DCOM quiser registrar pendência:
+A segunda linha do escopo:
 
-Pendência de conteúdo: a DCOM informou no Despacho 566 que permanece pendente o encaminhamento do conteúdo necessário para preenchimento das subpáginas criadas.
+No contexto da Ouvidoria, a publicação contribui para aproximar produção técnica, debate qualificado e controle social, reforçando o papel da Ouvidoria como ponte entre Estado e sociedade.
+
+Seção:
+
+Sobre a revista
+
+Texto para colar:
+
+A RBEP publica artigos, documentos inéditos, entrevistas, relatos de experiência e descrição de boas práticas que relacionam a experiência profissional, o conhecimento produzido sobre a matéria e o cumprimento da legislação nacional.
+
+A segunda linha da seção:
+
+Os conteúdos são organizados em dossiês temáticos semestrais, e a revista recebeu qualificação A4 na classificação de periódicos Qualis Capes na avaliação do quadriênio 2021-2024.
+
+Seção:
+
+Acesso oficial à RBEP
+
+Texto para colar:
+
+O portal oficial da revista reúne notícias, edição atual, arquivo de edições e informações para submissão de textos.
+
+Links:
+
+- Portal oficial da Revista Brasileira de Execução Penal: https://rbepsenappen.mj.gov.br/index.php/RBEP/pt_BR
+- Edição atual - edição completa: https://rbepsenappen.mj.gov.br/index.php/RBEP/pt_BR/issue/view/22/58
+- Ver todas as edições: https://rbepsenappen.mj.gov.br/index.php/RBEP/pt_BR/issue/archive
+- Enviar submissão: https://rbepsenappen.mj.gov.br/index.php/RBEP/pt_BR/about/submissions
+
+Seção:
+
+Referências institucionais
+
+Itens para colar:
+
+- Qualis Capes 2021-2024: A4.
+- ISSN: 2675-1895.
+- e-ISSN: 2675-1860.
+- Contato da revista: rbep@mj.gov.br.
 
 ## Observações sobre formatação
 
@@ -458,3 +540,5 @@ Na prévia local, os textos corridos foram configurados com alinhamento justific
 As páginas do domínio gov.br normalmente são administradas em ambiente gov.br/Plone, e não em WordPress. A DCOM pode confirmar o ambiente exato de edição utilizado internamente, mas a estrutura pública analisada segue o padrão do gov.br, com componentes próprios de publicação.
 
 Por isso, recomenda-se não tratar a prévia como um pacote WordPress. A DCOM deve aproveitar os textos, imagens, links, embeds e ordem dos blocos, reproduzindo a montagem com os componentes oficiais disponíveis no portal.
+
+Há precedentes úteis dentro do próprio ecossistema da Senappen. A página da ESPEN e a subpágina da RESPEN mostram que o portal oficial já comporta texto institucional, links de destaque para documentos em PDF, listas simples e tabelas extensas por unidade federativa quando houver base oficial validada. Da mesma forma, o portal oficial da RBEP confirma a existência de referências institucionais, acesso à edição atual, arquivo de edições e informações para submissão que podem ser indicadas na subpágina temática da Revista.
