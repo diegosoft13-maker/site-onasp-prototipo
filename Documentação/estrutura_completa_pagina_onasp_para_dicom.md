@@ -336,7 +336,7 @@ A Ema - SIDH corresponde ao espaço institucional dedicado ao monitoramento e ao
 
 A segunda linha do escopo:
 
-No âmbito da Ouvidoria Nacional de Serviços Penais, a iniciativa reforça a leitura integrada entre direitos humanos, gestão pública e execução penal, apoiando a circulação de informações e o acompanhamento qualificado das determinações incidentes sobre a matéria.
+Considerando que o SIDH é estruturado, entre outros instrumentos e órgãos, pela Comissão Interamericana de Direitos Humanos (CIDH) e pela Corte Interamericana de Direitos Humanos (Corte IDH), esta subpágina organiza referências públicas úteis para a leitura qualificada dessa agenda no âmbito da Ouvidoria Nacional de Serviços Penais.
 
 Seção:
 
@@ -344,18 +344,33 @@ Frentes de acompanhamento
 
 Itens para colar:
 
-- Monitoramento de decisões e deliberações do SIDH relacionadas ao sistema penal brasileiro.
-- Articulação de referências institucionais voltadas ao cumprimento das determinações aplicáveis.
-- Organização de informações relevantes para o acompanhamento qualificado da pauta.
+- Monitoramento de decisões, recomendações e deliberações do SIDH relacionadas ao sistema penal brasileiro.
+- Organização de referências públicas sobre os órgãos, normas e mecanismos do sistema interamericano.
+- Apoio à circulação de informações relevantes para o acompanhamento institucional da pauta.
 - Fortalecimento do diálogo entre proteção de direitos, transparência e governança no sistema penal.
 
 Seção:
 
-Finalidade desta subpágina
+Referências públicas do SIDH
 
 Texto para colar:
 
-Esta página temática reúne a apresentação institucional da Ema - SIDH e pode consolidar, à medida que forem oficialmente disponibilizados, conteúdos, referências e instrumentos voltados ao acompanhamento dessa agenda no âmbito da ONASP.
+Para contextualização institucional da pauta, a ONASP pode utilizar como pontos de partida as referências públicas abaixo, produzidas pelos próprios órgãos do sistema interamericano:
+
+Links:
+
+- O que é a CIDH?: https://www.oas.org/pt/cidh/mandato/que.asp
+- O que é a Corte IDH?: https://www.corteidh.or.cr/que_es_la_corte.cfm?lang=pt
+- Estatuto da Comissão Interamericana de Direitos Humanos: https://www.oas.org/pt/cidh/mandato/Basicos/estatutoCIDH.asp
+- Declaração Americana de Direitos e Deveres do Homem: https://www.oas.org/pt/cidh/mandato/Basicos/declaracion.asp
+
+Seção:
+
+Finalidade institucional
+
+Texto para colar:
+
+Esta página temática reúne a apresentação institucional da Ema - SIDH e oferece um ponto de consulta inicial para acompanhamento qualificado de temas do sistema interamericano com incidência sobre os serviços penais, favorecendo transparência, memória institucional e articulação técnica.
 
 ## Subpágina 3 - Plano Pena Justa
 
@@ -401,6 +416,16 @@ O Plano Nacional organiza sua atuação em quatro eixos estruturantes:
 - Qualidade da ambiência, dos serviços prestados e da estrutura prisional.
 - Processos de saída da prisão e de reintegração social.
 - Políticas de não repetição do Estado de Coisas Inconstitucional no sistema prisional.
+
+Seção:
+
+Governança e acompanhamento
+
+Texto para colar:
+
+No recorte da Ouvidoria Nacional de Serviços Penais, o acompanhamento do Pena Justa prioriza instrumentos que fortaleçam a escuta qualificada, a transparência ativa e a coordenação entre as ouvidorias dos serviços penais.
+
+Esse recorte se materializa por meio de marcos normativos e de cooperação técnica que estruturam parâmetros mínimos de atuação, incentivam integração preferencial ao Fala.BR e consolidam uma rede permanente de intercâmbio entre União, Estados e Distrito Federal.
 
 Seção:
 
