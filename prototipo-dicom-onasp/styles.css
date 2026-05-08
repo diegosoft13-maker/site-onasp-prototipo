@@ -466,7 +466,7 @@ section {
   position: absolute;
   left: var(--x);
   top: var(--y);
-  z-index: 1;
+  z-index: var(--marker-z, 1);
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -481,6 +481,18 @@ section {
   cursor: pointer;
   transform: translate(-50%, -68%);
   transition: transform 0.18s ease;
+}
+
+.ouvidoria-map-button.is-callout {
+  width: 1px;
+  min-height: 1px;
+  transform: translate(-50%, -50%);
+}
+
+.ouvidoria-map-button.is-callout:hover,
+.ouvidoria-map-button.is-callout:focus,
+.ouvidoria-map-button.is-callout.is-active {
+  transform: translate(-50%, -50%) scale(1.06);
 }
 
 .ouvidoria-map-button:hover,
@@ -538,11 +550,68 @@ section {
   transition: background 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
 }
 
+.ouvidoria-map-button.is-callout .ouvidoria-map-marker-pin {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 11px;
+  height: 11px;
+  flex-basis: auto;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  background: var(--marker-accent, #38bdf8);
+  box-shadow: 0 6px 12px rgba(31, 20, 47, 0.24);
+  filter: none;
+  transform: translate(-50%, -50%);
+}
+
+.ouvidoria-map-button.is-callout .ouvidoria-map-marker-pin::after {
+  display: none;
+}
+
+.ouvidoria-map-button.is-callout .ouvidoria-map-marker-code {
+  position: absolute;
+  left: var(--label-x, 0px);
+  top: var(--label-y, 20px);
+  z-index: 2;
+  margin-top: 0;
+  background: rgba(15, 23, 42, 0.58);
+  box-shadow: 0 7px 16px rgba(7, 29, 65, 0.18);
+  transform: translate(-50%, -50%);
+}
+
+.ouvidoria-map-marker-line {
+  display: none;
+}
+
+.ouvidoria-map-button.is-callout .ouvidoria-map-marker-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: block;
+  width: var(--line-length, 0px);
+  height: 1px;
+  background: color-mix(in srgb, var(--marker-accent, #38bdf8) 70%, #ffffff 30%);
+  box-shadow: 0 1px 3px rgba(7, 29, 65, 0.18);
+  opacity: 0.82;
+  transform: rotate(var(--line-angle, 0deg));
+  transform-origin: left center;
+}
+
 .ouvidoria-map-button:hover .ouvidoria-map-marker-pin,
 .ouvidoria-map-button:focus-visible .ouvidoria-map-marker-pin,
 .ouvidoria-map-button.is-active .ouvidoria-map-marker-pin {
   transform: translateY(-1px) scale(1.08);
   filter: drop-shadow(0 12px 18px rgba(31, 20, 47, 0.28));
+}
+
+.ouvidoria-map-button.is-callout:hover .ouvidoria-map-marker-pin,
+.ouvidoria-map-button.is-callout:focus-visible .ouvidoria-map-marker-pin,
+.ouvidoria-map-button.is-callout.is-active .ouvidoria-map-marker-pin {
+  filter: none;
+  transform: translate(-50%, -50%) scale(1.18);
 }
 
 .ouvidoria-map-button:hover .ouvidoria-map-marker-code,

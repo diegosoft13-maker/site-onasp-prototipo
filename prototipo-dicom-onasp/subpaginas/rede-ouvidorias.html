@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rede de Ouvidorias | Prévia gov.br/Plone</title>
-  <link rel="stylesheet" href="../styles.css?v=20260508f">
+  <link rel="stylesheet" href="../styles.css?v=20260508g">
 </head>
 <body>
   <main class="govbr-preview subpage-preview">
@@ -648,7 +648,7 @@
         MT: { x: 46.63, y: 47.01 },
         PA: { x: 52.92, y: 26.21 },
         PB: { x: 88.91, y: 33.49 },
-        PE: { x: 82.90, y: 36.29 },
+        PE: { x: 86.31, y: 36.29 },
         PI: { x: 75.31, y: 34.10 },
         PR: { x: 56.15, y: 74.13 },
         RJ: { x: 75.99, y: 68.46 },
@@ -668,6 +668,21 @@
         "Centro-Oeste": "is-centro-oeste",
         "Sudeste": "is-sudeste",
         "Sul": "is-sul"
+      };
+
+      const markerDisplay = {
+        CE: { variant: "callout", labelX: -26, labelY: -16, z: 5 },
+        RN: { variant: "callout", labelX: 31, labelY: -12, z: 9 },
+        PB: { variant: "callout", labelX: 31, labelY: 12, z: 8 },
+        PE: { variant: "callout", labelX: -38, labelY: -30, z: 10 },
+        PI: { variant: "callout", labelX: -22, labelY: 24, z: 6 },
+        AL: { variant: "callout", labelX: 32, labelY: 8, z: 7 },
+        SE: { variant: "callout", labelX: 30, labelY: 30, z: 6 },
+        DF: { variant: "callout", labelX: 34, labelY: -20, z: 6 },
+        ES: { variant: "callout", labelX: 25, labelY: -8, z: 5 },
+        RJ: { variant: "callout", labelX: 25, labelY: 12, z: 5 },
+        PR: { variant: "callout", labelX: -25, labelY: -4, z: 5 },
+        SC: { variant: "callout", labelX: 25, labelY: 8, z: 5 }
       };
 
       const specialNotes = {
@@ -805,12 +820,26 @@
         }
 
         const entry = ouvidorias[uf];
+        const display = markerDisplay[uf];
         const button = document.createElement('button');
         button.type = 'button';
         button.className = 'ouvidoria-map-button ' + regionClassMap[entry.region];
         button.dataset.uf = uf;
         button.style.setProperty('--x', layout[uf].x + '%');
         button.style.setProperty('--y', layout[uf].y + '%');
+
+        if (display) {
+          button.classList.add('is-' + display.variant);
+          button.style.setProperty('--label-x', display.labelX + 'px');
+          button.style.setProperty('--label-y', display.labelY + 'px');
+          button.style.setProperty('--marker-z', display.z);
+
+          const distance = Math.hypot(display.labelX, display.labelY);
+          const angle = Math.atan2(display.labelY, display.labelX) * 180 / Math.PI;
+          button.style.setProperty('--line-length', Math.max(distance - 16, 8).toFixed(1) + 'px');
+          button.style.setProperty('--line-angle', angle.toFixed(1) + 'deg');
+        }
+
         button.setAttribute('aria-label', entry.state + ' (' + uf + ')');
         button.setAttribute('aria-pressed', 'false');
 
@@ -818,11 +847,16 @@
         pin.className = 'ouvidoria-map-marker-pin';
         pin.setAttribute('aria-hidden', 'true');
 
+        const line = document.createElement('span');
+        line.className = 'ouvidoria-map-marker-line';
+        line.setAttribute('aria-hidden', 'true');
+
         const code = document.createElement('span');
         code.className = 'ouvidoria-map-marker-code';
         code.setAttribute('aria-hidden', 'true');
         code.textContent = uf;
 
+        button.appendChild(line);
         button.appendChild(pin);
         button.appendChild(code);
         button.addEventListener('click', function () {
