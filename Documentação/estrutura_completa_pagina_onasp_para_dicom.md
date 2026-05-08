@@ -179,7 +179,7 @@ Revista Brasileira de Execução Penal
 
 Descrição:
 
-Em parceria com a Espen e a DCOM, a Onasp lança edição da Revista Brasileira de Execução Penal. Com o tema voltado à participação e transparência, a publicação reúne artigos e estudos que fortalecem o controle social e consolidam a Ouvidoria como ponte entre o Estado e a sociedade.
+Em articulação com a Espen e a DCOM, a Onasp reúne referências da Revista Brasileira de Execução Penal, com acesso a dossiês, notícias editoriais e conteúdos relacionados à participação social, transparência e direitos no sistema penal.
 
 Imagem:
 
@@ -514,7 +514,7 @@ Conteúdo Técnico e Projetos Estruturantes
 
 Texto de destaque:
 
-Em parceria com a Espen e a DCOM, a Onasp lança edição da Revista Brasileira de Execução Penal. Com o tema voltado à participação e transparência, a publicação reúne artigos e estudos que fortalecem o controle social e consolidam a Ouvidoria como ponte entre o Estado e a sociedade.
+Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal e destaca dossiês, notícias editoriais e conteúdos com interface com participação social, transparência e direitos no sistema penal.
 
 Seção:
 
@@ -539,6 +539,24 @@ A RBEP publica artigos, documentos inéditos, entrevistas, relatos de experiênc
 A segunda linha da seção:
 
 Os conteúdos são organizados em dossiês temáticos semestrais, e a revista recebeu qualificação A4 na classificação de periódicos Qualis Capes na avaliação do quadriênio 2021-2024.
+
+Seção:
+
+Dossiê e atualizações em destaque
+
+Texto para colar:
+
+Na página oficial da RBEP, a edição atualmente destacada é o volume 6, número 2 (2025), com o dossiê O Plano Pena Justa e o enfrentamento ao Estado de Coisas Inconstitucional nas prisões, publicado em 29 de dezembro de 2025.
+
+A segunda linha da seção:
+
+O portal também reúne notícias editoriais recentes e chamadas públicas relacionadas aos próximos dossiês temáticos da revista.
+
+Links:
+
+- Edição atual - v. 6 n. 2 (2025): https://rbepsenappen.mj.gov.br/index.php/RBEP/pt_BR/issue/view/22/58
+- Chamada pública para submissão de textos do dossiê temático do segundo semestre de 2026: https://rbepsenappen.mj.gov.br/index.php/RBEP/pt_BR/announcement/view/105
+- Debate acadêmico sobre o Plano Pena Justa e os desafios do sistema prisional brasileiro: https://rbepsenappen.mj.gov.br/index.php/RBEP/pt_BR/announcement/view/104
 
 Seção:
 
