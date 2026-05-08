@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 592" fill="none">
+  <defs>
+    <linearGradient id="stateFill" x1="60" y1="28" x2="446" y2="590" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7f2f4"/>
+      <stop offset="0.48" stop-color="#e6e7ef"/>
+      <stop offset="1" stop-color="#d7dce7"/>
+    </linearGradient>
+    <linearGradient id="stateHighlight" x1="118" y1="74" x2="416" y2="516" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-80" y="-20" width="780" height="720" color-interpolation-filters="sRGB">
+      <feDropShadow dx="-24" dy="18" stdDeviation="18" flood-color="#575c67" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <path d="M38 206L68 148L80 90L112 58L174 16L232 24L286 54L416 22L438 46L466 132L540 148L540 170L520 180L510 222L518 306L446 388L430 420L364 538L330 586L246 572L186 372L166 262L96 204Z" fill="#7c828e" opacity="0.08"/>
+
+  <g filter="url(#shadow)">
+    <g fill="url(#stateFill)" fill-opacity="0.88" stroke="#31363f" stroke-opacity="0.88" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round">
+      <polygon points="140,34 176,14 220,28 208,74 168,78 148,60"/>
+      <polygon points="372,24 414,20 432,48 418,76 384,80 368,52"/>
+      <polygon points="74,80 112,56 152,60 184,86 176,148 140,164 98,150 70,120 64,94"/>
+      <polygon points="182,84 228,62 286,58 356,62 400,82 390,132 338,146 300,140 274,178 214,160 182,128"/>
+      <polygon points="390,130 426,134 446,164 426,194 388,188 372,160"/>
+      <polygon points="430,132 470,132 494,148 486,182 456,190 434,170"/>
+      <polygon points="492,136 524,140 542,150 536,170 512,178 492,162"/>
+      <polygon points="36,184 68,176 104,184 108,214 80,228 44,224 28,202"/>
+      <polygon points="102,172 146,172 178,190 170,226 138,238 104,228 94,198"/>
+      <polygon points="254,172 302,172 322,190 316,234 286,248 252,228 246,196"/>
+      <polygon points="364,176 402,176 422,194 416,228 388,240 360,222 358,194"/>
+      <polygon points="474,180 510,180 522,198 518,222 492,232 472,214"/>
+      <polygon points="176,212 246,212 282,236 280,292 246,314 188,304 166,262"/>
+      <polygon points="350,224 418,224 452,250 450,314 420,342 376,330 348,284"/>
+      <polygon points="424,224 466,224 486,244 480,278 446,290 424,270"/>
+      <polygon points="254,274 308,272 326,296 322,334 292,344 256,332 244,302"/>
+      <polygon points="329,298 347,298 350,314 334,318 324,306"/>
+      <polygon points="430,286 458,286 468,308 458,326 434,324 424,306"/>
+      <polygon points="478,286 508,288 518,308 508,324 486,326 474,308"/>
+      <polygon points="188,314 244,314 262,344 254,396 214,404 186,372 178,334"/>
+      <polygon points="290,330 376,330 418,350 414,398 372,418 324,412 286,384 284,346"/>
+      <polygon points="418,340 440,350 444,390 426,402 412,386 412,352"/>
+      <polygon points="294,398 374,398 394,422 382,458 338,470 302,452 286,422"/>
+      <polygon points="376,398 416,398 428,420 416,438 394,444 374,424"/>
+      <polygon points="312,454 364,454 372,492 344,514 314,506 302,480"/>
+      <polygon points="316,506 360,506 364,536 346,554 322,548 310,528"/>
+      <polygon points="254,552 316,552 330,584 292,590 252,582 242,570"/>
+    </g>
+
+    <g fill="url(#stateHighlight)" opacity="0.44">
+      <polygon points="78,94 116,74 150,78 122,112 86,120"/>
+      <polygon points="206,92 276,72 340,76 294,108 228,116"/>
+      <polygon points="356,228 414,228 438,246 394,272 360,264"/>
+      <polygon points="292,334 360,336 400,356 346,384 300,376"/>
+      <polygon points="296,402 366,402 384,420 330,444 298,436"/>
+    </g>
+  </g>
+</svg>
