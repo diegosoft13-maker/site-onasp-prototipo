@@ -113,6 +113,15 @@ section {
   margin-top: 24px;
 }
 
+#conteudo p:not(.subpage-kicker):not(.subpage-back-link):not(.compact-action-link),
+#conteudo li,
+#conteudo .feature-copy > span:not(.feature-title),
+.component-note {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 #conteudo > section + section {
   margin-top: 16px;
   padding-top: 16px;
