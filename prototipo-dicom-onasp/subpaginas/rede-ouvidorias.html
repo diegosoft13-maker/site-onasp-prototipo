@@ -44,6 +44,283 @@
       <p>Esse arranjo é reforçado por instrumentos que definem parâmetros mínimos para a estruturação das ouvidorias e institucionalizam a Renospen como instância de cooperação técnica, integração federativa e fortalecimento institucional.</p>
     </section>
 
+    <section aria-labelledby="rede-mapa-contatos">
+      <h2 id="rede-mapa-contatos">Mapa interativo e destaque por UF</h2>
+      <p>Esta prévia passa a reunir, em um único ponto, os contatos informados pelas unidades da federação no Diagnóstico de Ouvidorias Estaduais. Clique em uma UF no mapa ou selecione o estado na lista para abrir o painel com os dados da ouvidoria correspondente.</p>
+
+      <div class="ouvidoria-map-toolbar">
+        <div class="ouvidoria-map-picker">
+          <label for="ouvidoria-state-select">Ir direto para uma unidade da federação</label>
+          <select id="ouvidoria-state-select" name="ouvidoria-state-select">
+            <option value="">Selecione uma UF</option>
+          </select>
+        </div>
+        <p class="ouvidoria-map-source">Fonte: Diagnóstico de Ouvidorias Estaduais, consolidado pela ONASP a partir das respostas recebidas em 2026.</p>
+      </div>
+
+      <div class="ouvidoria-map-layout">
+        <div class="ouvidoria-map-shell">
+          <div class="ouvidoria-map-legend" aria-hidden="true">
+            <span class="legend-norte">Norte</span>
+            <span class="legend-nordeste">Nordeste</span>
+            <span class="legend-centro-oeste">Centro-Oeste</span>
+            <span class="legend-sudeste">Sudeste</span>
+            <span class="legend-sul">Sul</span>
+          </div>
+          <div id="ouvidoria-map-grid" class="ouvidoria-map-grid" role="group" aria-label="Mapa interativo do Brasil por unidade da federação"></div>
+        </div>
+
+        <article id="ouvidoria-state-panel" class="ouvidoria-state-panel" aria-live="polite">
+          <div class="ouvidoria-state-head">
+            <h3>Selecione uma UF</h3>
+          </div>
+          <p>O painel lateral exibe o órgão gestor, o responsável informado, os canais de contato e a observação federativa associada ao estado selecionado.</p>
+        </article>
+      </div>
+
+      <noscript>
+        <p class="component-note">O mapa interativo depende de JavaScript nesta prévia. Os mesmos contatos continuam disponíveis no quadro textual logo abaixo.</p>
+      </noscript>
+    </section>
+
+    <section aria-labelledby="rede-quadro-contatos">
+      <h2 id="rede-quadro-contatos">Quadro textual de contatos das ouvidorias</h2>
+      <p>Para facilitar reaproveitamento em formatos mais simples, o mesmo conteúdo do painel interativo também foi organizado em tabela, com consulta rápida por UF.</p>
+
+      <div class="ouvidoria-contacts-table-wrapper">
+        <table class="ouvidoria-contacts-table">
+          <thead>
+            <tr>
+              <th scope="col">UF</th>
+              <th scope="col">Estado</th>
+              <th scope="col">E-mail</th>
+              <th scope="col">Telefone</th>
+              <th scope="col">WhatsApp / app</th>
+              <th scope="col">Observações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>AC</td>
+              <td>Acre</td>
+              <td><a href="mailto:ouvidoria.iapen@ac.gov.br">ouvidoria.iapen@ac.gov.br</a></td>
+              <td>68 98112-4517</td>
+              <td>68 98112-4517</td>
+              <td>Fala.BR parcial.</td>
+            </tr>
+            <tr>
+              <td>AL</td>
+              <td>Alagoas</td>
+              <td><a href="mailto:ouvidoria@seris.al.gov.br">ouvidoria@seris.al.gov.br</a></td>
+              <td>82-3315-1756</td>
+              <td>82-98802-5049</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>AM</td>
+              <td>Amazonas</td>
+              <td><a href="mailto:ouvidoria@seap.am.gov.br">ouvidoria@seap.am.gov.br</a></td>
+              <td>Não informado</td>
+              <td>92 9981033886 / 92 99389-0160</td>
+              <td>Fala.BR parcial.</td>
+            </tr>
+            <tr>
+              <td>AP</td>
+              <td>Amapá</td>
+              <td><a href="mailto:ouvidoria@iapen.ap.gov.br">ouvidoria@iapen.ap.gov.br</a></td>
+              <td>96 98414-9015</td>
+              <td>96 98414-9015</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>BA</td>
+              <td>Bahia</td>
+              <td><a href="mailto:ouvidoria@seap.ba.gov.br">ouvidoria@seap.ba.gov.br</a></td>
+              <td>7131187405</td>
+              <td>Não informado</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>CE</td>
+              <td>Ceará</td>
+              <td><a href="mailto:ouvidoria@sap.ce.gov.br">ouvidoria@sap.ce.gov.br</a></td>
+              <td>85 2018.2965</td>
+              <td>155</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>DF</td>
+              <td>Distrito Federal</td>
+              <td><a href="mailto:ouvidoria@seape.df.gov.br">ouvidoria@seape.df.gov.br</a></td>
+              <td>61333359538</td>
+              <td>Não informado</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>ES</td>
+              <td>Espírito Santo</td>
+              <td><a href="mailto:opp@pp.es.gov.br">opp@pp.es.gov.br</a></td>
+              <td>(27) 99316-7687</td>
+              <td>(27) 99316-7687</td>
+              <td>Destaque para a Polícia Penal/ES; o diagnóstico também registrou arranjo integrado na SEJUS/ES.</td>
+            </tr>
+            <tr>
+              <td>GO</td>
+              <td>Goiás</td>
+              <td><a href="mailto:ouvidoria.policiapenal@goias.gov.br">ouvidoria.policiapenal@goias.gov.br</a></td>
+              <td>(62) 3270-8733</td>
+              <td>Não informado</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>MA</td>
+              <td>Maranhão</td>
+              <td><a href="mailto:ouvpen@seap.ma.gov.br">ouvpen@seap.ma.gov.br</a></td>
+              <td>(98) 99181-7012</td>
+              <td>(98) 99181-7012</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>MG</td>
+              <td>Minas Gerais</td>
+              <td><a href="mailto:penitenciario@ouvidoriageral.mg.gov.br">penitenciario@ouvidoriageral.mg.gov.br</a></td>
+              <td>(31) 3915-2048</td>
+              <td>(31) 3915-2022</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>MS</td>
+              <td>Mato Grosso do Sul</td>
+              <td><a href="mailto:ouvidoria@agepen.ms.gov.br">ouvidoria@agepen.ms.gov.br</a></td>
+              <td>(67) 3901-3523</td>
+              <td>(67)99971-4323</td>
+              <td>Fala.BR como canal principal.</td>
+            </tr>
+            <tr>
+              <td>MT</td>
+              <td>Mato Grosso</td>
+              <td><a href="mailto:ouvidoriaoesp@sejus.mt.gov.br">ouvidoriaoesp@sejus.mt.gov.br</a></td>
+              <td>6581300380</td>
+              <td>+556581300380</td>
+              <td>Fala.BR como canal principal.</td>
+            </tr>
+            <tr>
+              <td>PA</td>
+              <td>Pará</td>
+              <td><a href="mailto:ouvidoriapasieds@gmail.com">ouvidoriapasieds@gmail.com</a></td>
+              <td>91 988835867</td>
+              <td>91 988835867</td>
+              <td>Destaque para o contato informado pela SIEDS; outra resposta do diagnóstico apontou ausência de ouvidoria constituída na SEAP/PA.</td>
+            </tr>
+            <tr>
+              <td>PB</td>
+              <td>Paraíba</td>
+              <td><a href="mailto:ouvidoria@seap.pb.gov.br">ouvidoria@seap.pb.gov.br</a></td>
+              <td>83 99121-7665</td>
+              <td>83 99121-7665</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>PE</td>
+              <td>Pernambuco</td>
+              <td><a href="mailto:ouvidoria@seap.pe.gov.br">ouvidoria@seap.pe.gov.br</a></td>
+              <td>81- 3184 2219</td>
+              <td>81 - 9 8491 6545</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>PI</td>
+              <td>Piauí</td>
+              <td><a href="mailto:ouvidoria@sejus.pi.gov.br">ouvidoria@sejus.pi.gov.br</a></td>
+              <td>86 99488-8133</td>
+              <td>Não informado</td>
+              <td>Fala.BR como canal principal.</td>
+            </tr>
+            <tr>
+              <td>PR</td>
+              <td>Paraná</td>
+              <td><a href="mailto:ouvidoriadeppen@policiapenal.pr.gov.br">ouvidoriadeppen@policiapenal.pr.gov.br</a></td>
+              <td>41 3294-2958</td>
+              <td>41 3294-2958</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>RJ</td>
+              <td>Rio de Janeiro</td>
+              <td><a href="mailto:seapou@seap.rj.gov.br">seapou@seap.rj.gov.br</a></td>
+              <td>(21) 970680105</td>
+              <td>(21) 97067-0584</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>RN</td>
+              <td>Rio Grande do Norte</td>
+              <td><a href="mailto:ouvidoria@seap.rn.gov.br">ouvidoria@seap.rn.gov.br</a></td>
+              <td>84981305243</td>
+              <td>84981305243</td>
+              <td>Fala.BR como canal principal.</td>
+            </tr>
+            <tr>
+              <td>RO</td>
+              <td>Rondônia</td>
+              <td><a href="mailto:ouvidoriasejusro@gmail.com">ouvidoriasejusro@gmail.com</a></td>
+              <td>(69) 99978-7931</td>
+              <td>Não informado</td>
+              <td>Fala.BR parcial.</td>
+            </tr>
+            <tr>
+              <td>RR</td>
+              <td>Roraima</td>
+              <td><a href="mailto:ouvidoria.sejuc.rr@gmail.com">ouvidoria.sejuc.rr@gmail.com</a></td>
+              <td>Não informado</td>
+              <td>Não informado</td>
+              <td>Fala.BR como canal principal.</td>
+            </tr>
+            <tr>
+              <td>RS</td>
+              <td>Rio Grande do Sul</td>
+              <td><a href="mailto:ouvidoriageral@casacivil.rs.gov.br">ouvidoriageral@casacivil.rs.gov.br</a></td>
+              <td>0800 541 6136</td>
+              <td>Não informado</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>SC</td>
+              <td>Santa Catarina</td>
+              <td><a href="mailto:ouvidoria@sejuri.sc.gov.br">ouvidoria@sejuri.sc.gov.br</a></td>
+              <td>(48) 3664-5811</td>
+              <td>Não informado</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>SE</td>
+              <td>Sergipe</td>
+              <td><a href="mailto:ouvidoria.sejuc@sejuc.se.gov.br">ouvidoria.sejuc@sejuc.se.gov.br</a></td>
+              <td>(79)3225-6049</td>
+              <td>Não informado</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>SP</td>
+              <td>São Paulo</td>
+              <td><a href="mailto:ouvidoriasap@sp.gov.br">ouvidoriasap@sp.gov.br</a></td>
+              <td>011 3206-4759/4836/4853</td>
+              <td>011 3206-4759</td>
+              <td>Sem uso do Fala.BR.</td>
+            </tr>
+            <tr>
+              <td>TO</td>
+              <td>Tocantins</td>
+              <td><a href="mailto:ouvidoriaseciju@gmail.com">ouvidoriaseciju@gmail.com</a></td>
+              <td>6399240-5237</td>
+              <td>Não informado</td>
+              <td>Fala.BR como canal principal.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
     <section aria-labelledby="rede-saiba-mais">
       <h2 id="rede-saiba-mais">Quer saber mais sobre a Rede de Ouvidorias?</h2>
       <p>Acesse documentos públicos relacionados ao fortalecimento das ouvidorias e à governança federativa no sistema penal:</p>
@@ -52,5 +329,508 @@
       <p><a href="../../Subpages/Pena_justa/Plano_Nacional_Pena_Justa.pdf">Clique e acesse o Plano Nacional Pena Justa</a></p>
     </section>
   </main>
+
+  <script>
+    (function () {
+      const ouvidorias = {
+        AC: {
+          state: "Acre",
+          region: "Norte",
+          orgao: "Instituto de Administração Penitenciária",
+          ouvidor: "Macleine Paula de Melo",
+          email: "ouvidoria.iapen@ac.gov.br",
+          telefone: "68 98112-4517",
+          whatsapp: "68 98112-4517",
+          endereco: "Rua Coronel Fontenele de Castro, 44; Bairro: Estação Experimental. Prédio Sede do IAPEN-AC/ Polícia Penal - Sala da Ouvidoria (Anexo à Caixa Econômica Federal).",
+          falaBr: "O Fala.BR é utilizado apenas para parte das manifestações"
+        },
+        AL: {
+          state: "Alagoas",
+          region: "Nordeste",
+          orgao: "SERIS",
+          ouvidor: "Carlos Douglas Nunes de Oliveira Palagani",
+          email: "ouvidoria@seris.al.gov.br",
+          telefone: "82-3315-1756",
+          whatsapp: "82-98802-5049",
+          endereco: "BR 104, KM 01, Cidade Universitária, Maceió, Alagoas, CEP 57.072.250",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        AM: {
+          state: "Amazonas",
+          region: "Norte",
+          orgao: "Secretaria de Estado Administração Penitenciária",
+          ouvidor: "Daniel Marcelo Benvenutti de Sales",
+          email: "ouvidoria@seap.am.gov.br",
+          telefone: null,
+          whatsapp: "92 9981033886 / 92 99389-0160",
+          endereco: null,
+          falaBr: "O Fala.BR é utilizado apenas para parte das manifestações"
+        },
+        AP: {
+          state: "Amapá",
+          region: "Norte",
+          orgao: "Instituto de Administração Penitenciária do Estado do Amapá - IAPEN-AP",
+          ouvidor: "Aline Ferreira Costa",
+          email: "ouvidoria@iapen.ap.gov.br",
+          telefone: "96 98414-9015",
+          whatsapp: "96 98414-9015",
+          endereco: "Rodovia Duca Serra, s/n. Km 07. Cabralzinho. Macapá-AP. CEP: 68906-720",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        BA: {
+          state: "Bahia",
+          region: "Nordeste",
+          orgao: "Secretaria de Administração Penitenciária e Ressocialização",
+          ouvidor: "Luisa Ribeiro Soares Barreto",
+          email: "ouvidoria@seap.ba.gov.br",
+          telefone: "7131187405",
+          whatsapp: null,
+          endereco: "3ª Avenida, nº 310, Plataforma IV, CAB, Salvador - BA, CEP 41.745-005",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        CE: {
+          state: "Ceará",
+          region: "Nordeste",
+          orgao: "Secretaria de Administração Penitenciária e Ressocialização do Estado do Ceará",
+          ouvidor: "Débora Gonçalves Lages Rebêlo",
+          email: "ouvidoria@sap.ce.gov.br",
+          telefone: "85 2018.2965",
+          whatsapp: "155",
+          endereco: "Rua Tenente Benévolo, nº 1055 - Meireles, Fortaleza - CE, CEP 60160-040",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        DF: {
+          state: "Distrito Federal",
+          region: "Centro-Oeste",
+          orgao: "Secretaria de Estado de Administração Penitenciária do Distrito Federal - SEAPE/DF",
+          ouvidor: "Rívia Carla Lourenço Coimbra",
+          email: "ouvidoria@seape.df.gov.br",
+          telefone: "61333359538",
+          whatsapp: null,
+          endereco: "Estação Rodoferroviária de Brasília, s/n, Ala Sul, Brasília - DF, CEP 70631-900",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        ES: {
+          state: "Espírito Santo",
+          region: "Sudeste",
+          orgao: "Secretaria de Estado da Justiça / Polícia Penal do Espírito Santo",
+          ouvidor: "Naihamar Souza Macedo (titular) / Vinícius Milholi Borges (substituto)",
+          email: "opp@pp.es.gov.br",
+          telefone: "(27) 99316-7687",
+          whatsapp: "(27) 99316-7687",
+          endereco: "Av. Mal. Campos, 495 - Vitória - ES, CEP 29042-755",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        GO: {
+          state: "Goiás",
+          region: "Centro-Oeste",
+          orgao: "Diretoria-Geral de Polícia Penal de Goiás",
+          ouvidor: "Maria Flora Ribeiro Costa",
+          email: "ouvidoria.policiapenal@goias.gov.br",
+          telefone: "(62) 3270-8733",
+          whatsapp: null,
+          endereco: "Rua 202, esquina com a 11ª Avenida, Qd 20, Lt 8, nº 430, Setor Leste Vila Nova, Goiânia - GO",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        MA: {
+          state: "Maranhão",
+          region: "Nordeste",
+          orgao: "Secretaria de Estado de Administração Penitenciária - SEAP",
+          ouvidor: "Rômulo Antônio Silva de Azevedo",
+          email: "ouvpen@seap.ma.gov.br",
+          telefone: "(98) 99181-7012",
+          whatsapp: "(98) 99181-7012",
+          endereco: "Rua Gabriel Mistral, 716, Vila Palmeira, São Luís - MA",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        MG: {
+          state: "Minas Gerais",
+          region: "Sudeste",
+          orgao: "Secretaria de Estado de Justiça e Segurança Pública",
+          ouvidor: "Thais Mara Alexandrino",
+          email: "penitenciario@ouvidoriageral.mg.gov.br",
+          telefone: "(31) 3915-2048",
+          whatsapp: "(31) 3915-2022",
+          endereco: "Cidade Administrativa Presidente Tancredo Neves, Rodovia Papa João Paulo II, 4001, Edifício Gerais, 12º andar, Belo Horizonte - MG, CEP 31630-901",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        MS: {
+          state: "Mato Grosso do Sul",
+          region: "Centro-Oeste",
+          orgao: "Agência Estadual de Administração do Sistema Penitenciário de Mato Grosso do Sul",
+          ouvidor: "Cinthia Danielle do Nascimento Silva",
+          email: "ouvidoria@agepen.ms.gov.br",
+          telefone: "(67) 3901-3523",
+          whatsapp: "(67) 99971-4323",
+          endereco: "Avenida Mato Grosso, nº 2160, Jardim dos Estados, Campo Grande - MS, CEP 79020-201",
+          falaBr: "O Fala.BR é utilizado como sistema principal de registro e gestão das manifestações"
+        },
+        MT: {
+          state: "Mato Grosso",
+          region: "Centro-Oeste",
+          orgao: "Secretaria de Estado Justiça de Mato Grosso",
+          ouvidor: "Alexandre Jose do Amaral",
+          email: "ouvidoriaoesp@sejus.mt.gov.br",
+          telefone: "6581300380",
+          whatsapp: "+556581300380",
+          endereco: "Rua Tenete Eulalio Guerra, 488, bairro Quilombo, Cuiabá - MT, CEP 78043-528",
+          falaBr: "O Fala.BR é utilizado como sistema principal de registro e gestão das manifestações"
+        },
+        PA: {
+          state: "Pará",
+          region: "Norte",
+          orgao: "Secretaria de Administração Penitenciária do Estado do Pará",
+          ouvidor: "Liliane Barbosa de Souza",
+          email: "ouvidoriapasieds@gmail.com",
+          telefone: "91 988835867",
+          whatsapp: "91 988835867",
+          endereco: "Travessa Doutor Moraes, 565, 4º andar, Batista Campos, Belém - PA",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        PB: {
+          state: "Paraíba",
+          region: "Nordeste",
+          orgao: "Secretaria de Estado da Administração Penitenciária",
+          ouvidor: "Gabriela Freitas de S. Macena Correia",
+          email: "ouvidoria@seap.pb.gov.br",
+          telefone: "83 99121-7665",
+          whatsapp: "83 99121-7665",
+          endereco: null,
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        PE: {
+          state: "Pernambuco",
+          region: "Nordeste",
+          orgao: "Secretaria de Administração Penitenciária e Ressocialização - SEAP",
+          ouvidor: "Suely Patricia Martins Gomes",
+          email: "ouvidoria@seap.pe.gov.br",
+          telefone: "81-3184 2219",
+          whatsapp: "81-98491-6545",
+          endereco: "Rua do Hospício, 751 - Boa Vista - Recife - PE - CEP 50050-050",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        PI: {
+          state: "Piauí",
+          region: "Nordeste",
+          orgao: "Secretaria de Justiça do Estado",
+          ouvidor: "Nadiana Guimarães Oliveira",
+          email: "ouvidoria@sejus.pi.gov.br",
+          telefone: "86 99488-8133",
+          whatsapp: null,
+          endereco: "Avenida Pedro Freitas, Bloco G, 2º andar, Centro Administrativo, Teresina - PI",
+          falaBr: "O Fala.BR é utilizado como sistema principal de registro e gestão das manifestações"
+        },
+        PR: {
+          state: "Paraná",
+          region: "Sul",
+          orgao: "Secretaria de Segurança Pública do Paraná",
+          ouvidor: "Marcio Luiz Albuquerque",
+          email: "ouvidoriadeppen@policiapenal.pr.gov.br",
+          telefone: "41 3294-2958",
+          whatsapp: "41 3294-2958",
+          endereco: "Rua Maria Petroski, 3312, Bacacheri, Curitiba - PR, CEP 82600-730",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        RJ: {
+          state: "Rio de Janeiro",
+          region: "Sudeste",
+          orgao: "Secretaria de Estado de Administração Penitenciária",
+          ouvidor: "Leila de Brito Ximenes",
+          email: "seapou@seap.rj.gov.br",
+          telefone: "(21) 970680105",
+          whatsapp: "(21) 97067-0584",
+          endereco: "Avenida Presidente Vargas nº 2555, Centro, Rio de Janeiro - RJ, CEP 20210-031",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        RN: {
+          state: "Rio Grande do Norte",
+          region: "Nordeste",
+          orgao: "Secretaria de Estado da Administração Penitenciária",
+          ouvidor: "Carla Tatiane Azevedo dos Santos",
+          email: "ouvidoria@seap.rn.gov.br",
+          telefone: "84981305243",
+          whatsapp: "84981305243",
+          endereco: "BR 101 KM 0, Av. Sen. Salgado Filho, s/n - Lagoa Nova, RN, CEP 59064-901",
+          falaBr: "O Fala.BR é utilizado como sistema principal de registro e gestão das manifestações"
+        },
+        RO: {
+          state: "Rondônia",
+          region: "Norte",
+          orgao: "Secretaria de Estado de Justiça de Rondônia",
+          ouvidor: "Renata Ferreira Campos",
+          email: "ouvidoriasejusro@gmail.com",
+          telefone: "(69) 99978-7931",
+          whatsapp: null,
+          endereco: null,
+          falaBr: "O Fala.BR é utilizado apenas para parte das manifestações"
+        },
+        RR: {
+          state: "Roraima",
+          region: "Norte",
+          orgao: "Secretaria de Estado da Justiça e da Cidadania - SEJUC",
+          ouvidor: "Ylana Dominice Ferreira",
+          email: "ouvidoria.sejuc.rr@gmail.com",
+          telefone: null,
+          whatsapp: null,
+          endereco: "Av. Getúlio Vargas, nº 8120 - São Vicente - Boa Vista - RR - CEP 69305-295",
+          falaBr: "O Fala.BR é utilizado como sistema principal de registro e gestão das manifestações"
+        },
+        RS: {
+          state: "Rio Grande do Sul",
+          region: "Sul",
+          orgao: "Secretaria de Sistemas Penal e Socioeducativo",
+          ouvidor: "Viviane Furtado Migliavacca",
+          email: "ouvidoriageral@casacivil.rs.gov.br",
+          telefone: "08005416136",
+          whatsapp: null,
+          endereco: "Av. Borges de Medeiros, 1501, térreo, Praia de Belas, Porto Alegre - RS, CEP 90119-900",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        SC: {
+          state: "Santa Catarina",
+          region: "Sul",
+          orgao: "Secretaria de Estado de Justiça e Reintegração Social",
+          ouvidor: "Frederico Tadeu da Silva",
+          email: "ouvidoria@sejuri.sc.gov.br",
+          telefone: "(48) 3664-5811",
+          whatsapp: null,
+          endereco: "Rua Fulvio Aducci, 1214, Sala 804, Florianópolis - SC",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        SE: {
+          state: "Sergipe",
+          region: "Nordeste",
+          orgao: "Secretaria de Estado da Justiça e de Defesa do Consumidor",
+          ouvidor: "Raianny de Sá Santos",
+          email: "ouvidoria.sejuc@sejuc.se.gov.br",
+          telefone: "(79) 3225-6049",
+          whatsapp: null,
+          endereco: "Rua Antônio de Andrade, nº 981, Coroa do Meio, Aracaju - SE, CEP 49035-050",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        SP: {
+          state: "São Paulo",
+          region: "Sudeste",
+          orgao: "Secretaria de Administração Penitenciária",
+          ouvidor: "Ana Paula Bento da Silva",
+          email: "ouvidoriasap@sp.gov.br",
+          telefone: "011 3206-4759/4836/4853",
+          whatsapp: "011 3206-4759",
+          endereco: "Rua Libero Badaro, 600, 4º andar, Centro, São Paulo - SP, CEP 01008-000",
+          falaBr: "Não utiliza o Fala.BR"
+        },
+        TO: {
+          state: "Tocantins",
+          region: "Norte",
+          orgao: "Secretaria de Cidadania e Justiça",
+          ouvidor: "Davi Tone Cabral Rocha",
+          email: "ouvidoriaseciju@gmail.com",
+          telefone: "6399240-5237",
+          whatsapp: null,
+          endereco: "Av. Juscelino Kubitscheck, 78-162, Plano Diretor Norte, Palmas - TO",
+          falaBr: "O Fala.BR é utilizado como sistema principal de registro e gestão das manifestações"
+        }
+      };
+
+      const layout = {
+        RR: { col: 4, row: 1 },
+        AP: { col: 8, row: 1 },
+        AM: { col: 3, row: 2 },
+        PA: { col: 6, row: 2 },
+        MA: { col: 7, row: 3 },
+        CE: { col: 9, row: 3 },
+        RN: { col: 10, row: 3 },
+        AC: { col: 2, row: 4 },
+        RO: { col: 3, row: 4 },
+        TO: { col: 6, row: 4 },
+        PI: { col: 8, row: 4 },
+        PB: { col: 10, row: 4 },
+        MT: { col: 5, row: 5 },
+        BA: { col: 8, row: 5 },
+        PE: { col: 9, row: 5 },
+        GO: { col: 6, row: 6 },
+        DF: { col: 7, row: 6 },
+        AL: { col: 9, row: 6 },
+        SE: { col: 10, row: 6 },
+        MS: { col: 5, row: 7 },
+        MG: { col: 7, row: 7 },
+        ES: { col: 8, row: 7 },
+        SP: { col: 7, row: 8 },
+        RJ: { col: 8, row: 8 },
+        PR: { col: 7, row: 9 },
+        SC: { col: 7, row: 10 },
+        RS: { col: 6, row: 11 }
+      };
+
+      const regionClassMap = {
+        "Norte": "is-norte",
+        "Nordeste": "is-nordeste",
+        "Centro-Oeste": "is-centro-oeste",
+        "Sudeste": "is-sudeste",
+        "Sul": "is-sul"
+      };
+
+      const specialNotes = {
+        ES: "O diagnóstico trouxe dois arranjos no Espírito Santo. O painel destaca o contato informado pela Polícia Penal/ES e registra que a SEJUS/ES também informou operação por sistema integrado estadual.",
+        PA: "O diagnóstico trouxe duas respostas para o Pará. O painel prioriza o contato informado pela SIEDS, mas mantém o registro de que outra resposta apontou ausência de ouvidoria constituída diretamente na SEAP/PA."
+      };
+
+      const placeholders = ["0", "em", "nao ha", "nao possui", "nao temos", "inexistente", "sem resposta"];
+      const mapGrid = document.querySelector("#ouvidoria-map-grid");
+      const stateSelect = document.querySelector("#ouvidoria-state-select");
+      const statePanel = document.querySelector("#ouvidoria-state-panel");
+
+      if (!mapGrid || !stateSelect || !statePanel) {
+        return;
+      }
+
+      function escapeHtml(value) {
+        return String(value)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/\"/g, "&quot;")
+          .replace(/'/g, "&#39;");
+      }
+
+      function normalizeField(key, value) {
+        if (value == null) {
+          return null;
+        }
+
+        const text = String(value).trim().replace(/\s+/g, " ");
+        if (!text) {
+          return null;
+        }
+
+        const comparable = text
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/\s+/g, " ")
+          .replace(/[.;]+$/g, "");
+
+        if (
+          placeholders.includes(comparable) ||
+          comparable.startsWith("nao ha") ||
+          comparable.startsWith("nao possui") ||
+          comparable.startsWith("nao temos")
+        ) {
+          return null;
+        }
+
+        if (key === "endereco" && text.includes("@")) {
+          return null;
+        }
+
+        return text;
+      }
+
+      function renderField(label, key, value, isEmail) {
+        const normalized = normalizeField(key, value);
+        const content = normalized
+          ? isEmail
+            ? '<a href="mailto:' + escapeHtml(normalized) + '">' + escapeHtml(normalized) + '</a>'
+            : escapeHtml(normalized)
+          : "Não informado";
+
+        return (
+          '<div class="ouvidoria-state-field">' +
+          '<dt>' + escapeHtml(label) + '</dt>' +
+          '<dd>' + content + '</dd>' +
+          '</div>'
+        );
+      }
+
+      function syncSelection(uf) {
+        mapGrid.querySelectorAll(".ouvidoria-map-button").forEach(function (button) {
+          const isActive = button.dataset.uf === uf;
+          button.classList.toggle("is-active", isActive);
+          button.setAttribute("aria-pressed", isActive ? "true" : "false");
+        });
+      }
+
+      function resetPanel() {
+        stateSelect.value = "";
+        syncSelection(null);
+        statePanel.innerHTML = '<div class="ouvidoria-state-head"><h3>Selecione uma UF</h3></div><p>O painel lateral exibe o órgão gestor, o responsável informado, os canais de contato e a observação federativa associada ao estado selecionado.</p>';
+      }
+
+      function renderState(uf) {
+        const entry = ouvidorias[uf];
+
+        if (!entry) {
+          resetPanel();
+          return;
+        }
+
+        const note = specialNotes[uf]
+          ? '<p class="ouvidoria-state-note">' + escapeHtml(specialNotes[uf]) + '</p>'
+          : "";
+
+        statePanel.innerHTML =
+          '<div class="ouvidoria-state-head">' +
+          '<h3>' + escapeHtml(entry.state) + ' (' + escapeHtml(uf) + ')</h3>' +
+          '<span class="ouvidoria-region-chip ' + regionClassMap[entry.region] + '">' + escapeHtml(entry.region) + '</span>' +
+          '</div>' +
+          '<p class="ouvidoria-state-orgao">' + escapeHtml(entry.orgao) + '</p>' +
+          '<dl class="ouvidoria-state-details">' +
+          renderField('Ouvidor(a) / responsável', 'ouvidor', entry.ouvidor, false) +
+          renderField('E-mail institucional', 'email', entry.email, true) +
+          renderField('Telefone', 'telefone', entry.telefone, false) +
+          renderField('WhatsApp / aplicativo', 'whatsapp', entry.whatsapp, false) +
+          renderField('Endereço', 'endereco', entry.endereco, false) +
+          renderField('Uso do Fala.BR', 'falaBr', entry.falaBr, false) +
+          '</dl>' +
+          note;
+
+        stateSelect.value = uf;
+        syncSelection(uf);
+      }
+
+      Object.keys(ouvidorias)
+        .sort(function (left, right) {
+          return ouvidorias[left].state.localeCompare(ouvidorias[right].state, 'pt-BR');
+        })
+        .forEach(function (uf) {
+          const option = document.createElement('option');
+          option.value = uf;
+          option.textContent = uf + ' - ' + ouvidorias[uf].state;
+          stateSelect.appendChild(option);
+        });
+
+      Object.keys(layout).forEach(function (uf) {
+        if (!ouvidorias[uf]) {
+          return;
+        }
+
+        const entry = ouvidorias[uf];
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'ouvidoria-map-button ' + regionClassMap[entry.region];
+        button.dataset.uf = uf;
+        button.style.setProperty('--col', layout[uf].col);
+        button.style.setProperty('--row', layout[uf].row);
+        button.setAttribute('aria-label', entry.state + ' (' + uf + ')');
+        button.setAttribute('aria-pressed', 'false');
+        button.textContent = uf;
+        button.addEventListener('click', function () {
+          renderState(uf);
+        });
+        mapGrid.appendChild(button);
+      });
+
+      stateSelect.addEventListener('change', function (event) {
+        const uf = event.target.value;
+        if (!uf) {
+          resetPanel();
+          return;
+        }
+        renderState(uf);
+      });
+
+      resetPanel();
+    })();
+  </script>
 </body>
 </html>
