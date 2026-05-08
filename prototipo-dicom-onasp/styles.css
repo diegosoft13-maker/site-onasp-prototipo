@@ -555,19 +555,22 @@ section {
   left: 0;
   top: 0;
   z-index: 3;
-  width: 11px;
-  height: 11px;
+  width: 18px;
+  height: 25px;
   flex-basis: auto;
-  border: 2px solid #ffffff;
-  border-radius: 999px;
-  background: var(--marker-accent, #38bdf8);
-  box-shadow: 0 6px 12px rgba(31, 20, 47, 0.24);
-  filter: none;
-  transform: translate(-50%, -50%);
+  border: 0;
+  border-radius: 0;
+  background: center / 100% 100% no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 36' fill='none'%3E%3Cpath d='M13 0C6.156 0 0.75 5.42 0.75 12.165C0.75 20.242 9.948 32.28 12.335 35.238C12.503 35.446 12.742 35.567 13 35.567C13.258 35.567 13.497 35.446 13.665 35.238C16.052 32.28 25.25 20.242 25.25 12.165C25.25 5.42 19.844 0 13 0Z' fill='white'/%3E%3C/svg%3E");
+  box-shadow: none;
+  filter: drop-shadow(0 6px 10px rgba(31, 20, 47, 0.22));
+  transform: translate(-50%, -100%);
 }
 
 .ouvidoria-map-button.is-callout .ouvidoria-map-marker-pin::after {
-  display: none;
+  display: block;
+  width: 7px;
+  height: 7px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.34);
 }
 
 .ouvidoria-map-button.is-callout .ouvidoria-map-marker-code {
@@ -610,8 +613,8 @@ section {
 .ouvidoria-map-button.is-callout:hover .ouvidoria-map-marker-pin,
 .ouvidoria-map-button.is-callout:focus-visible .ouvidoria-map-marker-pin,
 .ouvidoria-map-button.is-callout.is-active .ouvidoria-map-marker-pin {
-  filter: none;
-  transform: translate(-50%, -50%) scale(1.18);
+  filter: drop-shadow(0 8px 14px rgba(31, 20, 47, 0.28));
+  transform: translate(-50%, -100%) scale(1.14);
 }
 
 .ouvidoria-map-button:hover .ouvidoria-map-marker-code,
