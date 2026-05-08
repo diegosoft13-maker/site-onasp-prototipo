@@ -1,3 +1,13 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   color: #1f2937;
@@ -35,18 +45,19 @@ img {
 
 h1 {
   color: #071d41;
-  font-size: 2.4rem;
+  font-size: clamp(2rem, 4vw, 2.4rem);
   line-height: 1.15;
 }
 
 h2 {
   color: #071d41;
   margin-top: 36px;
+  font-size: clamp(1.4rem, 2.7vw, 1.75rem);
 }
 
 .lead {
   color: #374151;
-  font-size: 1.2rem;
+  font-size: clamp(1.05rem, 2vw, 1.2rem);
   font-weight: 700;
 }
 
@@ -132,6 +143,11 @@ section {
 
 .compact-action-link {
   margin: 0;
+}
+
+.compact-action-link a {
+  display: inline-block;
+  padding: 8px 0;
 }
 
 .canais-atendimento-grid {
@@ -292,12 +308,46 @@ section {
   min-height: 520px;
 }
 
+@media (max-width: 920px) {
+  .govbr-preview {
+    width: min(100% - 28px, 920px);
+  }
+
+  .subpage-hero {
+    grid-template-columns: 160px minmax(0, 1fr);
+    gap: 22px;
+  }
+
+  .feature-link {
+    gap: 18px;
+    padding: 14px 16px;
+  }
+
+  .report-year-grid {
+    gap: 18px;
+  }
+
+  .report-year-grid a {
+    width: min(100%, 200px);
+  }
+}
+
 @media (max-width: 700px) {
   .canais-atendimento-grid,
   .feature-link,
   .subpage-hero,
   .mapa-grid {
     grid-template-columns: 1fr;
+  }
+
+  .govbr-preview {
+    width: min(100% - 24px, 920px);
+    padding: 20px 0 36px;
+  }
+
+  .preview-note,
+  .component-note {
+    padding: 10px 12px;
   }
 
   .mapa-grid {
@@ -314,28 +364,109 @@ section {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.95rem;
+  }
+
+  h2 {
+    margin-top: 28px;
+  }
+
+  section {
+    margin-top: 20px;
+  }
+
+  #conteudo > section + section {
+    margin-top: 14px;
+    padding-top: 14px;
+  }
+
+  .feature-link {
+    gap: 14px;
+    padding: 14px;
   }
 
   .feature-image {
     width: 128px;
     height: 128px;
+    margin: 0 auto;
   }
 
   .subpage-hero-media img {
     max-width: 148px;
+    margin: 0 auto;
+  }
+
+  .embed {
+    height: 320px;
   }
 
   .report-year-grid {
     gap: 16px;
+    justify-content: stretch;
   }
 
   .report-year-grid a {
-    width: calc(50% - 8px);
+    width: 100%;
+    min-height: 50px;
+  }
+
+  .powerbi {
+    min-height: 420px;
   }
 
   #plano-metas .standalone-image {
     width: 138%;
     margin-left: -19%;
+  }
+}
+
+@media (max-width: 480px) {
+  .govbr-preview {
+    width: min(100% - 16px, 920px);
+  }
+
+  h1 {
+    font-size: 1.72rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  .feature-link {
+    padding: 12px;
+  }
+
+  .feature-image {
+    width: 112px;
+    height: 112px;
+  }
+
+  .mapa-grid .embed,
+  .mapa-side-image,
+  .embed {
+    min-height: 220px;
+    height: 280px;
+  }
+
+  .powerbi {
+    min-height: 360px;
+  }
+
+  .report-year-grid a {
+    font-size: 1rem;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .feature-link,
+  .report-year-grid a,
+  .compact-action-link a,
+  .subpage-back-link a {
+    min-height: 48px;
+  }
+
+  .report-year-grid a {
+    padding: 10px 12px;
   }
 }
