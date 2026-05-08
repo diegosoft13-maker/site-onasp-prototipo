@@ -443,15 +443,10 @@ section {
 
 .ouvidoria-map-grid {
   position: relative;
-  display: grid;
+  display: block;
   width: min(100%, 620px);
   margin: 0 auto;
-  padding: 8px;
-  justify-items: center;
-  align-items: start;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  grid-template-rows: repeat(11, 46px);
-  gap: 7px;
+  aspect-ratio: 620 / 592;
 }
 
 .ouvidoria-map-grid::before {
@@ -463,33 +458,34 @@ section {
   opacity: 1;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-image: url("./assets/mapa-brasil-uf-fundo.svg?v=20260508d");
+  background-size: contain;
+  background-image: url("./assets/mapa-brasil-uf-fundo.svg?v=20260508e");
 }
 
 .ouvidoria-map-button {
-  grid-column: var(--col);
-  grid-row: var(--row);
-  position: relative;
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
   z-index: 1;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 100%;
-  height: 100%;
-  padding-top: 2px;
+  width: 42px;
+  min-height: 50px;
+  padding: 0;
   border: 0;
   background: transparent;
   color: #ffffff;
   font: inherit;
   cursor: pointer;
+  transform: translate(-50%, -68%);
   transition: transform 0.18s ease;
 }
 
 .ouvidoria-map-button:hover,
 .ouvidoria-map-button:focus {
-  transform: translateY(-2px) scale(1.04);
+  transform: translate(-50%, -72%) scale(1.04);
 }
 
 .ouvidoria-map-button:focus-visible {
@@ -497,7 +493,7 @@ section {
 }
 
 .ouvidoria-map-button.is-active {
-  transform: translateY(-2px) scale(1.05);
+  transform: translate(-50%, -72%) scale(1.05);
 }
 
 .ouvidoria-map-marker-pin {
@@ -816,9 +812,7 @@ section {
   }
 
   .ouvidoria-map-grid {
-    padding: 6px;
-    grid-template-rows: repeat(11, 42px);
-    gap: 4px;
+    max-width: 520px;
   }
 
   .ouvidoria-map-marker-pin {
@@ -878,13 +872,12 @@ section {
   }
 
   .ouvidoria-map-grid {
-    padding: 3px;
-    grid-template-rows: repeat(11, 36px);
-    gap: 2px;
+    max-width: 420px;
   }
 
   .ouvidoria-map-button {
-    padding-top: 1px;
+    width: 34px;
+    min-height: 42px;
   }
 
   .ouvidoria-map-marker-pin {

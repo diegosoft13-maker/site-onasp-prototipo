@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rede de Ouvidorias | Prévia gov.br/Plone</title>
-  <link rel="stylesheet" href="../styles.css?v=20260508d">
+  <link rel="stylesheet" href="../styles.css?v=20260508e">
 </head>
 <body>
   <main class="govbr-preview subpage-preview">
@@ -633,33 +633,33 @@
       };
 
       const layout = {
-        RR: { col: 4, row: 1 },
-        AP: { col: 8, row: 1 },
-        AM: { col: 3, row: 2 },
-        PA: { col: 6, row: 2 },
-        MA: { col: 7, row: 3 },
-        CE: { col: 9, row: 3 },
-        RN: { col: 10, row: 3 },
-        AC: { col: 2, row: 4 },
-        RO: { col: 3, row: 4 },
-        TO: { col: 6, row: 4 },
-        PI: { col: 8, row: 4 },
-        PB: { col: 10, row: 4 },
-        MT: { col: 5, row: 5 },
-        BA: { col: 8, row: 5 },
-        PE: { col: 9, row: 5 },
-        GO: { col: 6, row: 6 },
-        DF: { col: 7, row: 6 },
-        AL: { col: 9, row: 6 },
-        SE: { col: 10, row: 6 },
-        MS: { col: 5, row: 7 },
-        MG: { col: 7, row: 7 },
-        ES: { col: 8, row: 7 },
-        SP: { col: 7, row: 8 },
-        RJ: { col: 8, row: 8 },
-        PR: { col: 7, row: 9 },
-        SC: { col: 7, row: 10 },
-        RS: { col: 6, row: 11 }
+        AC: { x: 14.37, y: 38.35 },
+        AL: { x: 89.38, y: 39.05 },
+        AM: { x: 27.27, y: 26.60 },
+        AP: { x: 55.37, y: 13.61 },
+        BA: { x: 78.08, y: 45.91 },
+        CE: { x: 82.75, y: 28.78 },
+        DF: { x: 64.61, y: 53.59 },
+        ES: { x: 80.40, y: 62.39 },
+        GO: { x: 60.56, y: 54.19 },
+        MA: { x: 70.17, y: 28.75 },
+        MG: { x: 71.53, y: 59.79 },
+        MS: { x: 49.00, y: 64.14 },
+        MT: { x: 46.63, y: 47.01 },
+        PA: { x: 52.92, y: 26.21 },
+        PB: { x: 88.91, y: 33.49 },
+        PE: { x: 86.31, y: 36.29 },
+        PI: { x: 75.31, y: 34.10 },
+        PR: { x: 56.15, y: 74.13 },
+        RJ: { x: 75.99, y: 68.46 },
+        RN: { x: 89.27, y: 30.51 },
+        RO: { x: 31.28, y: 42.28 },
+        RR: { x: 34.50, y: 12.13 },
+        RS: { x: 52.39, y: 85.91 },
+        SC: { x: 58.69, y: 80.19 },
+        SE: { x: 87.56, y: 41.52 },
+        SP: { x: 62.54, y: 68.63 },
+        TO: { x: 63.44, y: 40.51 }
       };
 
       const regionClassMap = {
@@ -809,8 +809,8 @@
         button.type = 'button';
         button.className = 'ouvidoria-map-button ' + regionClassMap[entry.region];
         button.dataset.uf = uf;
-        button.style.setProperty('--col', layout[uf].col);
-        button.style.setProperty('--row', layout[uf].row);
+        button.style.setProperty('--x', layout[uf].x + '%');
+        button.style.setProperty('--y', layout[uf].y + '%');
         button.setAttribute('aria-label', entry.state + ' (' + uf + ')');
         button.setAttribute('aria-pressed', 'false');
 
