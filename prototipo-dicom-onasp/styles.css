@@ -153,10 +153,16 @@ section {
   background: #ffffff;
 }
 
-.subpage-gallery-card img {
-  width: 100%;
+.subpage-gallery-media {
   aspect-ratio: 1600 / 1066;
-  height: auto;
+  overflow: hidden;
+  background: #e5e7eb;
+}
+
+.subpage-gallery-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
 }
