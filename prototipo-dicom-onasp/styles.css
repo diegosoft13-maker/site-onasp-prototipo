@@ -155,7 +155,10 @@ section {
 
 .subpage-gallery-card img {
   width: 100%;
+  aspect-ratio: 1600 / 1066;
   height: auto;
+  object-fit: cover;
+  object-position: center;
 }
 
 .subpage-gallery-card figcaption {
