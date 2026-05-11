@@ -302,6 +302,62 @@ Esse arranjo é reforçado por instrumentos que definem parâmetros mínimos par
 
 Seção:
 
+Mapa interativo e destaque por UF
+
+Texto para colar:
+
+Esta prévia passou a reunir, em um único ponto, os contatos informados pelas unidades da federação no Diagnóstico de Ouvidorias Estaduais. No ambiente de validação local, a consulta foi organizada por meio de um mapa visual com seleção por UF e painel lateral com dados resumidos da ouvidoria correspondente.
+
+Orientação para publicação oficial:
+
+No ambiente gov.br, recomenda-se tratar o mapa interativo apenas como referência visual da prévia. A solução mais segura para publicação é manter um seletor simples por UF, um bloco expansível por estado ou, preferencialmente, o quadro textual de contatos apresentado abaixo, sem depender de JavaScript customizado.
+
+Fonte sugerida:
+
+Diagnóstico de Ouvidorias Estaduais, consolidado pela ONASP a partir das respostas recebidas em 2026.
+
+Seção:
+
+Quadro textual de contatos das ouvidorias
+
+Texto para colar:
+
+Para facilitar reaproveitamento em formatos mais simples, o mesmo conteúdo do painel interativo foi organizado em tabela, com consulta rápida por unidade da federação.
+
+Tabela sugerida:
+
+| UF | Estado | E-mail | Telefone | WhatsApp / app | Observações |
+| --- | --- | --- | --- | --- | --- |
+| AC | Acre | ouvidoria.iapen@ac.gov.br | 68 98112-4517 | 68 98112-4517 | Fala.BR parcial. |
+| AL | Alagoas | ouvidoria@seris.al.gov.br | 82-3315-1756 | 82-98802-5049 | Sem uso do Fala.BR. |
+| AM | Amazonas | ouvidoria@seap.am.gov.br | Não informado | 92 9981033886 / 92 99389-0160 | Fala.BR parcial. |
+| AP | Amapá | ouvidoria@iapen.ap.gov.br | 96 98414-9015 | 96 98414-9015 | Sem uso do Fala.BR. |
+| BA | Bahia | ouvidoria@seap.ba.gov.br | 7131187405 | Não informado | Sem uso do Fala.BR. |
+| CE | Ceará | ouvidoria@sap.ce.gov.br | 85 2018.2965 | 155 | Sem uso do Fala.BR. |
+| DF | Distrito Federal | ouvidoria@seape.df.gov.br | 61333359538 | Não informado | Sem uso do Fala.BR. |
+| ES | Espírito Santo | opp@pp.es.gov.br | (27) 99316-7687 | (27) 99316-7687 | Destaque para a Polícia Penal/ES; o diagnóstico também registrou arranjo integrado na SEJUS/ES. |
+| GO | Goiás | ouvidoria.policiapenal@goias.gov.br | (62) 3270-8733 | Não informado | Sem uso do Fala.BR. |
+| MA | Maranhão | ouvpen@seap.ma.gov.br | (98) 99181-7012 | (98) 99181-7012 | Sem uso do Fala.BR. |
+| MG | Minas Gerais | penitenciario@ouvidoriageral.mg.gov.br | (31) 3915-2048 | (31) 3915-2022 | Sem uso do Fala.BR. |
+| MS | Mato Grosso do Sul | ouvidoria@agepen.ms.gov.br | (67) 3901-3523 | (67) 99971-4323 | Fala.BR como canal principal. |
+| MT | Mato Grosso | ouvidoriaoesp@sejus.mt.gov.br | 6581300380 | +556581300380 | Fala.BR como canal principal. |
+| PA | Pará | ouvidoriapasieds@gmail.com | 91 988835867 | 91 988835867 | Destaque para o contato informado pela SIEDS; outra resposta do diagnóstico apontou ausência de ouvidoria constituída na SEAP/PA. |
+| PB | Paraíba | ouvidoria@seap.pb.gov.br | 83 99121-7665 | 83 99121-7665 | Sem uso do Fala.BR. |
+| PE | Pernambuco | ouvidoria@seap.pe.gov.br | 81- 3184 2219 | 81 - 9 8491 6545 | Sem uso do Fala.BR. |
+| PI | Piauí | ouvidoria@sejus.pi.gov.br | 86 99488-8133 | Não informado | Fala.BR como canal principal. |
+| PR | Paraná | ouvidoriadeppen@policiapenal.pr.gov.br | 41 3294-2958 | 41 3294-2958 | Sem uso do Fala.BR. |
+| RJ | Rio de Janeiro | seapou@seap.rj.gov.br | (21) 970680105 | (21) 97067-0584 | Sem uso do Fala.BR. |
+| RN | Rio Grande do Norte | ouvidoria@seap.rn.gov.br | 84981305243 | 84981305243 | Fala.BR como canal principal. |
+| RO | Rondônia | ouvidoriasejusro@gmail.com | (69) 99978-7931 | Não informado | Fala.BR parcial. |
+| RR | Roraima | ouvidoria.sejuc.rr@gmail.com | Não informado | Não informado | Fala.BR como canal principal. |
+| RS | Rio Grande do Sul | ouvidoriageral@casacivil.rs.gov.br | 0800 541 6136 | Não informado | Sem uso do Fala.BR. |
+| SC | Santa Catarina | ouvidoria@sejuri.sc.gov.br | (48) 3664-5811 | Não informado | Sem uso do Fala.BR. |
+| SE | Sergipe | ouvidoria.sejuc@sejuc.se.gov.br | (79)3225-6049 | Não informado | Sem uso do Fala.BR. |
+| SP | São Paulo | ouvidoriasap@sp.gov.br | 011 3206-4759/4836/4853 | 011 3206-4759 | Sem uso do Fala.BR. |
+| TO | Tocantins | ouvidoriaseciju@gmail.com | 6399240-5237 | Não informado | Fala.BR como canal principal. |
+
+Seção:
+
 Quer saber mais sobre a Rede de Ouvidorias?
 
 Texto para colar:
@@ -375,12 +431,6 @@ Links:
 - Declaração Americana de Direitos e Deveres do Homem: https://www.oas.org/pt/cidh/mandato/Basicos/declaracion.asp
 
 Seção:
-
-Finalidade institucional
-
-Texto para colar:
-
-Esta página temática reúne a apresentação institucional da Ema - SIDH e oferece um ponto de consulta inicial para acompanhamento qualificado de temas do sistema interamericano com incidência sobre os serviços penais, favorecendo transparência, memória institucional e articulação técnica.
 
 ## Subpágina 3 - Plano Pena Justa
 
