@@ -303,26 +303,6 @@ No recorte da ONASP, a Rede de Ouvidorias pode ser apresentada como espaço perm
 Esse arranjo é reforçado por instrumentos que definem parâmetros mínimos para a estruturação das ouvidorias e institucionalizam a Renospen como instância de cooperação técnica, integração federativa e fortalecimento institucional.
 
 Seção:
-
-VI Encontro Nacional das Ouvidorias do Sistema Penal
-
-Texto para colar:
-
-O VI Encontro Nacional das Ouvidorias do Sistema Penal, promovido pela Senappen entre 8 e 10 de abril, consolidou um novo marco para a gestão penitenciária com o lançamento da Rede Nacional de Ouvidorias de Serviços Penais (Renospen) e a publicação de uma Instrução Normativa para padronizar essas instâncias nos estados. Alinhado ao Plano Nacional Pena Justa, o evento focou no fortalecimento da transparência, do controle social e da promoção de direitos humanos, unificando diretrizes nacionais enquanto respeita as autonomias locais. Além dos painéis sobre gestão estratégica e escuta ética, a iniciativa contemplou a doação de equipamentos tecnológicos para todas as unidades federativas, visando modernizar o atendimento e estreitar a comunicação entre o sistema penal e a sociedade brasileira.
-
-Imagens a inserir:
-
-- Documentação/Banner_Renospen_1.jpeg
-- Documentação/Banner_Renospen_2.jpeg
-- Documentação/Banner_Renospen_3.jpeg
-
-Ordem e destaque sugeridos:
-
-- usar `Banner_Renospen_1.jpeg` em destaque, na largura principal do bloco;
-- posicionar `Banner_Renospen_2.jpeg` e `Banner_Renospen_3.jpeg` logo abaixo, lado a lado, mantendo a sequência numérica.
-
-Seção:
-
 Mapa interativo e destaque por UF
 
 Texto para colar:
@@ -342,6 +322,25 @@ Detalhes de curadoria usados para consolidar os contatos devem permanecer apenas
 Base interna de consolidação (não publicar na página):
 
 Diagnóstico de Ouvidorias Estaduais, consolidado pela ONASP a partir das respostas recebidas em 2026.
+
+Seção:
+
+VI Encontro Nacional das Ouvidorias do Sistema Penal
+
+Texto para colar:
+
+O VI Encontro Nacional das Ouvidorias do Sistema Penal, promovido pela Senappen entre 8 e 10 de abril, consolidou um novo marco para a gestão penitenciária com o lançamento da Rede Nacional de Ouvidorias de Serviços Penais (Renospen) e a publicação de uma Instrução Normativa para padronizar essas instâncias nos estados. Alinhado ao Plano Nacional Pena Justa, o evento focou no fortalecimento da transparência, do controle social e da promoção de direitos humanos, unificando diretrizes nacionais enquanto respeita as autonomias locais. Além dos painéis sobre gestão estratégica e escuta ética, a iniciativa contemplou a doação de equipamentos tecnológicos para todas as unidades federativas, visando modernizar o atendimento e estreitar a comunicação entre o sistema penal e a sociedade brasileira.
+
+Imagens a inserir:
+
+- Documentação/Banner_Renospen_1.jpeg
+- Documentação/Banner_Renospen_2.jpeg
+- Documentação/Banner_Renospen_3.jpeg
+
+Ordem e destaque sugeridos:
+
+- usar `Banner_Renospen_1.jpeg` em destaque, na largura principal do bloco;
+- posicionar `Banner_Renospen_2.jpeg` e `Banner_Renospen_3.jpeg` logo abaixo, lado a lado, mantendo a sequência numérica.
 
 Seção:
 

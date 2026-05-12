@@ -135,7 +135,7 @@ Divergências observadas:
 11. A Rede de Ouvidorias deve permanecer estritamente pública e institucional: detalhes de curadoria interna usados para consolidar contatos não podem aparecer na interface.
 12. Não publicar na página frases como "o diagnóstico registrou", "a resposta do diagnóstico informa", referências a respostas internas, nomes de servidores designados ou observações equivalentes; isso deve ficar apenas na documentação de apoio.
 13. Os títulos da primeira seção das subpáginas temáticas foram simplificados por decisão editorial para `Renospen`, `O Plano` e `A Revista`, substituindo o rótulo genérico `Escopo desta subpágina`.
-14. A subpágina da Renospen passou a incluir a seção `VI Encontro Nacional das Ouvidorias do Sistema Penal` logo abaixo de `Governança e cooperação técnica`, com três banners em sequência: `Banner_Renospen_1.jpeg` em destaque e `Banner_Renospen_2.jpeg` e `Banner_Renospen_3.jpeg` abaixo.
+14. A subpágina da Renospen passou a incluir a seção `VI Encontro Nacional das Ouvidorias do Sistema Penal` logo abaixo de `Mapa interativo e destaque por UF`, com três banners em sequência: `Banner_Renospen_1.jpeg` em destaque e `Banner_Renospen_2.jpeg` e `Banner_Renospen_3.jpeg` abaixo.
 
 ## Redações recomendadas
 
