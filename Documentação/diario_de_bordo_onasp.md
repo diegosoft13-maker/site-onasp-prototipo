@@ -129,13 +129,14 @@ Divergências observadas:
 5. A prévia usa uma versão recortada em `prototipo-dicom-onasp/assets/qrcode-whatsapp-cortado.png` para melhorar apresentação local.
 6. A redação da Rede de Ouvidorias foi ajustada para linguagem institucional neutra.
 7. O card deve usar "Plano Pena Justa", não "Programa Pena Justa".
-8. O card da Ema deve manter o acrônimo visível, preferencialmente "Ema - SIDH".
+8. O card da Ema deve manter a identificação institucional visível como `EMA - SENAPPEN`.
 9. Links de imagem devem ter link textual próximo quando possível, para acessibilidade.
 10. O currículo do Ouvidor deve seguir para "Quem é Quem", conforme orientação da DCOM, não para a página principal.
 11. A Rede de Ouvidorias deve permanecer estritamente pública e institucional: detalhes de curadoria interna usados para consolidar contatos não podem aparecer na interface.
 12. Não publicar na página frases como "o diagnóstico registrou", "a resposta do diagnóstico informa", referências a respostas internas, nomes de servidores designados ou observações equivalentes; isso deve ficar apenas na documentação de apoio.
 13. Os títulos da primeira seção das subpáginas temáticas foram simplificados por decisão editorial para `Renospen`, `O Plano` e `A Revista`, substituindo o rótulo genérico `Escopo desta subpágina`.
 14. A subpágina da Renospen passou a incluir a seção `VI Encontro Nacional das Ouvidorias do Sistema Penal` logo abaixo de `Mapa interativo e destaque por UF`, com três banners em sequência: `Banner_Renospen_1.jpeg` em destaque e `Banner_Renospen_2.jpeg` e `Banner_Renospen_3.jpeg` abaixo.
+15. Foi criada a minuta operacional `Documentação/minuta_atualizacao_sei_e_encaminhamento_dicom.md` para apoiar a atualização do Processo SEI e o encaminhamento consolidado das instruções e anexos à DICOM, com checklist final de conferência.
 
 ## Redações recomendadas
 
@@ -151,11 +152,11 @@ Uso recomendado: texto rico logo após o subtítulo da página, antes dos blocos
 
 Motivo: preserva a finalidade da Rede sem expressões potencialmente sensíveis como "combate a irregularidades" e "eliminar isolamento".
 
-### Ema - SIDH
+### EMA - SENAPPEN
 
 Título curto recomendado:
 
-> Ema - SIDH
+> EMA - SENAPPEN
 
 Descrição:
 
@@ -207,6 +208,7 @@ Texto sugerido para encaminhamento:
 - `Documentação/inventario_estrutura_govbr_senappen.md`: inventário técnico da estrutura Plone/gov.br observada no HTML publicado.
 - `Documentação/comparativo_nota_tecnica_vs_pagina_dicom.md`: lista do que a DCOM deixou de incluir e das diferenças textuais em relação às Notas Técnicas 9 e 10.
 - `Documentação/apontamentos_divergencias_notas_tecnicas_dcom.md`: versão formal dos apontamentos para subsidiar ofício de correção à DCOM.
+- `Documentação/minuta_atualizacao_sei_e_encaminhamento_dicom.md`: minuta operacional pronta para atualização do Processo SEI e encaminhamento à DICOM.
 - `Documentação/modelo_dados_canonico_cdm.md`: Modelo de Dados Canônico criado para reaproveitamento em projetos futuros.
 - `Documentação/boas_praticas_para_outros_projetos.md`: base de boas práticas usada para orientar o CDM.
 - `Documentação/QRcode_Whatsapp.png`: QR Code oficial recebido.
