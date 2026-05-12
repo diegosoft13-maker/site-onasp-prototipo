@@ -308,7 +308,7 @@ Mapa interativo e destaque por UF
 
 Texto para colar:
 
-Esta prévia passou a reunir, em um único ponto, os contatos informados pelas unidades da federação no Diagnóstico de Ouvidorias Estaduais. No ambiente de validação local, a consulta foi organizada por meio de um mapa visual com seleção por UF e painel lateral com dados resumidos da ouvidoria correspondente ou, quando cabível, das referências institucionais associadas à mesma unidade da federação.
+Esta prévia reúne, em um único ponto, os contatos institucionais consolidados das unidades da federação. No ambiente de validação local, a consulta foi organizada por meio de um mapa visual com seleção por UF e painel lateral com dados resumidos da ouvidoria correspondente ou, quando cabível, das referências institucionais associadas à mesma unidade da federação.
 
 Orientação para publicação oficial:
 
@@ -316,7 +316,11 @@ No ambiente gov.br, recomenda-se tratar o mapa interativo apenas como referênci
 
 Quando a mesma UF tiver mais de uma referência institucional relevante, como ocorre no Espírito Santo, recomenda-se separar as informações em blocos independentes dentro do quadro lateral ou em linhas distintas no quadro textual, evitando misturar órgãos, responsáveis, telefones e endereços em uma única ficha.
 
-Fonte sugerida:
+Regra editorial obrigatória:
+
+Detalhes de curadoria usados para consolidar os contatos devem permanecer apenas na documentação interna de trabalho. Não publicar na página expressões como "o diagnóstico registrou", "a resposta do diagnóstico informa", menções a respostas recebidas, observações internas de validação ou listas nominais de servidores designados.
+
+Base interna de consolidação (não publicar na página):
 
 Diagnóstico de Ouvidorias Estaduais, consolidado pela ONASP a partir das respostas recebidas em 2026.
 
@@ -346,7 +350,7 @@ Tabela sugerida:
 | MG | Minas Gerais | penitenciario@ouvidoriageral.mg.gov.br | (31) 3915-2048 | (31) 3915-2022 | Sem uso do Fala.BR. |
 | MS | Mato Grosso do Sul | ouvidoria@agepen.ms.gov.br | (67) 3901-3523 | (67) 99971-4323 | Fala.BR como canal principal. |
 | MT | Mato Grosso | ouvidoriaoesp@sejus.mt.gov.br | 6581300380 | +556581300380 | Fala.BR como canal principal. |
-| PA | Pará | ouvidoriapasieds@gmail.com | 91 988835867 | 91 988835867 | Destaque para o contato informado pela SIEDS; outra resposta do diagnóstico apontou ausência de ouvidoria constituída na SEAP/PA. |
+| PA | Pará | ouvidoriapasieds@gmail.com | 91 988835867 | 91 988835867 | Contato institucional consolidado para consulta pública. |
 | PB | Paraíba | ouvidoria@seap.pb.gov.br | 83 99121-7665 | 83 99121-7665 | Sem uso do Fala.BR. |
 | PE | Pernambuco | ouvidoria@seap.pe.gov.br | 81- 3184 2219 | 81 - 9 8491 6545 | Sem uso do Fala.BR. |
 | PI | Piauí | ouvidoria@sejus.pi.gov.br | 86 99488-8133 | Não informado | Fala.BR como canal principal. |

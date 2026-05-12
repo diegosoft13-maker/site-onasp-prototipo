@@ -392,7 +392,6 @@
         ES: {
           state: "Espírito Santo",
           region: "Sudeste",
-          panelNote: "O Espírito Santo apresenta duas referências institucionais nesta consulta: a ouvidoria da Polícia Penal/ES e a referência da SEJUS/ES no Sistema Integrado de Ouvidoria do Estado.",
           entries: [
             {
               titulo: "Polícia Penal do Espírito Santo",
@@ -748,7 +747,6 @@
 
       function renderEntryCard(entry) {
         const title = normalizeField('titulo', entry.titulo);
-        const note = normalizeField('observacao', entry.observacao);
 
         return (
           '<section class="ouvidoria-state-entry">' +
@@ -761,17 +759,8 @@
           renderField('WhatsApp / aplicativo', 'whatsapp', entry.whatsapp, false) +
           renderField('Endereço', 'endereco', entry.endereco, false) +
           '</dl>' +
-          (note ? '<p class="ouvidoria-state-note">' + escapeHtml(note) + '</p>' : '') +
           '</section>'
         );
-      }
-
-      function renderEntrySummary(count) {
-        if (count <= 1) {
-          return '';
-        }
-
-        return '<p class="ouvidoria-state-multi-caption">' + escapeHtml(String(count)) + ' referências institucionais registradas para esta UF.</p>';
       }
 
       function syncSelection(uf) {
@@ -796,7 +785,6 @@
           return;
         }
 
-        const stateNote = normalizeField('panelNote', entry.panelNote);
         const stateEntries = Array.isArray(entry.entries) && entry.entries.length ? entry.entries : [entry];
 
         statePanel.innerHTML =
@@ -804,8 +792,6 @@
           '<h3>' + escapeHtml(entry.state) + ' (' + escapeHtml(uf) + ')</h3>' +
           '<span class="ouvidoria-region-chip ' + regionClassMap[entry.region] + '">' + escapeHtml(entry.region) + '</span>' +
           '</div>' +
-          (stateNote ? '<p class="ouvidoria-state-note">' + escapeHtml(stateNote) + '</p>' : '') +
-          renderEntrySummary(stateEntries.length) +
           stateEntries.map(renderEntryCard).join('');
 
         stateSelect.value = uf;

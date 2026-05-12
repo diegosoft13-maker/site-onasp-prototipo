@@ -132,6 +132,8 @@ Divergências observadas:
 8. O card da Ema deve manter o acrônimo visível, preferencialmente "Ema - SIDH".
 9. Links de imagem devem ter link textual próximo quando possível, para acessibilidade.
 10. O currículo do Ouvidor deve seguir para "Quem é Quem", conforme orientação da DCOM, não para a página principal.
+11. A Rede de Ouvidorias deve permanecer estritamente pública e institucional: detalhes de curadoria interna usados para consolidar contatos não podem aparecer na interface.
+12. Não publicar na página frases como "o diagnóstico registrou", "a resposta do diagnóstico informa", referências a respostas internas, nomes de servidores designados ou observações equivalentes; isso deve ficar apenas na documentação de apoio.
 
 ## Redações recomendadas
 
