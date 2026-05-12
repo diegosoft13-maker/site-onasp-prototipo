@@ -134,6 +134,7 @@ Divergências observadas:
 10. O currículo do Ouvidor deve seguir para "Quem é Quem", conforme orientação da DCOM, não para a página principal.
 11. A Rede de Ouvidorias deve permanecer estritamente pública e institucional: detalhes de curadoria interna usados para consolidar contatos não podem aparecer na interface.
 12. Não publicar na página frases como "o diagnóstico registrou", "a resposta do diagnóstico informa", referências a respostas internas, nomes de servidores designados ou observações equivalentes; isso deve ficar apenas na documentação de apoio.
+13. Os títulos da primeira seção das subpáginas temáticas foram simplificados por decisão editorial para `Renospen`, `O Plano` e `A Revista`, substituindo o rótulo genérico `Escopo desta subpágina`.
 
 ## Redações recomendadas
 
@@ -272,6 +273,7 @@ Preparar um despacho/mensagem final para a DCOM com:
 
 - Ajuste aplicado em `prototipo-dicom-onasp/subpaginas/ema-sidh.html`: o título da seção foi normalizado para `Institucional` e o banner `Documentação/Banner_Ema_Organograma.png` foi inserido logo abaixo do título.
 - Ajuste aplicado em `prototipo-dicom-onasp/subpaginas/revista-brasileira-execucao-penal.html`: o bloco `Dossiê e atualizações em destaque` foi removido da versão local.
+- Ajuste aplicado em `prototipo-dicom-onasp/subpaginas/rede-ouvidorias.html`, `prototipo-dicom-onasp/subpaginas/plano-pena-justa.html` e `prototipo-dicom-onasp/subpaginas/revista-brasileira-execucao-penal.html`: o primeiro título seccional foi renomeado, respectivamente, para `Renospen`, `O Plano` e `A Revista`.
 - Validação local concluída em 2026-05-12: VS Code não apontou erros em `prototipo-dicom-onasp/index.html`, `prototipo-dicom-onasp/styles.css`, `prototipo-dicom-onasp/subpaginas/ema-sidh.html` e `prototipo-dicom-onasp/subpaginas/revista-brasileira-execucao-penal.html`.
 - Checagem adicional com PowerShell confirmou que todos os `src` e `href` internos dos HTML em `prototipo-dicom-onasp/` resolvem para arquivos existentes quando lidos em UTF-8 e com decodificação de URL.
 - Limite desta validação: links externos, iframes remotos e o comportamento final no ambiente gov.br/DCOM não foram revalidados neste ciclo.

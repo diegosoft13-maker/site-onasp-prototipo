@@ -271,7 +271,7 @@ Iniciativa do Plano Pena Justa voltada à cooperação federativa, à harmoniza�
 
 Seção:
 
-Escopo desta subpágina
+Renospen
 
 Texto para colar:
 
@@ -539,7 +539,7 @@ Ambiente dedicado ao Plano Pena Justa, com informações gerais, documentos púb
 
 Seção:
 
-Escopo desta subpágina
+O Plano
 
 Texto para colar:
 
@@ -651,7 +651,7 @@ Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Re
 
 Seção:
 
-Escopo desta subpágina
+A Revista
 
 Texto para colar:
 
