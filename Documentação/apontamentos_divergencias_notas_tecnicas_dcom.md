@@ -1,6 +1,6 @@
 # Apontamentos de divergências entre Notas Técnicas e página publicada pela DCOM
 
-Data: 2026-05-07
+Data: 2026-05-12
 
 ## Finalidade
 
@@ -22,9 +22,9 @@ A página publicada contempla parte da estrutura solicitada, mas ainda apresenta
 
 - O QR Code oficial do chatbot não foi incluído na página publicada.
 - O bloco antigo de contato permaneceu abaixo do banner de canais, gerando duplicidade e conflito de informação.
-- O card e a subpágina da Ema foram publicados como Sistema Interamericano de Direitos Humanos, sem o acrônimo Ema solicitado.
+- O card e a subpágina da EMA foram publicados como Sistema Interamericano de Direitos Humanos, sem a identificação institucional consolidada `EMA - SENAPPEN`.
 - O texto da Revista Brasileira de Execução Penal perdeu as menções institucionais à Espen, à DCOM e à Onasp.
-- As subpáginas foram criadas, mas permanecem com conteúdo mínimo e mensagem de pasta vazia.
+- As subpáginas foram criadas, mas permanecem com conteúdo mínimo e mensagem de pasta vazia, embora o pacote editorial atualizado já esteja consolidado para envio.
 - Há diferenças textuais na seção institucional, em Tipos de Manifestação, no Plano de Metas, no Relatório de Gestão e no Painel de Tratamento de Demandas.
 - O bloco de Relatórios de Gestão pode ser apresentado em grade de anos, nos moldes da página de referência do MPO, desde que os links oficiais de cada ano sejam informados pela área responsável.
 
@@ -34,9 +34,9 @@ A página publicada contempla parte da estrutura solicitada, mas ainda apresenta
 | --- | --- | --- | --- |
 | QR Code do chatbot | Inserir QR Code oficial do atendimento automatizado por WhatsApp. | Não foi localizado QR Code na página publicada. | Inserir o QR Code em tamanho discreto, preferencialmente ao lado direito do banner de Canais de Atendimento ou logo abaixo dele em bloco compacto. |
 | Bloco antigo de contato | Substituir os botões/blocos antigos pelo novo banner de canais. | O banner foi inserido, mas o bloco antigo de Contato permaneceu. | Remover o bloco antigo para evitar duplicidade de canais, conflito de telefone e excesso visual. |
-| Ema | Usar a identificação Ema, vinculada à Equipe de Monitoramento e Acompanhamento das decisões do SIDH. | Publicado como Sistema Interamericano de Direitos Humanos. | Renomear para Ema - SIDH ou para o título completo com Ema visível. |
+| Ema | Usar a identificação Ema, vinculada à Equipe de Monitoramento e Acompanhamento das decisões do SIDH. | Publicado como Sistema Interamericano de Direitos Humanos. | Padronizar como `EMA - SENAPPEN`, mantendo a referência ao SIDH na descrição. |
 | Revista Brasileira de Execução Penal | Texto com menção a Espen, DCOM e Onasp. | Texto publicado omitiu essas menções. | Restaurar a redação institucional solicitada. |
-| Subpáginas | Criar páginas temáticas com aprofundamento. | Páginas criadas com conteúdo mínimo e mensagem Atualmente não existem itens nessa pasta. | Preencher as subpáginas com conteúdo oficial ou remover a mensagem de pasta vazia. |
+| Subpáginas | Criar páginas temáticas com aprofundamento. | Páginas criadas com conteúdo mínimo e mensagem Atualmente não existem itens nessa pasta. | Preencher as subpáginas com o pacote editorial consolidado em `Documentação/estrutura_completa_pagina_onasp_para_dicom.md` e remover a mensagem de pasta vazia. |
 | Relatórios de Gestão | Disponibilizar acesso aos relatórios. | Link simples para Relatórios de Gestão. | Considerar grade de anos como no MPO, usando links oficiais por exercício. |
 
 ## Quadro 2 - Diferenças textuais observadas
@@ -65,13 +65,13 @@ A página publicada contempla parte da estrutura solicitada, mas ainda apresenta
 
 1. Inserir o QR Code oficial do chatbot na seção de Canais de Atendimento, em tamanho discreto e junto ao banner.
 2. Remover o bloco antigo de Contato que permaneceu após o banner de Canais de Atendimento.
-3. Ajustar o card e a subpágina para Ema - SIDH, mantendo visível o acrônimo Ema.
+3. Ajustar o card e a subpágina para `EMA - SENAPPEN`, mantendo a referência ao SIDH na descrição.
 4. Restaurar o texto da Revista Brasileira de Execução Penal com menção à Espen, à DCOM e à Onasp.
 5. Ajustar a redação do Plano de Metas para a Onasp apresenta seu Plano de Metas.
 6. Ajustar a redação do Relatório de Gestão para da ONASP à sociedade.
 7. Corrigir o título do Painel para Ouvidoria Nacional de Serviços Penais.
 8. Reinserir Onasp/Senappen no texto de Tipos de Manifestação, caso se busque aderência literal à Nota Técnica.
-9. Preencher as quatro subpáginas temáticas ou retirar a mensagem Atualmente não existem itens nessa pasta.
+9. Preencher as quatro subpáginas temáticas com o pacote editorial consolidado ou retirar a mensagem Atualmente não existem itens nessa pasta.
 10. Adotar, se possível, grade de links por ano para Relatórios de Gestão, inspirada no padrão do MPO e usando apenas links oficiais existentes.
 
 ## Observação sobre Programa Pena Justa e Plano Pena Justa
@@ -80,4 +80,4 @@ As Notas Técnicas 9 e 10 extraídas mencionam Programa Pena Justa. Entretanto, 
 
 ## Encaminhamento proposto
 
-Recomenda-se encaminhar à DCOM um pedido de ajuste pontual, com anexação deste quadro de apontamentos, destacando que as correções propostas não exigem desenvolvimento novo e podem ser executadas com os componentes já disponíveis no gov.br/Plone: texto rico, imagem linkada, card/link de subpágina, iframe e links simples.
+Recomenda-se encaminhar à DCOM um pedido de ajuste pontual, com anexação deste quadro de apontamentos e do pacote editorial consolidado em `Documentação/estrutura_completa_pagina_onasp_para_dicom.md`, destacando que as correções propostas não exigem desenvolvimento novo e podem ser executadas com os componentes já disponíveis no gov.br/Plone: texto rico, imagem linkada, card/link de subpágina, iframe e links simples.

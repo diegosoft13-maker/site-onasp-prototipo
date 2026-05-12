@@ -14,6 +14,16 @@ Este diretório contém uma prévia estática da ordem e do conteúdo desejados 
 
 Abra `index.html` no navegador. O arquivo é apenas uma prévia local.
 
+## Status desta versão
+
+Snapshot validado em 2026-05-12.
+
+- Subpágina da EMA revisada com o título da seção `Institucional` em capitalização normal e com o banner `Banner_Ema_Organograma.png` inserido abaixo do título.
+- Subpágina da Revista revisada com remoção do bloco `Dossiê e atualizações em destaque`, conforme solicitação editorial.
+- VS Code não apontou erros em `index.html`, `styles.css`, `subpaginas/ema-sidh.html` e `subpaginas/revista-brasileira-execucao-penal.html`.
+- Validação local adicional confirmou que todos os `src` e `href` internos dos HTML em `prototipo-dicom-onasp/` resolvem para arquivos existentes.
+- Esta validação cobre a prévia estática local. Links externos, embeds remotos e o comportamento final no ambiente gov.br/DCOM continuam dependentes da publicação real.
+
 ## Referências
 
 - Página publicada da ONASP: <https://www.gov.br/senappen/pt-br/acesso-a-informacao/participacao-social/ouvidoria>
@@ -35,6 +45,6 @@ Abra `index.html` no navegador. O arquivo é apenas uma prévia local.
 - Publicar o QR Code oficial localizado em `../Documentação/QRcode_Whatsapp.png`, sem usar placeholder visual como publicação final.
 - A prévia principal já usa os botões fiéis salvos em `../Documentação/Botao_Renospen.png`, `../Documentação/Botao_EMA.png`, `../Documentação/Botao_PenaJusta.png` e `../Documentação/Botao_RevistaBrasileira.png`.
 - As subpáginas locais também passaram a usar essas imagens em um cabeçalho visual simples, para manter coerência entre card e página temática.
-- Validar conteúdo final das quatro subpáginas.
+- Revalidar conteúdo editorial final das quatro subpáginas antes do envio à DCOM.
 - Confirmar se o link dos relatórios deve apontar para PDF direto ou página agregadora.
 - Validar acessibilidade dos banners ricos em texto e iframes no ambiente gov.br.

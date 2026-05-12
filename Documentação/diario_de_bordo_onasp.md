@@ -1,6 +1,6 @@
 # Diário de bordo ONASP/DCOM
 
-Data de atualização: 2026-05-07
+Data de atualização: 2026-05-12
 
 ## Objetivo deste diário
 
@@ -265,3 +265,12 @@ Preparar um despacho/mensagem final para a DCOM com:
 - arquivos anexos: QR Code, banners e textos revisados;
 - justificativa curta de governança e acessibilidade;
 - pedido explícito para manter a publicação dentro da caixa gov.br/SENAPPEN.
+
+## Fechamento parcial em 2026-05-12
+
+- Ajuste aplicado em `prototipo-dicom-onasp/subpaginas/ema-sidh.html`: o título da seção foi normalizado para `Institucional` e o banner `Documentação/Banner_Ema_Organograma.png` foi inserido logo abaixo do título.
+- Ajuste aplicado em `prototipo-dicom-onasp/subpaginas/revista-brasileira-execucao-penal.html`: o bloco `Dossiê e atualizações em destaque` foi removido da versão local.
+- Validação local concluída em 2026-05-12: VS Code não apontou erros em `prototipo-dicom-onasp/index.html`, `prototipo-dicom-onasp/styles.css`, `prototipo-dicom-onasp/subpaginas/ema-sidh.html` e `prototipo-dicom-onasp/subpaginas/revista-brasileira-execucao-penal.html`.
+- Checagem adicional com PowerShell confirmou que todos os `src` e `href` internos dos HTML em `prototipo-dicom-onasp/` resolvem para arquivos existentes quando lidos em UTF-8 e com decodificação de URL.
+- Limite desta validação: links externos, iframes remotos e o comportamento final no ambiente gov.br/DCOM não foram revalidados neste ciclo.
+- Observação para retomada: o `git status` desta pasta continha também alterações não relacionadas em arquivos de `Documentação/`; elas não foram revertidas nem incorporadas a esta revisão.
