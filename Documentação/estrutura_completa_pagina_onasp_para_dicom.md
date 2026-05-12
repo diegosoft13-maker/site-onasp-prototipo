@@ -1,5 +1,7 @@
 # Estrutura completa para publicação da página da ONASP
 
+Data de atualização: 2026-05-12
+
 Documento de apoio para a DCOM reproduzir, no ambiente oficial gov.br/SENAPPEN, a estrutura da prévia criada para a página da Ouvidoria Nacional de Serviços Penais e suas subpáginas temáticas.
 
 ## Orientação inicial para a DCOM
@@ -87,7 +89,7 @@ https://falabr.cgu.gov.br
 
 Observação:
 
-Se a DCOM for inserir o QR Code do chatbot em bloco separado, utilizar o arquivo Documentação/QRcode_Whatsapp.png junto à seção de canais de atendimento.
+Inserir o QR Code oficial do chatbot na própria seção de canais de atendimento, em bloco compacto com legenda curta, utilizando o arquivo Documentação/QRcode_Whatsapp.png.
 
 ### Bloco 5 - Mapa de Localização
 
@@ -139,11 +141,11 @@ Card 2:
 
 Título:
 
-Ema - SIDH
+EMA - SENAPPEN
 
 Descrição:
 
-Espaço da Equipe de Monitoramento e Acompanhamento das decisões e deliberações do SIDH, dedicado a fortalecer o cumprimento das determinações do Sistema Interamericano de Direitos Humanos em face do sistema penal brasileiro.
+Espaço da Equipe de Monitoramento e Acompanhamento das decisões e deliberações do Sistema Interamericano de Direitos Humanos em face do sistema penal nacional, dedicado a fortalecer o cumprimento das determinações do SIDH em parceria com as Unidades Federativas.
 
 Imagem:
 
@@ -151,7 +153,7 @@ Documentação/Botao_EMA.png
 
 Destino:
 
-Subpágina Ema - SIDH
+Subpágina EMA - SENAPPEN
 
 Card 3:
 
@@ -231,7 +233,7 @@ Links por ano:
 
 Título da seção:
 
-Painel de Tratamento de Demandas da Ouvidoria Nacional dos Serviços Penais
+Painel de Tratamento de Demandas da Ouvidoria Nacional de Serviços Penais
 
 Texto para colar:
 
@@ -306,11 +308,13 @@ Mapa interativo e destaque por UF
 
 Texto para colar:
 
-Esta prévia passou a reunir, em um único ponto, os contatos informados pelas unidades da federação no Diagnóstico de Ouvidorias Estaduais. No ambiente de validação local, a consulta foi organizada por meio de um mapa visual com seleção por UF e painel lateral com dados resumidos da ouvidoria correspondente.
+Esta prévia passou a reunir, em um único ponto, os contatos informados pelas unidades da federação no Diagnóstico de Ouvidorias Estaduais. No ambiente de validação local, a consulta foi organizada por meio de um mapa visual com seleção por UF e painel lateral com dados resumidos da ouvidoria correspondente ou, quando cabível, das referências institucionais associadas à mesma unidade da federação.
 
 Orientação para publicação oficial:
 
 No ambiente gov.br, recomenda-se tratar o mapa interativo apenas como referência visual da prévia. A solução mais segura para publicação é manter um seletor simples por UF, um bloco expansível por estado ou, preferencialmente, o quadro textual de contatos apresentado abaixo, sem depender de JavaScript customizado.
+
+Quando a mesma UF tiver mais de uma referência institucional relevante, como ocorre no Espírito Santo, recomenda-se separar as informações em blocos independentes dentro do quadro lateral ou em linhas distintas no quadro textual, evitando misturar órgãos, responsáveis, telefones e endereços em uma única ficha.
 
 Fonte sugerida:
 
@@ -335,7 +339,8 @@ Tabela sugerida:
 | BA | Bahia | ouvidoria@seap.ba.gov.br | 7131187405 | Não informado | Sem uso do Fala.BR. |
 | CE | Ceará | ouvidoria@sap.ce.gov.br | 85 2018.2965 | 155 | Sem uso do Fala.BR. |
 | DF | Distrito Federal | ouvidoria@seape.df.gov.br | 61333359538 | Não informado | Sem uso do Fala.BR. |
-| ES | Espírito Santo | opp@pp.es.gov.br | (27) 99316-7687 | (27) 99316-7687 | Destaque para a Polícia Penal/ES; o diagnóstico também registrou arranjo integrado na SEJUS/ES. |
+| ES | Espírito Santo - Polícia Penal/ES | opp@pp.es.gov.br | (27) 99316-7687 | (27) 99316-7687 | Ouvidoria da Polícia Penal do Espírito Santo. |
+| ES | Espírito Santo - SEJUS/ES | ouvidoria@sejus.es.gov.br | 0800 022 1117 | Não informado | Referência vinculada ao Sistema Integrado de Ouvidoria e à Ouvidoria-Geral do Estado. |
 | GO | Goiás | ouvidoria.policiapenal@goias.gov.br | (62) 3270-8733 | Não informado | Sem uso do Fala.BR. |
 | MA | Maranhão | ouvpen@seap.ma.gov.br | (98) 99181-7012 | (98) 99181-7012 | Sem uso do Fala.BR. |
 | MG | Minas Gerais | penitenciario@ouvidoriageral.mg.gov.br | (31) 3915-2048 | (31) 3915-2022 | Sem uso do Fala.BR. |
@@ -370,11 +375,11 @@ Links:
 - Clique e acesse a Portaria nº 549/2026 - Renospen: Subpages/Pena_justa/SEI_35032761_Portaria_549.pdf
 - Clique e acesse o Plano Nacional Pena Justa: Subpages/Pena_justa/Plano_Nacional_Pena_Justa.pdf
 
-## Subpágina 2 - Ema - SIDH
+## Subpágina 2 - EMA - SENAPPEN
 
 Título da página:
 
-Ema - SIDH
+EMA - SENAPPEN
 
 Imagem de destaque:
 
@@ -382,7 +387,7 @@ Documentação/Botao_EMA.png
 
 Texto alternativo sugerido:
 
-Botão institucional da Ema - SIDH.
+Botão institucional da EMA - SENAPPEN.
 
 Identificador editorial:
 
@@ -390,30 +395,104 @@ Conteúdo Técnico e Projetos Estruturantes
 
 Texto de destaque:
 
-Espaço da Equipe de Monitoramento e Acompanhamento das decisões e deliberações do SIDH, dedicado a fortalecer o cumprimento das determinações do Sistema Interamericano de Direitos Humanos em face do sistema penal brasileiro.
+Espaço da Equipe de Monitoramento e Acompanhamento das decisões e deliberações do Sistema Interamericano de Direitos Humanos em face do sistema penal nacional, dedicado a fortalecer o cumprimento das determinações do SIDH em parceria com as Unidades Federativas.
 
 Seção:
 
-Escopo desta subpágina
+Institucional
+
+Imagem complementar opcional:
+
+Documentação/Banner_Ema_Organograma.png
+
+Texto alternativo sugerido:
+
+Organograma da EMA - SENAPPEN.
 
 Texto para colar:
 
-A Ema - SIDH corresponde ao espaço institucional dedicado ao monitoramento e ao acompanhamento das decisões e deliberações do Sistema Interamericano de Direitos Humanos com repercussão sobre o sistema penal brasileiro.
+A EMA-SENAPPEN foi instituída, inicialmente, pela Portaria GABSEC/SENAPPEN/MJSP Nº 350, de 13 de junho de 2024, em um esforço de integrar a Secretaria Nacional de Políticas Penais ao processo de cumprimento das decisões do SIDH, dado seu rol de competências, em especial, a previsão de prestar apoio técnico aos entes federativos quanto à implementação dos princípios e das regras da execução penal.
 
-A segunda linha do escopo:
+A segunda linha da seção:
 
-Considerando que o SIDH é estruturado, entre outros instrumentos e órgãos, pela Comissão Interamericana de Direitos Humanos (CIDH) e pela Corte Interamericana de Direitos Humanos (Corte IDH), esta subpágina organiza referências públicas úteis para a leitura qualificada dessa agenda no âmbito da Ouvidoria Nacional de Serviços Penais.
+A estrutura da EMA foi alterada em 2025, mediante as Portarias GABSEC/SENAPPEN/MJSP Nº 511, de 13 de outubro de 2025, e Portaria de Pessoal GABSEC/SENAPPEN/MJSP Nº 93, de 10 de março de 2026, as quais possuíam por objetivo o aprimoramento da sua composição institucional, conforme o organograma a seguir:
 
 Seção:
 
-Frentes de acompanhamento
+Frentes de Atuação
 
 Itens para colar:
 
-- Monitoramento de decisões, recomendações e deliberações do SIDH relacionadas ao sistema penal brasileiro.
-- Organização de referências públicas sobre os órgãos, normas e mecanismos do sistema interamericano.
-- Apoio à circulação de informações relevantes para o acompanhamento institucional da pauta.
-- Fortalecimento do diálogo entre proteção de direitos, transparência e governança no sistema penal.
+- Monitorar e acompanhar as estratégias adotadas pelo Estado Brasileiro para o cumprimento das decisões do SIDH em relação ao sistema penal.
+- Prevenir e evitar possíveis condenações.
+- Propagar a cultura de Direitos Humanos, fomentando a aplicação dos Tratados Internacionais sobre a matéria de Direito Penal pelos gestores do sistema penal nacional.
+- Fortalecer o diálogo entre a proteção de direitos e a governança no sistema penal.
+
+Texto complementar da seção:
+
+Cabe citar a aproximação institucional e a construção de diálogo com órgãos-chave desse processo de monitoramento, como o Ministério das Relações Exteriores, o Ministério dos Direitos Humanos e da Cidadania e o Conselho Nacional de Justiça.
+
+Seção:
+
+Atuação institucional em 2025
+
+Texto para colar:
+
+Em 2025, a EMA/Senappen intensificou o acompanhamento do Sistema Interamericano de Direitos Humanos com foco em decisões, deliberações e medidas com repercussão sobre o sistema penal brasileiro. A atuação combinou articulação interinstitucional, monitoramento técnico e apoio à consolidação de respostas coordenadas do Estado.
+
+A segunda linha da seção:
+
+Nesse período, a equipe ampliou sua participação em agendas voltadas ao acompanhamento de casos perante a Corte Interamericana de Direitos Humanos e ao fortalecimento de mecanismos permanentes de monitoramento no âmbito da política penal.
+
+Imagens complementares opcionais:
+
+- Documentação/Banner_Ema.jpg
+- Documentação/Banner_Ema_2.jpg
+
+Textos alternativos sugeridos:
+
+- Participantes reunidos em mesa de trabalho institucional acompanhada pela EMA - SENAPPEN.
+- Participantes posicionados em registro oficial de agenda institucional acompanhada pela EMA - SENAPPEN.
+
+Legendas sugeridas:
+
+- Reunião institucional acompanhada pela EMA - SENAPPEN.
+- Registro oficial de agenda institucional da EMA - SENAPPEN.
+
+Seção:
+
+Caso Pedrinhas
+
+Texto para colar:
+
+Em 21 de outubro de 2025, a EMA-SENAPPEN foi convocada a participar, juntamente a outros órgãos representantes do Estado Brasileiro, da audiência privada solicitada pela Corte Interamericana de Direitos Humanos sobre as Medidas Provisórias outorgadas no Caso do Complexo Penitenciário de São Luís, Maranhão (Caso Pedrinhas).
+
+A segunda linha da seção:
+
+Como desdobramento da audiência, a Equipe ficou responsável por coordenar uma mesa de trabalho voltada à elaboração de um plano de cumprimento conjunto, com foco no enfrentamento das fragilidades ainda identificadas no Caso.
+
+Subseção:
+
+Eixos priorizados
+
+Itens para colar:
+
+- Superlotação e ambiência no sistema prisional.
+- Dignidade e condições de custódia.
+- Acesso à justiça e prevenção à tortura.
+- Monitoramento, participação social e coordenação institucional.
+
+Subseção:
+
+Desdobramentos e articulação técnica
+
+Texto para colar:
+
+Entre novembro e dezembro de 2025, a EMA/Senappen contribuiu para a formalização da mesa de trabalho, participou de reuniões técnicas dedicadas aos eixos temáticos do caso e apoiou a preparação de visita técnica destinada a consolidar diagnósticos e orientar as próximas medidas.
+
+A segunda linha da subseção:
+
+No mesmo contexto, a equipe atuou de forma articulada com o Plano Pena Justa e acompanhou iniciativas voltadas à criação de instâncias permanentes de monitoramento e à padronização de fluxos para acompanhamento de casos internacionais com incidência sobre o sistema penal brasileiro.
 
 Seção:
 
@@ -589,24 +668,6 @@ A RBEP publica artigos, documentos inéditos, entrevistas, relatos de experiênc
 A segunda linha da seção:
 
 Os conteúdos são organizados em dossiês temáticos semestrais, e a revista recebeu qualificação A4 na classificação de periódicos Qualis Capes na avaliação do quadriênio 2021-2024.
-
-Seção:
-
-Dossiê e atualizações em destaque
-
-Texto para colar:
-
-Na página oficial da RBEP, a edição atualmente destacada é o volume 6, número 2 (2025), com o dossiê O Plano Pena Justa e o enfrentamento ao Estado de Coisas Inconstitucional nas prisões, publicado em 29 de dezembro de 2025.
-
-A segunda linha da seção:
-
-O portal também reúne notícias editoriais recentes e chamadas públicas relacionadas aos próximos dossiês temáticos da revista.
-
-Links:
-
-- Edição atual - v. 6 n. 2 (2025): https://rbepsenappen.mj.gov.br/index.php/RBEP/pt_BR/issue/view/22/58
-- Chamada pública para submissão de textos do dossiê temático do segundo semestre de 2026: https://rbepsenappen.mj.gov.br/index.php/RBEP/pt_BR/announcement/view/105
-- Debate acadêmico sobre o Plano Pena Justa e os desafios do sistema prisional brasileiro: https://rbepsenappen.mj.gov.br/index.php/RBEP/pt_BR/announcement/view/104
 
 Seção:
 

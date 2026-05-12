@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rede de Ouvidorias | Prévia gov.br/Plone</title>
-  <link rel="stylesheet" href="../styles.css?v=20260508h">
+  <link rel="stylesheet" href="../styles.css?v=20260512-es-subblocos">
 </head>
 <body>
   <main class="govbr-preview subpage-preview">
@@ -46,7 +46,7 @@
 
     <section aria-labelledby="rede-mapa-contatos">
       <h2 id="rede-mapa-contatos">Mapa interativo e destaque por UF</h2>
-      <p>Esta prévia passa a reunir, em um único ponto, os contatos informados pelas unidades da federação no Diagnóstico de Ouvidorias Estaduais. Clique em uma UF no mapa ou selecione o estado na lista para abrir o painel com os dados da ouvidoria correspondente.</p>
+      <p>Esta prévia passa a reunir, em um único ponto, os contatos informados pelas unidades da federação no Diagnóstico de Ouvidorias Estaduais. Clique em uma UF no mapa ou selecione o estado na lista para abrir o painel com os dados da ouvidoria correspondente ou, quando necessário, com mais de uma referência institucional associada à mesma UF.</p>
 
       <div class="ouvidoria-map-toolbar">
         <div class="ouvidoria-map-picker">
@@ -74,7 +74,7 @@
           <div class="ouvidoria-state-head">
             <h3>Selecione uma UF</h3>
           </div>
-          <p>O painel lateral exibe o órgão gestor, o responsável informado, os canais de contato e a observação federativa associada ao estado selecionado.</p>
+          <p>O painel lateral exibe o órgão gestor, o responsável informado, os canais de contato e, quando aplicável, mais de uma referência institucional associada ao estado selecionado.</p>
         </article>
       </div>
 
@@ -150,10 +150,17 @@
             </tr>
             <tr>
               <td>ES</td>
-              <td>Espírito Santo</td>
+              <td>Espírito Santo - Polícia Penal/ES</td>
               <td><a href="mailto:opp@pp.es.gov.br">opp@pp.es.gov.br</a></td>
               <td>(27) 99316-7687</td>
               <td>(27) 99316-7687</td>
+            </tr>
+            <tr>
+              <td>ES</td>
+              <td>Espírito Santo - SEJUS/ES</td>
+              <td><a href="mailto:ouvidoria@sejus.es.gov.br">ouvidoria@sejus.es.gov.br</a></td>
+              <td>0800 022 1117</td>
+              <td>Não informado</td>
             </tr>
             <tr>
               <td>GO</td>
@@ -385,12 +392,28 @@
         ES: {
           state: "Espírito Santo",
           region: "Sudeste",
-          orgao: "Secretaria de Estado da Justiça / Polícia Penal do Espírito Santo",
-          ouvidor: "Naihamar Souza Macedo (titular) / Vinícius Milholi Borges (substituto)",
-          email: "opp@pp.es.gov.br",
-          telefone: "(27) 99316-7687",
-          whatsapp: "(27) 99316-7687",
-          endereco: "Av. Mal. Campos, 495 - Vitória - ES, CEP 29042-755",
+          panelNote: "O diagnóstico registrou duas referências institucionais para o Espírito Santo: a ouvidoria da Polícia Penal/ES e o arranjo da SEJUS/ES vinculado ao Sistema Integrado de Ouvidoria do Estado.",
+          entries: [
+            {
+              titulo: "Polícia Penal do Espírito Santo",
+              orgao: "Secretaria de Estado da Justiça / Polícia Penal do Espírito Santo",
+              ouvidor: "Naihamar Souza Macedo (titular) / Vinícius Milholi Borges (substituto)",
+              email: "opp@pp.es.gov.br",
+              telefone: "(27) 99316-7687",
+              whatsapp: "(27) 99316-7687",
+              endereco: "Av. Mal. Campos, 495 - De Lourdes, Vitória - ES, CEP 29042-755"
+            },
+            {
+              titulo: "SEJUS/ES no Sistema Integrado de Ouvidoria",
+              orgao: "Secretaria de Estado da Justiça - SEJUS/ES",
+              ouvidor: "Kenia Bosser Fazolo Ton",
+              email: "ouvidoria@sejus.es.gov.br",
+              telefone: "0800 022 1117",
+              whatsapp: null,
+              endereco: "Edifício Aureliano Hoffman, 10º andar, Av. João Batista Parra, nº 600, Enseada do Suá, Vitória - ES, CEP 29050-375",
+              observacao: "A resposta do diagnóstico informa que a SEJUS/ES atua vinculada à Ouvidoria-Geral do Estado e ao Sistema Integrado de Ouvidoria, sem ouvidoria própria exclusiva. Servidores designados: Silvio Nespoli Dan, Lorrayne de Moraes Areal Loyola e Patricia Gomes da Costa Scarpe."
+            }
+          ],
           falaBr: "Não utiliza o Fala.BR"
         },
         GO: {
@@ -724,6 +747,34 @@
         );
       }
 
+      function renderEntryCard(entry) {
+        const title = normalizeField('titulo', entry.titulo);
+        const note = normalizeField('observacao', entry.observacao);
+
+        return (
+          '<section class="ouvidoria-state-entry">' +
+          (title ? '<h4 class="ouvidoria-state-subhead">' + escapeHtml(title) + '</h4>' : '') +
+          '<p class="ouvidoria-state-orgao">' + escapeHtml(entry.orgao) + '</p>' +
+          '<dl class="ouvidoria-state-details">' +
+          renderField('Ouvidor(a) / responsável', 'ouvidor', entry.ouvidor, false) +
+          renderField('E-mail institucional', 'email', entry.email, true) +
+          renderField('Telefone', 'telefone', entry.telefone, false) +
+          renderField('WhatsApp / aplicativo', 'whatsapp', entry.whatsapp, false) +
+          renderField('Endereço', 'endereco', entry.endereco, false) +
+          '</dl>' +
+          (note ? '<p class="ouvidoria-state-note">' + escapeHtml(note) + '</p>' : '') +
+          '</section>'
+        );
+      }
+
+      function renderEntrySummary(count) {
+        if (count <= 1) {
+          return '';
+        }
+
+        return '<p class="ouvidoria-state-multi-caption">' + escapeHtml(String(count)) + ' referências institucionais registradas para esta UF.</p>';
+      }
+
       function syncSelection(uf) {
         mapGrid.querySelectorAll(".ouvidoria-map-button").forEach(function (button) {
           const isActive = button.dataset.uf === uf;
@@ -735,7 +786,7 @@
       function resetPanel() {
         stateSelect.value = "";
         syncSelection(null);
-        statePanel.innerHTML = '<div class="ouvidoria-state-head"><h3>Selecione uma UF</h3></div><p>O painel lateral exibe o órgão gestor, o responsável informado e os canais de contato institucionais do estado selecionado.</p>';
+        statePanel.innerHTML = '<div class="ouvidoria-state-head"><h3>Selecione uma UF</h3></div><p>O painel lateral exibe o órgão gestor, os responsáveis informados e os canais de contato institucionais do estado selecionado.</p>';
       }
 
       function renderState(uf) {
@@ -746,19 +797,17 @@
           return;
         }
 
+        const stateNote = normalizeField('panelNote', entry.panelNote);
+        const stateEntries = Array.isArray(entry.entries) && entry.entries.length ? entry.entries : [entry];
+
         statePanel.innerHTML =
           '<div class="ouvidoria-state-head">' +
           '<h3>' + escapeHtml(entry.state) + ' (' + escapeHtml(uf) + ')</h3>' +
           '<span class="ouvidoria-region-chip ' + regionClassMap[entry.region] + '">' + escapeHtml(entry.region) + '</span>' +
           '</div>' +
-          '<p class="ouvidoria-state-orgao">' + escapeHtml(entry.orgao) + '</p>' +
-          '<dl class="ouvidoria-state-details">' +
-          renderField('Ouvidor(a) / responsável', 'ouvidor', entry.ouvidor, false) +
-          renderField('E-mail institucional', 'email', entry.email, true) +
-          renderField('Telefone', 'telefone', entry.telefone, false) +
-          renderField('WhatsApp / aplicativo', 'whatsapp', entry.whatsapp, false) +
-          renderField('Endereço', 'endereco', entry.endereco, false) +
-          '</dl>';
+          (stateNote ? '<p class="ouvidoria-state-note">' + escapeHtml(stateNote) + '</p>' : '') +
+          renderEntrySummary(stateEntries.length) +
+          stateEntries.map(renderEntryCard).join('');
 
         stateSelect.value = uf;
         syncSelection(uf);
