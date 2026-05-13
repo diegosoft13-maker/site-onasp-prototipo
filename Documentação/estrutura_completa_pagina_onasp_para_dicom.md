@@ -133,12 +133,6 @@ Texto para colar:
 
 João Vitor Elpídio Ferreira é Ouvidor Nacional de Serviços Penais, Coordenador-Executivo da Equipe de Monitoramento e Acompanhamento das Decisões do SIDH, Coordenador Executivo-Adjunto da Equipe de Assuntos Internacionais no âmbito da Senappen e Presidente do Grupo de Trabalho voltado à construção de um Manual de Classificação Técnica de Pessoas Privadas de Liberdade.
 
-Formação acadêmica e experiência resumidas:
-
-- Formação acadêmica: graduação em Direito pela Universidade Vila Velha (2004-2008) e especialização lato sensu em Direito Penal pelo Instituto Damásio de Direito (2017-2018).
-- Formação complementar: Programa Ouvidoria da ENAP (210h), Programa de Formação e Desenvolvimento de Líderes - Identidade Líder Senappen, curso de Diretoria de Inteligência com foco em organizações criminosas e capacitação em gerenciamento de projetos, além de participação no Fórum Brasileiro de Segurança Pública.
-- Experiência profissional: Ouvidor Nacional de Serviços Penais desde 2025; policial penal mobilizado na Assessoria Direta do Secretário Nacional de Políticas Penais entre 2024 e 2025; policial penal efetivo da Secretaria de Estado da Justiça do Espírito Santo desde 2015; professor em 2018; advogado entre 2009 e 2015; e assessor de Juiz de 1º Grau no Tribunal de Justiça do Espírito Santo entre 2005 e 2006.
-
 Link documental complementar:
 
 - Currículo completo em PDF: Documentação/Curriculo_Joao_vitor_elpidio_Ferreira.pdf

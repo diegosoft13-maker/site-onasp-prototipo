@@ -379,11 +379,9 @@ section {
 }
 
 .ouvidor-profile {
-  margin-top: 18px;
-  padding: 20px 22px;
-  border: 1px solid #d1d5db;
-  background: #ffffff;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  margin-top: 0;
+  padding: 18px 0 0;
+  border-top: 1px solid #d1d5db;
 }
 
 .ouvidor-profile h3 {
@@ -394,15 +392,6 @@ section {
   margin: 0 0 14px;
   color: #5b657a;
   font-weight: 700;
-}
-
-.ouvidor-curriculum-list {
-  margin: 14px 0 0;
-  padding-left: 20px;
-}
-
-.ouvidor-curriculum-list li + li {
-  margin-top: 8px;
 }
 
 #plano-metas {
