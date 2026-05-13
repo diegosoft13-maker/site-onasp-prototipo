@@ -320,24 +320,27 @@ section {
   text-decoration: underline;
 }
 
-.news-link-list {
-  margin: 18px 0 0;
-  padding-left: 22px;
+.content-link-list {
+  margin-top: 18px;
 }
 
-.news-link-list li {
-  text-align: left;
+.content-link-item {
+  margin: 0;
+  padding: 14px 0;
+  border-top: 1px solid #e5e7eb;
 }
 
-.news-link-list li + li {
-  margin-top: 12px;
+.content-link-list .content-link-item:first-child {
+  padding-top: 0;
+  border-top: 0;
 }
 
-.news-link-list a {
+.content-link-item a {
+  display: inline-block;
   font-weight: 700;
 }
 
-.news-meta {
+.content-link-meta {
   display: block;
   margin-top: 4px;
   color: #6b7280;

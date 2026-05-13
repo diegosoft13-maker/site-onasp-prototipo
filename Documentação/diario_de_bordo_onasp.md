@@ -194,9 +194,9 @@ Descrição:
 10. Conteúdo Técnico e Projetos Estruturantes: cards/links de subpágina.
 11. Plano de Metas 2026: texto + Banner 3.
 12. Relatório de Gestão: texto + link simples destacado.
-13. Notícias da Ouvidoria: lista simples de links do portal da SENAPPEN com relação direta à Onasp e à Rede de Ouvidorias.
+13. Notícias da Ouvidoria: blocos curtos sem marcadores, com link em destaque e descrição breve, usando apenas curadoria manual do portal da SENAPPEN.
 14. Painel de Tratamento de Demandas: texto + iframe Power BI.
-15. Legislação: links simples para os normativos basilares efetivamente disponíveis na pasta documental, abaixo do painel.
+15. Legislação: mesmos blocos curtos sem marcadores usados em Notícias, com link em destaque e descrição breve para os normativos basilares disponíveis na pasta documental.
 
 ## Pedido objetivo para a DCOM
 

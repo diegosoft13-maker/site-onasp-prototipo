@@ -33,9 +33,9 @@ Com base na página publicada analisada, a estrutura deve se limitar a component
 | 10 | Conteúdo Técnico e Projetos Estruturantes | Cards/links de subpágina disponíveis no gov.br | Criar quatro entradas: Rede de Ouvidorias, EMA - SENAPPEN, Plano Pena Justa e Revista Brasileira de Execução Penal. | Não inventar ícones se a caixa de ferramentas não oferecer. |
 | 11 | Plano de Metas 2026 | Texto rico + imagem/banner | Inserir texto introdutório da Nota Técnica 9 e Banner 3. | Manter redação com "Onasp apresenta" para fidelidade documental. |
 | 12 | Relatório de Gestão | Texto rico + link simples destacado | Atualizar texto e usar link "Acessar Relatórios de Gestão (PDF)" se o destino for PDF. | Se o destino for página agregadora, registrar decisão de manter sem "PDF". |
-| 13 | Notícias da Ouvidoria | Texto rico + lista simples de links | Inserir, acima do painel, uma curadoria manual de notícias do portal da SENAPPEN com relação direta à Onasp, à Rede de Ouvidorias e aos canais de atendimento. | Não pedir feed dinâmico, integração automática ou componente próprio de notícias. |
+| 13 | Notícias da Ouvidoria | Texto rico com blocos curtos de link + descrição | Inserir, acima do painel, uma curadoria manual de notícias do portal da SENAPPEN com relação direta à Onasp, à Rede de Ouvidorias e aos canais de atendimento. | Publicar sem marcadores e sem feed dinâmico: apenas link em destaque e descrição breve logo abaixo. |
 | 14 | Painel de Tratamento de Demandas | Texto rico + iframe Power BI | Manter iframe e substituir texto antigo pelo texto da Nota Técnica 9. | Solicitar título acessível no iframe se possível. |
-| 15 | Legislação | Texto rico + links simples para PDF | Inserir, abaixo do painel, a lista dos normativos basilares efetivamente disponíveis na pasta `Documentação/Normativas Basilares de Ouvidoria`. | Não listar documento que ainda não esteja no pacote encaminhado. |
+| 15 | Legislação | Texto rico com blocos curtos de link + descrição | Inserir, abaixo do painel, a lista dos normativos basilares efetivamente disponíveis na pasta `Documentação/Normativas Basilares de Ouvidoria`. | Usar o mesmo padrão visual das notícias e não listar documento que ainda não esteja no pacote encaminhado. |
 
 ## Subpáginas
 

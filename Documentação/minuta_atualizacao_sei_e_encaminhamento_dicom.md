@@ -30,8 +30,8 @@ As correções e consolidações mais recentes contemplam:
 - remoção, nos rodapés visíveis da Renospen, dos textos `registro 1`, `registro 2` e `registro 3`;
 - consolidação, na subpágina `EMA - SENAPPEN`, da seção institucional com organograma, da seção `Decisões do SIDH`, do bloco de curso vinculado ao Caso Pedrinhas e da restauração dos links da seção de referências públicas;
 - inclusão, na homepage, de um bloco horizontal de contato resumido abaixo do mapa de localização e, abaixo dele, do `Currículo do Ouvidor`, com link para o PDF institucional correspondente;
-- inclusão, na homepage, da seção `Notícias da Ouvidoria` acima do painel, com curadoria manual de links do portal da SENAPPEN relacionados à Onasp, à Rede de Ouvidorias e aos canais de atendimento;
-- inclusão, na homepage, da seção `Legislação` abaixo do painel de tratamento de demandas, com links simples para os normativos basilares atualmente disponíveis na pasta documental correspondente;
+- inclusão, na homepage, da seção `Notícias da Ouvidoria` acima do painel, com curadoria manual de links do portal da SENAPPEN relacionados à Onasp, à Rede de Ouvidorias e aos canais de atendimento, em blocos curtos sem marcadores;
+- inclusão, na homepage, da seção `Legislação` abaixo do painel de tratamento de demandas, com os normativos basilares atualmente disponíveis na pasta documental correspondente, no mesmo padrão de blocos curtos sem marcadores;
 - simplificação editorial dos títulos iniciais das subpáginas para `Renospen`, `O Plano` e `A Revista`;
 - atualização da documentação estrutural e do artefato em DOCX que deve servir de peça principal para a DICOM.
 
@@ -66,8 +66,8 @@ Os documentos abaixo já estão prontos e organizados no workspace:
 - Usar as artes atualizadas `Banner_1_new.png`, `Banner_2_new.png` e `Banner_3_new.png`.
 - Inserir o QR Code oficial `QRcode_Whatsapp.png` na seção de canais de atendimento.
 - Inserir, abaixo do mapa de localização, um bloco horizontal de contato resumido com endereço, telefone e e-mail, seguido do `Currículo do Ouvidor` com link para `Curriculo_Joao_vitor_elpidio_Ferreira.pdf`.
-- Inserir, acima do painel de tratamento de demandas, a seção `Notícias da Ouvidoria` com links simples para notícias do portal da SENAPPEN selecionadas manualmente por pertinência com a Onasp.
-- Inserir, abaixo do painel de tratamento de demandas, a seção `Legislação` com os normativos basilares já disponíveis na pasta `Normativas Basilares de Ouvidoria`.
+- Inserir, acima do painel de tratamento de demandas, a seção `Notícias da Ouvidoria` com curadoria manual de notícias do portal da SENAPPEN, em blocos curtos sem marcadores, com link em destaque e descrição breve.
+- Inserir, abaixo do painel de tratamento de demandas, a seção `Legislação` com os normativos basilares já disponíveis na pasta `Normativas Basilares de Ouvidoria`, no mesmo padrão visual de blocos curtos sem marcadores.
 - Não tratar o HTML local como instrução de implementação; a publicação final deve ocorrer com componentes nativos do gov.br.
 
 ### Rede de Ouvidorias

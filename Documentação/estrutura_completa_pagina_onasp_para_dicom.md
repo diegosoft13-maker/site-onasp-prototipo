@@ -263,6 +263,10 @@ Texto introdutório sugerido:
 
 Seleção de notícias publicadas no portal da SENAPPEN com relação direta à ONASP, à Rede de Ouvidorias e aos canais de atendimento ao cidadão.
 
+Padrão visual recomendado para publicação:
+
+Usar texto rico com blocos curtos, sem marcadores: link principal em destaque e, logo abaixo, uma descrição breve com data e contexto.
+
 Lista de notícias sugerida:
 
 - 27/04/2026 - [18ª Reunião do CONSEJ: SENAPPEN reforça parceria com estados para o aprimoramento das políticas penais](https://www.gov.br/senappen/pt-br/assuntos/noticias/18a-reuniao-do-consej-senappen-reforca-parceria-com-estados-para-o-aprimoramento-das-politicas-penais)
@@ -275,10 +279,6 @@ Lista de notícias sugerida:
   Descrição: A notícia apresenta o fluxo de denúncias da ONASP e reforça os canais de atendimento e participação social.
 - 31/10/2025 - [Com foco em escuta qualificada, SENAPPEN amplia diálogo com ouvidorias de São Paulo e Goiás](https://www.gov.br/senappen/pt-br/assuntos/noticias/com-foco-em-escuta-qualificada-senappen-amplia-dialogo-com-ouvidorias-de-sao-paulo-e-goias)
   Descrição: A agenda fortaleceu a Rede Nacional de Ouvidorias e o intercâmbio de boas práticas com os estados.
-- 06/12/2024 - [SENAPPEN lança canal de comunicação via WhatsApp para facilitar o acesso a informações sobre o sistema de execução penal](https://www.gov.br/senappen/pt-br/assuntos/noticias/senappen-lanca-canal-de-comunicacao-via-whatsapp-para-facilitar-o-acesso-a-informacoes-sobre-o-sistema-de-execucao-penal)
-  Descrição: Lançamento do canal da ONASP no WhatsApp para tornar o atendimento mais ágil e acessível.
-- 25/07/2023 - [ONASP ministra treinamento para servidores do estado do RN](https://www.gov.br/senappen/pt-br/assuntos/noticias/onasp-ministra-treinamento-para-servidores-do-estado-do-rn)
-  Descrição: Capacitação com foco em ouvidoria para aprimorar o atendimento e os fluxos de manifestação no sistema penal.
 
 ### Bloco 11 - Painel de Tratamento de Demandas
 
@@ -307,6 +307,10 @@ Legislação
 Texto introdutório sugerido:
 
 Os normativos basilares abaixo reúnem referências atualmente disponíveis no pacote documental da Ouvidoria e podem ser publicados como links simples na homepage, abaixo do painel de tratamento de demandas.
+
+Padrão visual recomendado para publicação:
+
+Usar o mesmo padrão da seção de notícias: texto rico com blocos curtos, sem marcadores, apresentando link principal em destaque e descrição breve logo abaixo.
 
 Links a publicar:
 
