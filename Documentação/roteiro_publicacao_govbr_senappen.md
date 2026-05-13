@@ -46,7 +46,7 @@ As subpáginas devem ser simples, sem componentes customizados. A estrutura edit
 | Rede de Ouvidorias | Rede de Ouvidorias | Iniciativa do Plano Pena Justa voltada à cooperação federativa, à harmonização de procedimentos e ao fortalecimento da proteção de direitos no âmbito das Ouvidorias de Serviços Penais. |
 | Ema | EMA - SENAPPEN | Espaço da Equipe de Monitoramento e Acompanhamento das decisões e deliberações do Sistema Interamericano de Direitos Humanos em face do sistema penal nacional, dedicado a fortalecer o cumprimento das determinações do SIDH em parceria com as Unidades Federativas. |
 | Plano Pena Justa | Plano Pena Justa | Ambiente dedicado integralmente ao Plano, que disponibiliza o acesso a cronogramas, documentos técnicos e relatórios de acompanhamento. |
-| Revista Brasileira de Execução Penal | Revista Brasileira de Execução Penal | Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal e destaca conteúdos com interface com participação social, transparência e direitos no sistema penal. |
+| Revista Brasileira de Execução Penal | Revista Brasileira de Execução Penal | Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal. |
 
 ## Pontos que não devem ser enviados como requisito de implementação
 

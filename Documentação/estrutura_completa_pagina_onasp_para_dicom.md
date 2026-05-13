@@ -765,7 +765,7 @@ Conteúdo Técnico e Projetos Estruturantes
 
 Texto de destaque:
 
-Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal e destaca dossiês, notícias editoriais e conteúdos com interface com participação social, transparência e direitos no sistema penal.
+Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal.
 
 Seção:
 
