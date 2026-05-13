@@ -653,6 +653,12 @@ O Plano Pena Justa é o Plano Nacional para o Enfrentamento do Estado de Coisas 
 
 Na perspectiva da Ouvidoria Nacional de Serviços Penais, esta subpágina reúne referências públicas do Plano voltadas ao fortalecimento da participação social, da escuta qualificada e da articulação entre as ouvidorias dos serviços penais nos Estados e no Distrito Federal.
 
+Imagem institucional a inserir logo abaixo do texto introdutório:
+
+- Imagem: `Documentação/Banner_PenaJusta_f1.jpg`
+- Texto de apoio acima da imagem: O registro abaixo documenta agenda institucional relacionada ao Plano Pena Justa e evidencia a participação da Onasp nos espaços de apresentação e articulação vinculados à ADPF 347.
+- Texto de apoio abaixo da imagem: A presença dessa imagem reforça o caráter interinstitucional do Plano e a atuação da Ouvidoria em agendas de coordenação, acompanhamento e diálogo sobre a implementação das medidas pactuadas.
+
 Seção:
 
 Eixos de atuação
