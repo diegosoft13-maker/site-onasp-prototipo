@@ -194,15 +194,15 @@ Descrição:
 10. Conteúdo Técnico e Projetos Estruturantes: cards/links de subpágina.
 11. Plano de Metas 2026: texto + Banner 3.
 12. Relatório de Gestão: texto + link simples destacado.
-13. Notícias da Ouvidoria: blocos curtos sem marcadores, com link em destaque e descrição breve, usando apenas curadoria manual do portal da SENAPPEN.
-14. Painel de Tratamento de Demandas: texto + iframe Power BI.
-15. Legislação: mesmos blocos curtos sem marcadores usados em Notícias, com link em destaque e descrição breve para os normativos basilares disponíveis na pasta documental.
+13. Painel de Tratamento de Demandas: texto + iframe Power BI.
+14. Normativos: tabela editorial inspirada na ESPEN, com colunas `Título`, `Tipo` e `Descrição`, usando apenas os seis PDFs validados na pasta documental.
+15. Notícias da Ouvidoria: último bloco da homepage, em seis cards editoriais compactos com imagem, rubrica, título, resumo e data, usando apenas curadoria manual do portal da SENAPPEN.
 
 ## Pedido objetivo para a DCOM
 
 Texto sugerido para encaminhamento:
 
-> Solicito ajuste da página da ONASP mantendo exclusivamente os componentes disponíveis no gov.br/SENAPPEN. Pedimos substituir "Programa Pena Justa" por "Plano Pena Justa"; manter `EMA - SENAPPEN` visível no card do SIDH; substituir o texto da Rede de Ouvidorias pela redação institucional mais neutra encaminhada; inserir o QR Code oficial do chatbot na seção Canais de Atendimento, com legenda; manter abaixo do mapa um bloco de contato resumido com endereço, telefone e e-mail; incluir, abaixo desse bloco, o currículo do Ouvidor com resumo profissional e link para o PDF correspondente; incluir, acima do painel de tratamento de demandas, a seção `Notícias da Ouvidoria` com curadoria manual de links do portal da SENAPPEN ligados à Onasp, à Rede de Ouvidorias e aos canais de atendimento; incluir, abaixo do painel de tratamento de demandas, a seção `Legislação` com links simples para os normativos basilares efetivamente disponíveis no pacote documental; restaurar a menção "Em parceria com a Espen e a DCOM" no texto da Revista; e manter links textuais próximos às imagens clicáveis para melhorar acessibilidade. Não há solicitação de componente novo, JavaScript, biblioteca externa, botão customizado ou alteração fora da caixa de ferramentas do portal.
+> Solicito ajuste da página da ONASP mantendo exclusivamente os componentes disponíveis no gov.br/SENAPPEN. Pedimos substituir "Programa Pena Justa" por "Plano Pena Justa"; manter `EMA - SENAPPEN` visível no card do SIDH; substituir o texto da Rede de Ouvidorias pela redação institucional mais neutra encaminhada; inserir o QR Code oficial do chatbot na seção Canais de Atendimento, com legenda; manter abaixo do mapa um bloco de contato resumido com endereço, telefone e e-mail; incluir, abaixo desse bloco, o currículo do Ouvidor com resumo profissional e link para o PDF correspondente; manter o painel de tratamento de demandas; incluir, abaixo dele, a seção `Normativos` em formato de tabela editorial inspirada na ESPEN, apenas com os seis PDFs efetivamente disponíveis no pacote documental; mover a seção `Notícias da Ouvidoria` para o último bloco da homepage, em seis cards editoriais compactos com curadoria manual de links do portal da SENAPPEN ligados à Onasp, à Rede de Ouvidorias e aos canais de atendimento; restaurar a menção "Em parceria com a Espen e a DCOM" no texto da Revista; e manter links textuais próximos às imagens clicáveis para melhorar acessibilidade. Não há solicitação de componente novo, JavaScript, biblioteca externa, botão customizado ou alteração fora da caixa de ferramentas do portal.
 
 ## Arquivos principais do workspace
 
@@ -214,7 +214,7 @@ Texto sugerido para encaminhamento:
 - `Documentação/apontamentos_divergencias_notas_tecnicas_dcom.md`: versão formal dos apontamentos para subsidiar ofício de correção à DCOM.
 - `Documentação/minuta_atualizacao_sei_e_encaminhamento_dicom.md`: minuta operacional pronta para atualização do Processo SEI e encaminhamento à DICOM.
 - `Documentação/Curriculo_Joao_vitor_elpidio_Ferreira.pdf`: currículo completo do Ouvidor, agora referenciado na homepage.
-- `Documentação/Normativas Basilares de Ouvidoria/`: pasta com os PDFs atualmente usados na nova seção `Legislação` da homepage.
+- `Documentação/Normativas Basilares de Ouvidoria/`: pasta com os PDFs atualmente usados na nova seção `Normativos` da homepage.
 - `Documentação/modelo_dados_canonico_cdm.md`: Modelo de Dados Canônico criado para reaproveitamento em projetos futuros.
 - `Documentação/boas_praticas_para_outros_projetos.md`: base de boas práticas usada para orientar o CDM.
 - `Documentação/QRcode_Whatsapp.png`: QR Code oficial recebido.

@@ -253,34 +253,7 @@ Links por ano:
 - 2024: https://www.gov.br/senappen/pt-br/acesso-a-informacao/participacao-social/ouvidoria/relatorio-de-gestao-de-ouvidoria
 - 2023: https://www.gov.br/senappen/pt-br/acesso-a-informacao/participacao-social/ouvidoria/relatorio-de-gestao-de-ouvidoria
 
-### Bloco 10 - Notícias da Ouvidoria
-
-Título da seção:
-
-Notícias da Ouvidoria
-
-Texto introdutório sugerido:
-
-Seleção de notícias publicadas no portal da SENAPPEN com relação direta à ONASP, à Rede de Ouvidorias e aos canais de atendimento ao cidadão.
-
-Padrão visual recomendado para publicação:
-
-Usar texto rico com blocos curtos, sem marcadores: link principal em destaque e, logo abaixo, uma descrição breve com data e contexto.
-
-Lista de notícias sugerida:
-
-- 27/04/2026 - [18ª Reunião do CONSEJ: SENAPPEN reforça parceria com estados para o aprimoramento das políticas penais](https://www.gov.br/senappen/pt-br/assuntos/noticias/18a-reuniao-do-consej-senappen-reforca-parceria-com-estados-para-o-aprimoramento-das-politicas-penais)
-  Descrição: A pauta destacou a atuação da Ouvidoria e da EMA/SENAPPEN na articulação federativa.
-- 14/04/2026 - [SENAPPEN fomenta atuação da Ouvidoria da Polícia Penal de Goiás com apoio à modernização tecnológica](https://www.gov.br/senappen/pt-br/assuntos/noticias/senappen-fomenta-atuacao-da-ouvidoria-da-policia-penal-de-goias-com-apoio-a-modernizacao-tecnologica)
-  Descrição: Ação voltada ao fortalecimento da escuta institucional, com chatbot e ampliação do acesso aos canais de atendimento.
-- 13/04/2026 - [VI Encontro Nacional das Ouvidorias do Sistema Penal fortalece a escuta qualificada e a participação social](https://www.gov.br/senappen/pt-br/assuntos/noticias/vi-encontro-nacional-das-ouvidorias-do-sistema-penal-fortalece-a-escuta-qualificada-e-a-participacao-social)
-  Descrição: O encontro marcou a criação da RENOSPEN e a publicação de diretrizes para atuação das ouvidorias.
-- 02/04/2026 - [Ouvidoria da SENAPPEN divulga orientações sobre recebimento e tratamento de denúncias](https://www.gov.br/senappen/pt-br/assuntos/noticias/ouvidoria-da-senappen-divulga-orientacoes-sobre-recebimento-e-tratamento-de-denuncias)
-  Descrição: A notícia apresenta o fluxo de denúncias da ONASP e reforça os canais de atendimento e participação social.
-- 31/10/2025 - [Com foco em escuta qualificada, SENAPPEN amplia diálogo com ouvidorias de São Paulo e Goiás](https://www.gov.br/senappen/pt-br/assuntos/noticias/com-foco-em-escuta-qualificada-senappen-amplia-dialogo-com-ouvidorias-de-sao-paulo-e-goias)
-  Descrição: A agenda fortaleceu a Rede Nacional de Ouvidorias e o intercâmbio de boas práticas com os estados.
-
-### Bloco 11 - Painel de Tratamento de Demandas
+### Bloco 10 - Painel de Tratamento de Demandas
 
 Título da seção:
 
@@ -298,19 +271,21 @@ Título acessível sugerido para o iframe:
 
 Painel de Tratamento de Demandas da ONASP
 
-### Bloco 12 - Legislação
+### Bloco 11 - Normativos
 
 Título da seção:
 
-Legislação
+Normativos
 
-Texto introdutório sugerido:
+Linha de atualização sugerida:
 
-Os normativos basilares abaixo reúnem referências atualmente disponíveis no pacote documental da Ouvidoria e podem ser publicados como links simples na homepage, abaixo do painel de tratamento de demandas.
+Publicado em 13/05/2026
+
+Atualizado em 13/05/2026
 
 Padrão visual recomendado para publicação:
 
-Usar o mesmo padrão da seção de notícias: texto rico com blocos curtos, sem marcadores, apresentando link principal em destaque e descrição breve logo abaixo.
+Apresentar abaixo do painel em tabela editorial inspirada na página `Normativos` da ESPEN, com colunas `Título`, `Tipo` e `Descrição`. Para os seis itens abaixo, o campo `Tipo` pode ser publicado como `Arquivo`.
 
 Links a publicar:
 
@@ -326,6 +301,39 @@ Links a publicar:
   Descrição: Regula o acesso a informações previsto no inciso XXXIII do art. 5º, no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal.
 - Lei nº 13.709, de 14 de agosto de 2018: Documentação/Normativas Basilares de Ouvidoria/LEI N°13.709.2018.pdf
   Descrição: Dispõe sobre a proteção de dados pessoais e altera a Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet).
+
+### Bloco 12 - Notícias da Ouvidoria
+
+Título da seção:
+
+Notícias da Ouvidoria
+
+Posicionamento na página:
+
+Último bloco da homepage, abaixo de `Normativos`.
+
+Texto introdutório sugerido:
+
+Curadoria manual com seis notícias do portal da SENAPPEN ligadas à ONASP, à Rede de Ouvidorias e à qualificação dos canais de atendimento ao cidadão.
+
+Padrão visual recomendado para publicação:
+
+No protótipo, apresentar em seis cards editoriais compactos, em grade 3x2 inspirada na vitrine de notícias da ESPEN: imagem no topo, rubrica curta, título clicável, resumo breve e data. Na publicação gov.br, reproduzir com componente nativo equivalente, sem feed dinâmico e sem ícones de compartilhamento.
+
+Lista de notícias sugerida:
+
+- 27/04/2026 - [18ª Reunião do CONSEJ: SENAPPEN reforça parceria com estados para o aprimoramento das políticas penais](https://www.gov.br/senappen/pt-br/assuntos/noticias/18a-reuniao-do-consej-senappen-reforca-parceria-com-estados-para-o-aprimoramento-das-politicas-penais)
+  Descrição: Pauta destacou a Ouvidoria e a EMA/SENAPPEN na articulação federativa.
+- 14/04/2026 - [SENAPPEN fomenta atuação da Ouvidoria da Polícia Penal de Goiás com apoio à modernização tecnológica](https://www.gov.br/senappen/pt-br/assuntos/noticias/senappen-fomenta-atuacao-da-ouvidoria-da-policia-penal-de-goias-com-apoio-a-modernizacao-tecnologica)
+  Descrição: Ação ampliou a escuta institucional e o acesso aos canais de atendimento.
+- 13/04/2026 - [VI Encontro Nacional das Ouvidorias do Sistema Penal fortalece a escuta qualificada e a participação social](https://www.gov.br/senappen/pt-br/assuntos/noticias/vi-encontro-nacional-das-ouvidorias-do-sistema-penal-fortalece-a-escuta-qualificada-e-a-participacao-social)
+  Descrição: Encontro consolidou a RENOSPEN e publicou diretrizes para as ouvidorias.
+- 02/04/2026 - [Ouvidoria da SENAPPEN divulga orientações sobre recebimento e tratamento de denúncias](https://www.gov.br/senappen/pt-br/assuntos/noticias/ouvidoria-da-senappen-divulga-orientacoes-sobre-recebimento-e-tratamento-de-denuncias)
+  Descrição: Fluxo reforça transparência, integridade institucional e proteção de direitos.
+- 01/12/2025 - [SENAPPEN participa de encontro nacional para fortalecer ouvidorias e redes de proteção social](https://www.gov.br/senappen/pt-br/assuntos/noticias/senappen-participa-de-encontro-nacional-para-fortalecer-ouvidorias-e-redes-de-protecao-social)
+  Descrição: Evento aproximou ouvidorias, assistência social e Plano Pena Justa.
+- 31/10/2025 - [Com foco em escuta qualificada, SENAPPEN amplia diálogo com ouvidorias de São Paulo e Goiás](https://www.gov.br/senappen/pt-br/assuntos/noticias/com-foco-em-escuta-qualificada-senappen-amplia-dialogo-com-ouvidorias-de-sao-paulo-e-goias)
+  Descrição: Agenda fortaleceu a Rede Nacional de Ouvidorias e o intercâmbio com os estados.
 
 ## Subpágina 1 - Rede de Ouvidorias
 

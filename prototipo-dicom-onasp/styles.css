@@ -348,6 +348,157 @@ section {
   line-height: 1.4;
 }
 
+.normativos-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 0 0 18px;
+  color: #6b7280;
+  font-size: 0.88rem;
+}
+
+.normativos-table-wrap {
+  overflow-x: auto;
+}
+
+.normativos-table {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.normativos-table th,
+.normativos-table td {
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  vertical-align: top;
+  text-align: left;
+}
+
+.normativos-table th {
+  background: #ededed;
+  color: #374151;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.normativos-table td:nth-child(1) {
+  width: 32%;
+}
+
+.normativos-table td:nth-child(2) {
+  width: 12%;
+  color: #4b5563;
+  white-space: nowrap;
+}
+
+.normativos-table a {
+  font-weight: 700;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px 14px;
+  margin-top: 18px;
+}
+
+.news-card {
+  min-width: 0;
+}
+
+.news-card-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.news-card-media {
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  border: 1px solid #e5e7eb;
+  background: #e5e7eb;
+}
+
+.news-card-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 180ms ease;
+}
+
+.news-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 8px;
+}
+
+.news-card-kicker,
+.news-card-editoria {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.news-card-editoria {
+  color: #4b5563;
+}
+
+.news-card h3 {
+  margin: 0;
+  color: #1351b4;
+  font-size: 1.08rem;
+  line-height: 1.22;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.news-card-summary {
+  margin: 0;
+  color: #4b5563;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.news-card-date {
+  margin: auto 0 0;
+  padding-top: 6px;
+  color: #6b7280;
+  font-size: 0.82rem;
+}
+
+.news-card-link:hover .news-card-media img,
+.news-card-link:focus .news-card-media img {
+  transform: scale(1.02);
+}
+
+.news-card-link:hover h3,
+.news-card-link:focus h3 {
+  text-decoration: underline;
+}
+
+.news-card-link:focus-visible {
+  outline: 3px solid #2670e8;
+  outline-offset: 4px;
+}
+
 .mapa-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -880,6 +1031,11 @@ section {
     width: min(100% - 28px, 920px);
   }
 
+  .news-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 14px;
+  }
+
   .subpage-hero {
     grid-template-columns: 160px minmax(0, 1fr);
     gap: 22px;
@@ -911,7 +1067,8 @@ section {
   .canais-atendimento-grid,
   .feature-link,
   .subpage-hero,
-  .mapa-grid {
+  .mapa-grid,
+  .news-grid {
     grid-template-columns: 1fr;
   }
 
@@ -998,6 +1155,23 @@ section {
     min-height: 420px;
   }
 
+  .news-grid {
+    gap: 18px;
+  }
+
+  .normativos-meta {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .normativos-table {
+    min-width: 560px;
+  }
+
+  .news-card h3 {
+    font-size: 1rem;
+  }
+
   #plano-metas .standalone-image {
     width: 138%;
     margin-left: -19%;
@@ -1079,6 +1253,16 @@ section {
 
   .report-year-grid a {
     font-size: 1rem;
+  }
+
+  .normativos-table {
+    min-width: 500px;
+    font-size: 0.86rem;
+  }
+
+  .normativos-table th,
+  .normativos-table td {
+    padding: 10px 12px;
   }
 
   .ouvidoria-map-grid {
