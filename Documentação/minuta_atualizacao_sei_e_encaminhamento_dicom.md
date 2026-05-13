@@ -30,6 +30,7 @@ As correções e consolidações mais recentes contemplam:
 - remoção, nos rodapés visíveis da Renospen, dos textos `registro 1`, `registro 2` e `registro 3`;
 - consolidação, na subpágina `EMA - SENAPPEN`, da seção institucional com organograma, da seção `Decisões do SIDH`, do bloco de curso vinculado ao Caso Pedrinhas e da restauração dos links da seção de referências públicas;
 - inclusão, na homepage, de um bloco horizontal de contato resumido abaixo do mapa de localização e, abaixo dele, do `Currículo do Ouvidor`, com link para o PDF institucional correspondente;
+- inclusão, na homepage, da seção `Legislação` abaixo do painel de tratamento de demandas, com links simples para os normativos basilares atualmente disponíveis na pasta documental correspondente;
 - simplificação editorial dos títulos iniciais das subpáginas para `Renospen`, `O Plano` e `A Revista`;
 - atualização da documentação estrutural e do artefato em DOCX que deve servir de peça principal para a DICOM.
 
@@ -64,6 +65,7 @@ Os documentos abaixo já estão prontos e organizados no workspace:
 - Usar as artes atualizadas `Banner_1_new.png`, `Banner_2_new.png` e `Banner_3_new.png`.
 - Inserir o QR Code oficial `QRcode_Whatsapp.png` na seção de canais de atendimento.
 - Inserir, abaixo do mapa de localização, um bloco horizontal de contato resumido com endereço, telefone e e-mail, seguido do `Currículo do Ouvidor` com link para `Curriculo_Joao_vitor_elpidio_Ferreira.pdf`.
+- Inserir, abaixo do painel de tratamento de demandas, a seção `Legislação` com os normativos basilares já disponíveis na pasta `Normativas Basilares de Ouvidoria`.
 - Não tratar o HTML local como instrução de implementação; a publicação final deve ocorrer com componentes nativos do gov.br.
 
 ### Rede de Ouvidorias
@@ -96,7 +98,7 @@ Texto-base sugerido:
 >
 > O material ora consolidado tem por objetivo alinhar a publicação institucional às Notas Técnicas 9/2026/ONASP/SENAPPEN/MJ e 10/2026/ONASP/SENAPPEN/MJ, bem como aos despachos já constantes dos autos, preservando integral compatibilidade com a caixa de ferramentas do ambiente gov.br/Plone e sem demandar JavaScript próprio, CSS local, componentes customizados ou soluções externas ao padrão do portal.
 >
-> Nesta rodada, o documento principal de referência para publicação passa a ser `estrutura_completa_pagina_onasp_para_dicom.docx`, acompanhado dos apontamentos de divergência já sistematizados e do conjunto de artes institucionais correspondentes. Entre os ajustes editoriais e estruturais consolidados, destacam-se: a padronização visível de `Onasp` e `Senappen`; a manutenção da identificação `EMA - SENAPPEN`; a correção do título `Plano Pena Justa`; a adequação pública e institucional da subpágina da Rede de Ouvidorias; o tratamento do Espírito Santo com duas referências institucionais distintas; a inclusão da seção `VI Encontro Nacional das Ouvidorias do Sistema Penal` abaixo de `Mapa interativo e destaque por UF`; a retirada, dos rodapés visíveis dessa seção, dos textos `registro 1`, `registro 2` e `registro 3`; a consolidação do organograma e da seção `Decisões do SIDH` na EMA; a inclusão, na homepage, de um bloco de contato resumido e do `Currículo do Ouvidor` abaixo do mapa; e a atualização das seções iniciais das subpáginas para `Renospen`, `O Plano` e `A Revista`.
+> Nesta rodada, o documento principal de referência para publicação passa a ser `estrutura_completa_pagina_onasp_para_dicom.docx`, acompanhado dos apontamentos de divergência já sistematizados e do conjunto de artes institucionais correspondentes. Entre os ajustes editoriais e estruturais consolidados, destacam-se: a padronização visível de `Onasp` e `Senappen`; a manutenção da identificação `EMA - SENAPPEN`; a correção do título `Plano Pena Justa`; a adequação pública e institucional da subpágina da Rede de Ouvidorias; o tratamento do Espírito Santo com duas referências institucionais distintas; a inclusão da seção `VI Encontro Nacional das Ouvidorias do Sistema Penal` abaixo de `Mapa interativo e destaque por UF`; a retirada, dos rodapés visíveis dessa seção, dos textos `registro 1`, `registro 2` e `registro 3`; a consolidação do organograma e da seção `Decisões do SIDH` na EMA; a inclusão, na homepage, de um bloco de contato resumido e do `Currículo do Ouvidor` abaixo do mapa; a inclusão da seção `Legislação` abaixo do painel de tratamento de demandas; e a atualização das seções iniciais das subpáginas para `Renospen`, `O Plano` e `A Revista`.
 >
 > Solicita-se à DICOM que utilize o documento estrutural atualizado como peça orientadora da publicação, observando especialmente: i) a vedação de replicação literal do HTML/CSS do protótipo; ii) o uso exclusivo de componentes nativos disponíveis no gov.br/SENAPPEN; iii) a não publicação de observações internas de diagnóstico ou curadoria; iv) a preservação dos links textuais próximos às imagens sempre que o editor permitir; e v) a utilização das artes e denominações mais recentes encaminhadas nesta instrução.
 >
@@ -141,6 +143,15 @@ Sugestão de assunto:
 ### Documento complementar da página principal
 
 - `Documentação/Curriculo_Joao_vitor_elpidio_Ferreira.pdf`
+
+### Normativos basilares da homepage
+
+- `Documentação/Normativas Basilares de Ouvidoria/LEI N°12.527.2011.pdf`
+- `Documentação/Normativas Basilares de Ouvidoria/LEI N°13.460.2017.pdf`
+- `Documentação/Normativas Basilares de Ouvidoria/LEI N°13.709.2018.pdf`
+- `Documentação/Normativas Basilares de Ouvidoria/Decreto N°9.492.2018.pdf`
+- `Documentação/Normativas Basilares de Ouvidoria/Decreto N°10.153.2019.pdf`
+- `Documentação/Normativas Basilares de Ouvidoria/Portaria Normativa CGU - N°116.2024.pdf`
 
 ### Artes dos cards e entradas de subpágina
 
@@ -197,9 +208,11 @@ Se os arquivos abaixo já estiverem juntados aos autos, a recomendação é apen
 - [ ] As artes anexadas ou referenciadas são as versões mais recentes, especialmente `Banner_1_new.png`, `Banner_2_new.png` e `Banner_3_new.png`.
 - [ ] O QR Code oficial `QRcode_Whatsapp.png` foi incluído no pacote encaminhado.
 - [ ] O currículo em PDF `Curriculo_Joao_vitor_elpidio_Ferreira.pdf` foi incluído ou referenciado no pacote encaminhado.
+- [ ] Os normativos da seção `Legislação` correspondem apenas aos PDFs efetivamente presentes na pasta `Normativas Basilares de Ouvidoria`.
 - [ ] A solicitação não pede implementação de HTML, CSS local, JavaScript próprio ou componente customizado.
 - [ ] O texto usa `Onasp` e `Senappen` na redação visível, salvo nome oficial integral do órgão ou referência formal do documento.
 - [ ] O texto deixa claro que a homepage deve exibir, abaixo do mapa, um bloco horizontal de contato resumido e, abaixo dele, o currículo do Ouvidor.
+- [ ] O texto deixa claro que a seção `Legislação` fica abaixo do painel de tratamento de demandas.
 - [ ] O card e a subpágina da EMA aparecem como `EMA - SENAPPEN`.
 - [ ] O texto usa `Plano Pena Justa`, nunca `Programa Pena Justa`.
 - [ ] A subpágina da Rede de Ouvidorias mantém `Renospen` como primeira seção.

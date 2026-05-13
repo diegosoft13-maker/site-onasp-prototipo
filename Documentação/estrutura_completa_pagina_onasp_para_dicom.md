@@ -271,6 +271,31 @@ Título acessível sugerido para o iframe:
 
 Painel de Tratamento de Demandas da ONASP
 
+### Bloco 11 - Legislação
+
+Título da seção:
+
+Legislação
+
+Texto introdutório sugerido:
+
+Os normativos basilares abaixo reúnem referências atualmente disponíveis no pacote documental da Ouvidoria e podem ser publicados como links simples na homepage, abaixo do painel de tratamento de demandas.
+
+Links a publicar:
+
+- Lei nº 13.460, de 26 de junho de 2017: Documentação/Normativas Basilares de Ouvidoria/LEI N°13.460.2017.pdf
+  Descrição: Dispõe sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração pública.
+- Decreto nº 9.492, de 5 de setembro de 2018: Documentação/Normativas Basilares de Ouvidoria/Decreto N°9.492.2018.pdf
+  Descrição: Regulamenta a Lei nº 13.460, de 26 de junho de 2017, institui o Sistema de Ouvidoria do Poder Executivo federal e altera o Decreto nº 8.910, de 22 de novembro de 2016.
+- Decreto nº 10.153, de 3 de dezembro de 2019: Documentação/Normativas Basilares de Ouvidoria/Decreto N°10.153.2019.pdf
+  Descrição: Dispõe sobre as salvaguardas de proteção à identidade dos denunciantes de ilícitos e de irregularidades praticados contra a administração pública federal direta e indireta.
+- Portaria Normativa CGU nº 116, de 18 de março de 2024: Documentação/Normativas Basilares de Ouvidoria/Portaria Normativa CGU - N°116.2024.pdf
+  Descrição: Estabelece orientações para o exercício das competências das unidades do Sistema de Ouvidoria do Poder Executivo Federal, instituído pelo Decreto nº 9.492, de 5 de setembro de 2018, no âmbito do Poder Executivo federal, e dá outras providências.
+- Lei nº 12.527, de 18 de novembro de 2011: Documentação/Normativas Basilares de Ouvidoria/LEI N°12.527.2011.pdf
+  Descrição: Regula o acesso a informações previsto no inciso XXXIII do art. 5º, no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal.
+- Lei nº 13.709, de 14 de agosto de 2018: Documentação/Normativas Basilares de Ouvidoria/LEI N°13.709.2018.pdf
+  Descrição: Dispõe sobre a proteção de dados pessoais e altera a Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet).
+
 ## Subpágina 1 - Rede de Ouvidorias
 
 Título da página:
