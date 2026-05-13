@@ -14,7 +14,7 @@ O problema apontado pelo Ouvidor não exige uma aplicação nova. A correção d
 | Alta | Corrigir "Programa Pena Justa" para "Plano Pena Justa" | Card/link de subpágina | Elimina divergência documental visível logo na área de projetos. |
 | Alta | Reescrever o resumo da Rede de Ouvidorias | Card/link de subpágina + texto rico | Troca formulações com potencial de ruído por linguagem institucional: cooperação federativa, harmonização de procedimentos e proteção de direitos. |
 | Alta | Inserir o QR Code real do chatbot | Imagem estática com legenda | Resolve a pendência indicada pela DCOM sem placeholder e dá presença visual concreta à seção de canais. |
-| Média | Usar título curto no card da Ema | Card/link de subpágina | "Ema - SIDH" fica mais legível no card; a descrição explica o nome completo. |
+| Média | Usar título institucional no card da Ema | Card/link de subpágina | `EMA - SENAPPEN` preserva a identificação institucional e deixa a explicação do SIDH para a descrição. |
 | Média | Trocar links de imagem vazios por texto próximo | Texto rico com link simples | Mantém a imagem clicável, mas adiciona link textual acessível para Fala.BR. |
 | Média | Manter mapa e Power BI com títulos acessíveis | Iframe | Melhora leitura por tecnologia assistiva sem alterar o componente. |
 | Média | Remover bloco textual antigo de contato | Texto rico | Evita duplicidade e conflito de telefone com o Banner 2. |
@@ -51,11 +51,11 @@ Título recomendado:
 
 Motivo: corrige a divergência apontada no diálogo e alinha o card ao nome institucional do plano.
 
-### Ema - SIDH
+### EMA - SENAPPEN
 
 Título recomendado para card:
 
-> Ema - SIDH
+> EMA - SENAPPEN
 
 Descrição recomendada:
 
@@ -82,7 +82,7 @@ Legenda sugerida:
 ## O que pedir à DCOM
 
 - Substituir "Programa Pena Justa" por "Plano Pena Justa" no card e na subpágina.
-- Renomear o card "Sistema Interamericano de Direitos Humanos" para "Ema - SIDH" ou incluir "Ema" no título visível.
+- Renomear o card "Sistema Interamericano de Direitos Humanos" para `EMA - SENAPPEN`.
 - Substituir o texto da Rede de Ouvidorias pela redação institucional mais neutra.
 - Inserir o QR Code real na seção de Canais de Atendimento.
 - Remover o bloco antigo de contato que conflita com o Banner 2.

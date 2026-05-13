@@ -28,10 +28,12 @@ Com base na página publicada analisada, a estrutura deve se limitar a component
 | 5 | Canais de Atendimento | Imagem/banner linkado | Inserir Banner 2. | Remover bloco textual antigo para evitar conflito de telefone. |
 | 6 | QR Code do chatbot | Imagem estática oficial com legenda | Inserir na seção de canais, conforme Despacho 566. O arquivo foi localizado em `Documentação/QRcode_Whatsapp.png`. | Publicar com legenda curta e sem placeholder na publicação final. |
 | 7 | Mapa de Localização | Iframe de mapa já usado na página atual | Manter componente logo abaixo do Banner 2. | Solicitar título acessível no iframe se a ferramenta permitir. |
-| 8 | Conteúdo Técnico e Projetos Estruturantes | Cards/links de subpágina disponíveis no gov.br | Criar quatro entradas: Rede de Ouvidorias, EMA - SENAPPEN, Plano Pena Justa e Revista Brasileira de Execução Penal. | Não inventar ícones se a caixa de ferramentas não oferecer. |
-| 9 | Plano de Metas 2026 | Texto rico + imagem/banner | Inserir texto introdutório da Nota Técnica 9 e Banner 3. | Manter redação com "Onasp apresenta" para fidelidade documental. |
-| 10 | Relatório de Gestão | Texto rico + link simples destacado | Atualizar texto e usar link "Acessar Relatórios de Gestão (PDF)" se o destino for PDF. | Se o destino for página agregadora, registrar decisão de manter sem "PDF". |
-| 11 | Painel de Tratamento de Demandas | Texto rico + iframe Power BI | Manter iframe e substituir texto antigo pelo texto da Nota Técnica 9. | Solicitar título acessível no iframe se possível. |
+| 8 | Contato institucional resumido | Texto rico em bloco compacto | Inserir abaixo do mapa endereço, telefone e e-mail em formato curto e horizontal. | Usar texto enxuto, sem recriar o bloco antigo extenso de contato. |
+| 9 | Currículo do Ouvidor | Texto rico + link simples para PDF | Inserir resumo do currículo de João Vitor Elpídio Ferreira, com link para `Documentação/Curriculo_Joao_vitor_elpidio_Ferreira.pdf`. | Posicionar abaixo do mapa e do contato resumido, antes dos cards. |
+| 10 | Conteúdo Técnico e Projetos Estruturantes | Cards/links de subpágina disponíveis no gov.br | Criar quatro entradas: Rede de Ouvidorias, EMA - SENAPPEN, Plano Pena Justa e Revista Brasileira de Execução Penal. | Não inventar ícones se a caixa de ferramentas não oferecer. |
+| 11 | Plano de Metas 2026 | Texto rico + imagem/banner | Inserir texto introdutório da Nota Técnica 9 e Banner 3. | Manter redação com "Onasp apresenta" para fidelidade documental. |
+| 12 | Relatório de Gestão | Texto rico + link simples destacado | Atualizar texto e usar link "Acessar Relatórios de Gestão (PDF)" se o destino for PDF. | Se o destino for página agregadora, registrar decisão de manter sem "PDF". |
+| 13 | Painel de Tratamento de Demandas | Texto rico + iframe Power BI | Manter iframe e substituir texto antigo pelo texto da Nota Técnica 9. | Solicitar título acessível no iframe se possível. |
 
 ## Subpáginas
 

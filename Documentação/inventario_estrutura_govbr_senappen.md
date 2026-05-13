@@ -83,7 +83,7 @@ Regra prática: não pedir à DCOM para adicionar biblioteca externa, script pr�
 | Ordem | Título publicado | URL publicada | Ajuste recomendado |
 | --- | --- | --- | --- |
 | 1 | Rede de Ouvidorias | `/rede-de-ouvidorias` | Substituir descrição por texto institucional neutro. |
-| 2 | Sistema Interamericano de Direitos Humanos | `/sistema-interamericano-de-direitos-humanos` | Renomear para `Ema - SIDH` ou incluir `Ema` no título visível. |
+| 2 | Sistema Interamericano de Direitos Humanos | `/sistema-interamericano-de-direitos-humanos` | Renomear para `EMA - SENAPPEN` e manter a referência ao SIDH na descrição visível. |
 | 3 | Programa Pena Justa | `/programa-pena-justa` | Corrigir para `Plano Pena Justa`; se possível, ajustar slug ou ao menos título visível. |
 | 4 | Revista Brasileira de Execução Penal | `/revista-brasileira-de-execucao-penal` | Restaurar menção `Em parceria com a Espen e a DCOM`. |
 
@@ -136,7 +136,7 @@ Observação: se a DCOM não quiser mexer no carrossel inicial, a melhoria visua
 Quando for redigir demanda para a DCOM, não enviar este arquivo inteiro como se fosse especificação técnica pesada. Use-o para embasar pedidos simples:
 
 - `No tile de cards, corrigir o título Programa Pena Justa para Plano Pena Justa.`
-- `No tile de cards, renomear Sistema Interamericano de Direitos Humanos para Ema - SIDH.`
+- `No tile de cards, renomear Sistema Interamericano de Direitos Humanos para EMA - SENAPPEN.`
 - `Substituir o tile de texto Contato antigo por QR Code real e legenda, mantendo mapa em embed ao lado ou logo abaixo.`
 - `No tile de texto rico, inserir chamada curta institucional após o subtítulo.`
 - `No tile de banner, revisar texto alternativo das imagens.`

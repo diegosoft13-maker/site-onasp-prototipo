@@ -131,7 +131,7 @@ Divergências observadas:
 7. O card deve usar "Plano Pena Justa", não "Programa Pena Justa".
 8. O card da Ema deve manter a identificação institucional visível como `EMA - SENAPPEN`.
 9. Links de imagem devem ter link textual próximo quando possível, para acessibilidade.
-10. O currículo do Ouvidor deve seguir para "Quem é Quem", conforme orientação da DCOM, não para a página principal.
+10. O currículo do Ouvidor passou a integrar a homepage, abaixo do mapa de localização, precedido por um bloco horizontal de contato resumido e acompanhado de link para o PDF `Documentação/Curriculo_Joao_vitor_elpidio_Ferreira.pdf`.
 11. A Rede de Ouvidorias deve permanecer estritamente pública e institucional: detalhes de curadoria interna usados para consolidar contatos não podem aparecer na interface.
 12. Não publicar na página frases como "o diagnóstico registrou", "a resposta do diagnóstico informa", referências a respostas internas, nomes de servidores designados ou observações equivalentes; isso deve ficar apenas na documentação de apoio.
 13. Os títulos da primeira seção das subpáginas temáticas foram simplificados por decisão editorial para `Renospen`, `O Plano` e `A Revista`, substituindo o rótulo genérico `Escopo desta subpágina`.
@@ -189,16 +189,18 @@ Descrição:
 5. Tipos de Manifestação: parágrafo + Banner 1 + link textual para Fala.BR.
 6. Canais de Atendimento: Banner 2 + QR Code real com legenda.
 7. Mapa de Localização.
-8. Conteúdo Técnico e Projetos Estruturantes: cards/links de subpágina.
-9. Plano de Metas 2026: texto + Banner 3.
-10. Relatório de Gestão: texto + link simples destacado.
-11. Painel de Tratamento de Demandas: texto + iframe Power BI.
+8. Contato institucional resumido abaixo do mapa, com endereço, telefone e e-mail em linha.
+9. Currículo do Ouvidor, com resumo profissional e link para o PDF.
+10. Conteúdo Técnico e Projetos Estruturantes: cards/links de subpágina.
+11. Plano de Metas 2026: texto + Banner 3.
+12. Relatório de Gestão: texto + link simples destacado.
+13. Painel de Tratamento de Demandas: texto + iframe Power BI.
 
 ## Pedido objetivo para a DCOM
 
 Texto sugerido para encaminhamento:
 
-> Solicito ajuste da página da ONASP mantendo exclusivamente os componentes disponíveis no gov.br/SENAPPEN. Pedimos substituir "Programa Pena Justa" por "Plano Pena Justa"; manter o acrônimo "Ema" visível no card do SIDH, preferencialmente como "Ema - SIDH"; substituir o texto da Rede de Ouvidorias pela redação institucional mais neutra encaminhada; inserir o QR Code oficial do chatbot na seção Canais de Atendimento, com legenda; remover o bloco antigo de contato que conflita com o Banner 2; restaurar a menção "Em parceria com a Espen e a DCOM" no texto da Revista; e manter links textuais próximos às imagens clicáveis para melhorar acessibilidade. Não há solicitação de componente novo, JavaScript, biblioteca externa, botão customizado ou alteração fora da caixa de ferramentas do portal.
+> Solicito ajuste da página da ONASP mantendo exclusivamente os componentes disponíveis no gov.br/SENAPPEN. Pedimos substituir "Programa Pena Justa" por "Plano Pena Justa"; manter `EMA - SENAPPEN` visível no card do SIDH; substituir o texto da Rede de Ouvidorias pela redação institucional mais neutra encaminhada; inserir o QR Code oficial do chatbot na seção Canais de Atendimento, com legenda; manter abaixo do mapa um bloco de contato resumido com endereço, telefone e e-mail; incluir, abaixo desse bloco, o currículo do Ouvidor com resumo profissional e link para o PDF correspondente; restaurar a menção "Em parceria com a Espen e a DCOM" no texto da Revista; e manter links textuais próximos às imagens clicáveis para melhorar acessibilidade. Não há solicitação de componente novo, JavaScript, biblioteca externa, botão customizado ou alteração fora da caixa de ferramentas do portal.
 
 ## Arquivos principais do workspace
 
@@ -209,6 +211,7 @@ Texto sugerido para encaminhamento:
 - `Documentação/comparativo_nota_tecnica_vs_pagina_dicom.md`: lista do que a DCOM deixou de incluir e das diferenças textuais em relação às Notas Técnicas 9 e 10.
 - `Documentação/apontamentos_divergencias_notas_tecnicas_dcom.md`: versão formal dos apontamentos para subsidiar ofício de correção à DCOM.
 - `Documentação/minuta_atualizacao_sei_e_encaminhamento_dicom.md`: minuta operacional pronta para atualização do Processo SEI e encaminhamento à DICOM.
+- `Documentação/Curriculo_Joao_vitor_elpidio_Ferreira.pdf`: currículo completo do Ouvidor, agora referenciado na homepage.
 - `Documentação/modelo_dados_canonico_cdm.md`: Modelo de Dados Canônico criado para reaproveitamento em projetos futuros.
 - `Documentação/boas_praticas_para_outros_projetos.md`: base de boas práticas usada para orientar o CDM.
 - `Documentação/QRcode_Whatsapp.png`: QR Code oficial recebido.
@@ -227,7 +230,7 @@ O protótipo local já foi ajustado para:
 - Não usar botão customizado.
 - Não usar placeholder de QR Code.
 - Carregar quatro imagens: Banner 1, Banner 2, QR Code e Banner 3.
-- Exibir cards como Rede de Ouvidorias, Ema - SIDH, Plano Pena Justa e Revista Brasileira de Execução Penal.
+- Exibir cards como Rede de Ouvidorias, EMA - SENAPPEN, Plano Pena Justa e Revista Brasileira de Execução Penal.
 - Usar nos links temáticos as imagens fiéis salvas em `Documentação/Botao_Renospen.png`, `Documentação/Botao_EMA.png`, `Documentação/Botao_PenaJusta.png` e `Documentação/Botao_RevistaBrasileira.png`.
 - Aplicar às quatro subpáginas internas um cabeçalho simples com a imagem oficial correspondente, título consistente com a página principal e manutenção explícita da nota de pendência de conteúdo.
 - Ter subpágina `plano-pena-justa.html`, não `programa-pena-justa.html`.
