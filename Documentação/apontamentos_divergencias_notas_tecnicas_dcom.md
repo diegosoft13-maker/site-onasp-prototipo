@@ -1,6 +1,6 @@
 # Apontamentos de divergências entre Notas Técnicas e página publicada pela DCOM
 
-Data: 2026-05-12
+Data: 2026-05-13
 
 ## Finalidade
 
@@ -23,7 +23,7 @@ A página publicada contempla parte da estrutura solicitada, mas ainda apresenta
 - O QR Code oficial do chatbot não foi incluído na página publicada.
 - O bloco antigo de contato permaneceu abaixo do banner de canais, gerando duplicidade e conflito de informação.
 - O card e a subpágina da EMA foram publicados como Sistema Interamericano de Direitos Humanos, sem a identificação institucional consolidada `EMA - SENAPPEN`.
-- O texto da Revista Brasileira de Execução Penal perdeu as menções institucionais à Espen, à DCOM e à Onasp.
+- O texto da Revista Brasileira de Execução Penal publicado diverge da redação institucional hoje consolidada para a subpágina temática.
 - As subpáginas foram criadas, mas permanecem com conteúdo mínimo e mensagem de pasta vazia, embora o pacote editorial atualizado já esteja consolidado para envio.
 - Há diferenças textuais na seção institucional, em Tipos de Manifestação, no Plano de Metas, no Relatório de Gestão e no Painel de Tratamento de Demandas.
 - O bloco de Relatórios de Gestão pode ser apresentado em grade de anos, nos moldes da página de referência do MPO, desde que os links oficiais de cada ano sejam informados pela área responsável.
@@ -35,7 +35,7 @@ A página publicada contempla parte da estrutura solicitada, mas ainda apresenta
 | QR Code do chatbot | Inserir QR Code oficial do atendimento automatizado por WhatsApp. | Não foi localizado QR Code na página publicada. | Inserir o QR Code em tamanho discreto, preferencialmente ao lado direito do banner de Canais de Atendimento ou logo abaixo dele em bloco compacto. |
 | Bloco antigo de contato | Substituir os botões/blocos antigos pelo novo banner de canais. | O banner foi inserido, mas o bloco antigo de Contato permaneceu. | Remover o bloco antigo para evitar duplicidade de canais, conflito de telefone e excesso visual. |
 | Ema | Usar a identificação Ema, vinculada à Equipe de Monitoramento e Acompanhamento das decisões do SIDH. | Publicado como Sistema Interamericano de Direitos Humanos. | Padronizar como `EMA - SENAPPEN`, mantendo a referência ao SIDH na descrição. |
-| Revista Brasileira de Execução Penal | Texto com menção a Espen, DCOM e Onasp. | Texto publicado omitiu essas menções. | Restaurar a redação institucional solicitada. |
+| Revista Brasileira de Execução Penal | Texto com articulação institucional entre Espen, DCOM e Onasp. | Texto publicado suprimiu essa articulação e não acompanha a redação hoje consolidada para a subpágina. | Adequar para: `Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal.` |
 | Subpáginas | Criar páginas temáticas com aprofundamento. | Páginas criadas com conteúdo mínimo e mensagem Atualmente não existem itens nessa pasta. | Preencher as subpáginas com o pacote editorial consolidado em `Documentação/estrutura_completa_pagina_onasp_para_dicom.md` e remover a mensagem de pasta vazia. |
 | Relatórios de Gestão | Disponibilizar acesso aos relatórios. | Link simples para Relatórios de Gestão. | Considerar grade de anos como no MPO, usando links oficiais por exercício. |
 
@@ -66,7 +66,7 @@ A página publicada contempla parte da estrutura solicitada, mas ainda apresenta
 1. Inserir o QR Code oficial do chatbot na seção de Canais de Atendimento, em tamanho discreto e junto ao banner.
 2. Remover o bloco antigo de Contato que permaneceu após o banner de Canais de Atendimento.
 3. Ajustar o card e a subpágina para `EMA - SENAPPEN`, mantendo a referência ao SIDH na descrição.
-4. Restaurar o texto da Revista Brasileira de Execução Penal com menção à Espen, à DCOM e à Onasp.
+4. Adequar o texto da Revista Brasileira de Execução Penal à redação institucional consolidada da subpágina: `Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal.`
 5. Ajustar a redação do Plano de Metas para a Onasp apresenta seu Plano de Metas.
 6. Ajustar a redação do Relatório de Gestão para da ONASP à sociedade.
 7. Corrigir o título do Painel para Ouvidoria Nacional de Serviços Penais.

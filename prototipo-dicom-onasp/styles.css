@@ -113,9 +113,10 @@ section {
   margin-top: 24px;
 }
 
-#conteudo p:not(.subpage-kicker):not(.subpage-back-link):not(.compact-action-link),
-#conteudo li,
-#conteudo .feature-copy > span:not(.feature-title),
+.govbr-preview p:not(.subpage-kicker):not(.subpage-back-link):not(.compact-action-link),
+.govbr-preview li,
+.govbr-preview .feature-copy > span:not(.feature-title),
+.govbr-preview figcaption,
 .component-note {
   text-align: justify;
   text-justify: inter-word;

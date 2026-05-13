@@ -85,7 +85,7 @@ Regra prática: não pedir à DCOM para adicionar biblioteca externa, script pr�
 | 1 | Rede de Ouvidorias | `/rede-de-ouvidorias` | Substituir descrição por texto institucional neutro. |
 | 2 | Sistema Interamericano de Direitos Humanos | `/sistema-interamericano-de-direitos-humanos` | Renomear para `EMA - SENAPPEN` e manter a referência ao SIDH na descrição visível. |
 | 3 | Programa Pena Justa | `/programa-pena-justa` | Corrigir para `Plano Pena Justa`; se possível, ajustar slug ou ao menos título visível. |
-| 4 | Revista Brasileira de Execução Penal | `/revista-brasileira-de-execucao-penal` | Restaurar menção `Em parceria com a Espen e a DCOM`. |
+| 4 | Revista Brasileira de Execução Penal | `/revista-brasileira-de-execucao-penal` | Adequar à redação institucional consolidada da subpágina: `Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal.` |
 
 ## Estrutura recomendada mantendo o padrão observado
 

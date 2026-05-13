@@ -115,8 +115,9 @@ Divergências observadas:
 - O card foi publicado como "Programa Pena Justa", mas deve ser "Plano Pena Justa".
 - O card do SIDH foi publicado sem o acrônimo Ema visível.
 - O texto da Rede de Ouvidorias deve ser suavizado para evitar ruído institucional.
-- O texto da Revista removeu a menção "Em parceria com a Espen e a DCOM".
+- A redação da Revista foi consolidada em duas camadas editoriais: card da homepage com menção à Onasp e abertura curta da subpágina com referência à Espen e à DCOM.
 - As subpáginas existem, mas parecem pastas incompletas, com conteúdo mínimo e mensagem de pasta vazia.
+- Os textos corridos da prévia local foram verificados com alinhamento justificado nas cinco páginas HTML.
 - Imagens ricas em texto têm `alt` curto demais.
 - Iframes de mapa e Power BI precisam de título acessível se a ferramenta permitir.
 
@@ -174,7 +175,7 @@ Descrição:
 
 ### Revista Brasileira de Execução Penal
 
-> Em parceria com a Espen e a DCOM, a Onasp lança edição da Revista Brasileira de Execução Penal. Com o tema voltado à participação e transparência, a publicação reúne artigos e estudos que fortalecem o controle social e consolidam a Ouvidoria como ponte entre o Estado e a sociedade.
+> Em articulação com a Espen e a DCOM, a Onasp reúne referências da Revista Brasileira de Execução Penal, com acesso a dossiês, notícias editoriais e conteúdos relacionados à participação social, transparência e direitos no sistema penal.
 
 ### Legenda do QR Code
 
@@ -202,7 +203,7 @@ Descrição:
 
 Texto sugerido para encaminhamento:
 
-> Solicito ajuste da página da ONASP mantendo exclusivamente os componentes disponíveis no gov.br/SENAPPEN. Pedimos substituir "Programa Pena Justa" por "Plano Pena Justa"; manter `EMA - SENAPPEN` visível no card do SIDH; substituir o texto da Rede de Ouvidorias pela redação institucional mais neutra encaminhada; inserir o QR Code oficial do chatbot na seção Canais de Atendimento, com legenda; manter abaixo do mapa um bloco de contato resumido com endereço, telefone e e-mail; incluir, abaixo desse bloco, o currículo do Ouvidor com resumo profissional e link para o PDF correspondente; manter o painel de tratamento de demandas; incluir, abaixo dele, a seção `Normativos` em formato de tabela editorial inspirada na ESPEN, apenas com os seis PDFs efetivamente disponíveis no pacote documental; mover a seção `Notícias da Ouvidoria` para o último bloco da homepage, em seis cards editoriais compactos com curadoria manual de links do portal da SENAPPEN ligados à Onasp, à Rede de Ouvidorias e aos canais de atendimento; restaurar a menção "Em parceria com a Espen e a DCOM" no texto da Revista; e manter links textuais próximos às imagens clicáveis para melhorar acessibilidade. Não há solicitação de componente novo, JavaScript, biblioteca externa, botão customizado ou alteração fora da caixa de ferramentas do portal.
+> Solicito ajuste da página da ONASP mantendo exclusivamente os componentes disponíveis no gov.br/SENAPPEN. Pedimos substituir "Programa Pena Justa" por "Plano Pena Justa"; manter `EMA - SENAPPEN` visível no card do SIDH; substituir o texto da Rede de Ouvidorias pela redação institucional mais neutra encaminhada; inserir o QR Code oficial do chatbot na seção Canais de Atendimento, com legenda; manter abaixo do mapa um bloco de contato resumido com endereço, telefone e e-mail; incluir, abaixo desse bloco, o currículo do Ouvidor com resumo profissional e link para o PDF correspondente; manter o painel de tratamento de demandas; incluir, abaixo dele, a seção `Normativos` em formato de tabela editorial inspirada na ESPEN, apenas com os seis PDFs efetivamente disponíveis no pacote documental; mover a seção `Notícias da Ouvidoria` para o último bloco da homepage, em seis cards editoriais compactos com curadoria manual de links do portal da SENAPPEN ligados à Onasp, à Rede de Ouvidorias e aos canais de atendimento; usar, na Revista, a redação institucional consolidada no card da homepage e a versão curta já validada na abertura da subpágina; e manter links textuais próximos às imagens clicáveis para melhorar acessibilidade. Não há solicitação de componente novo, JavaScript, biblioteca externa, botão customizado ou alteração fora da caixa de ferramentas do portal.
 
 ## Arquivos principais do workspace
 

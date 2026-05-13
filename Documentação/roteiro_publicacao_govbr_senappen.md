@@ -1,10 +1,12 @@
 # Roteiro de publicação gov.br/Plone para a página ONASP
 
-Data: 2026-05-12
+Data: 2026-05-13
 
 ## Premissa
 
 A página da ONASP deve ser estruturada na mesma linguagem e lógica da página atual no gov.br/SENAPPEN, dentro do ambiente Plone/gov.br e com a caixa de ferramentas disponível para a DCOM. Este roteiro não propõe aplicação, front-end próprio, biblioteca externa, JavaScript customizado, ícone customizado, botão novo ou controle que não esteja disponível no portal.
+
+Na prévia local, os textos corridos das cinco páginas HTML foram verificados com alinhamento justificado. No ambiente gov.br, recomenda-se reproduzir esse alinhamento apenas nos parágrafos corridos, se o editor oficial permitir.
 
 ## Componentes permitidos neste roteiro
 
@@ -64,7 +66,7 @@ As subpáginas devem ser simples, sem componentes customizados. A estrutura edit
 - Publicar o QR Code oficial do chatbot localizado em `Documentação/QRcode_Whatsapp.png`.
 - Corrigir o nome do segundo card/subpágina para manter `EMA - SENAPPEN` visível e preservar a referência ao SIDH na descrição.
 - Corrigir "Programa Pena Justa" para "Plano Pena Justa".
-- Restaurar a menção "Em parceria com a Espen e a DCOM" no texto da Revista, salvo decisão institucional em contrário.
+- Usar, na abertura da subpágina da Revista, a redação institucional consolidada: "Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal."
 - Remover o bloco textual antigo de contato, se a orientação da Nota Técnica 9 continuar válida.
 - Preencher as subpáginas com o pacote editorial consolidado em `Documentação/estrutura_completa_pagina_onasp_para_dicom.md` e retirar qualquer mensagem de pasta vazia.
 - Manter links textuais próximos às imagens clicáveis sempre que o editor permitir, para melhorar a acessibilidade.

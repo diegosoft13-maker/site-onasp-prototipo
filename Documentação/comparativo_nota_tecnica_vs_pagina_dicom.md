@@ -1,6 +1,6 @@
 # Comparativo entre Notas Técnicas e página publicada pela DCOM
 
-Data: 2026-05-12
+Data: 2026-05-13
 
 ## Fontes comparadas
 
@@ -17,7 +17,7 @@ A DCOM incluiu boa parte da estrutura solicitada, mas a publicação ficou incom
 - Inserir o QR Code oficial do chatbot na seção de Canais de Atendimento.
 - Remover o bloco antigo de Contato, que permaneceu na página e conflita com o Banner 2.
 - Corrigir o card/subpágina da EMA, que foi publicado como "Sistema Interamericano de Direitos Humanos" e perdeu a identificação institucional consolidada.
-- Restaurar a redação da Revista com "Em parceria com a Espen e a DCOM".
+- Adequar a redação da Revista à versão institucional consolidada para a subpágina.
 - Corrigir diferenças textuais em Institucional, Tipos de Manifestação, Plano de Metas, Relatório de Gestão e Painel.
 - Resolver a nomenclatura "Programa Pena Justa" versus "Plano Pena Justa" conforme orientação do Ouvidor/documento de referência, observando que as Notas Técnicas 9 e 10 extraídas também trazem o título "Programa Pena Justa".
 - Preencher as subpáginas com o pacote editorial já consolidado ou remover a mensagem "Atualmente não existem itens nessa pasta".
@@ -29,7 +29,7 @@ A DCOM incluiu boa parte da estrutura solicitada, mas a publicação ficou incom
 | Alta | QR Code do chatbot | O Despacho 566 orientou inserir o QR Code na página principal, na área de canais. | Não há QR Code nem menção ao chatbot na página publicada. | Inserir `Documentação/QRcode_Whatsapp.png` como imagem oficial com legenda simples. |
 | Alta | Remoção do contato antigo | A Nota Técnica 9 pediu substituir os botões/blocos antigos e inserir o Banner 2 de canais. | O Banner 2 foi inserido, mas o bloco antigo "Contato" permaneceu. | Remover o bloco antigo ou atualizar integralmente para não conflitar com o banner. |
 | Alta | Aderência ao nome Ema | Nota Técnica 9: `Ema (Equipe de Monitoramento e Acompanhamento das decisões do SIDH)`. Nota Técnica 10: `SUBPÁGINA 2: EMA`. | Card e subpágina foram publicados como `Sistema Interamericano de Direitos Humanos`. | Padronizar como `EMA - SENAPPEN`, mantendo a referência ao SIDH na descrição. |
-| Alta | Texto institucional da Revista | Nota Técnica 9/10: `Em parceria com a Espen e a Dcom, a Onasp lança edição...` | Publicado: `A Ouvidoria lança edição...`, sem Espen, DCOM e Onasp. | Restaurar a redação institucional da nota ou justificar formalmente a alteração. |
+| Alta | Texto institucional da Revista | Nota Técnica 9/10: `Em parceria com a Espen e a Dcom, a Onasp lança edição...` | Publicado: `A Ouvidoria lança edição...`, sem Espen, DCOM e Onasp. | Adequar à redação institucional consolidada da subpágina: `Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal.` |
 | Alta | Conteúdo real nas subpáginas | Nota Técnica 10 pediu subpáginas exclusivas para aprofundamento temático. | As subpáginas têm só o parágrafo inicial e a mensagem `Atualmente não existem itens nessa pasta`. | Preencher com o pacote editorial consolidado em `Documentação/estrutura_completa_pagina_onasp_para_dicom.md` ou retirar a mensagem de pasta vazia. |
 | Média | Link/rótulo do relatório | Nota Técnica 9: botão/link único `Acessar Relatórios de Gestão (PDF)`. | Publicado: `Acessar Relatórios de Gestão`, sem `(PDF)`. | Usar `(PDF)` se o destino for PDF direto; se for página agregadora, registrar essa decisão. |
 | Média | Acessibilidade textual dos banners | Os banners concentram informação textual relevante. | Alt texts curtos: `tipos de manifestação`, `Canais de atendimento`, `Metas para 2026`. | Inserir texto alternativo ou transcrição em texto rico próximo aos banners. |
@@ -56,7 +56,7 @@ A DCOM incluiu boa parte da estrutura solicitada, mas a publicação ficou incom
 | Rede de Ouvidorias | Título `Rede de Ouvidorias`; descrição: `Estruturada a partir da integração oficial entre a União e os Estados...` | Título e descrição foram publicados conforme a Nota Técnica. | Não há divergência literal relevante. Porém o diálogo com o Ouvidor apontou risco político/institucional na redação; recomenda-se substituir por texto mais neutro. |
 | Ema | Título: `Ema (Equipe de Monitoramento e Acompanhamento das decisões do SIDH)`; destino: subpágina da Ema. | Título/card/subpágina: `Sistema Interamericano de Direitos Humanos`. | O acrônimo `Ema` foi omitido e o foco mudou da equipe para o sistema. Para a devolutiva atual, recomenda-se padronizar como `EMA - SENAPPEN`, preservando o SIDH na descrição. |
 | Pena Justa | Nota Técnica 9/10 extraída: `Programa Pena Justa`; descrição: `Ambiente dedicado integralmente ao Plano...` | Publicado: `Programa Pena Justa`; descrição igual. | Estritamente pela Nota Técnica 9/10, a DCOM não divergiu do título. Porém há conflito com a orientação posterior do Ouvidor/documento de referência, que indica `Plano Pena Justa`. Como o próprio texto diz `dedicado integralmente ao Plano`, recomenda-se corrigir para `Plano Pena Justa`. |
-| Revista Brasileira de Execução Penal | `Em parceria com a Espen e a Dcom, a Onasp lança edição da Revista Brasileira de Execução Penal...` | `A Ouvidoria lança edição da Revista Brasileira de Execução Penal...` | Foram removidas as menções a `Espen`, `DCOM` e `Onasp`. É a diferença textual mais clara nos cards/subpáginas. |
+| Revista Brasileira de Execução Penal | `Em parceria com a Espen e a Dcom, a Onasp lança edição da Revista Brasileira de Execução Penal...` | `A Ouvidoria lança edição da Revista Brasileira de Execução Penal...` | Foram removidas as menções a `Espen`, `DCOM` e `Onasp`. Na consolidação editorial atual, a abertura da subpágina foi resumida para `Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal.` |
 | Subpáginas | Nota Técnica 10 pediu subpáginas exclusivas para aprofundamento temático. | As quatro subpáginas mostram o parágrafo inicial e depois `Atualmente não existem itens nessa pasta`. | A estrutura foi criada, mas o aprofundamento não foi incluído. A mensagem de pasta vazia passa sensação de entrega incompleta. |
 
 ## O que foi feito corretamente ou quase corretamente
@@ -77,7 +77,7 @@ A DCOM incluiu boa parte da estrutura solicitada, mas a publicação ficou incom
 1. Inserir o QR Code oficial do chatbot na seção Canais de Atendimento.
 2. Remover o bloco antigo `Contato` que ficou abaixo do Banner 2.
 3. Corrigir o card/subpágina `Sistema Interamericano de Direitos Humanos` para `EMA - SENAPPEN`, mantendo o SIDH na descrição.
-4. Restaurar no texto da Revista: `Em parceria com a Espen e a DCOM, a Onasp lança...`.
+4. Adequar o texto da Revista à redação institucional consolidada da subpágina: `Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal.`
 5. Ajustar `a Ouvidoria apresenta` para `a Onasp apresenta` no Plano de Metas 2026.
 6. Ajustar `da Ouvidoria com a sociedade` para `da ONASP à sociedade` no Relatório de Gestão.
 7. Decidir se o link deve aparecer como `Acessar Relatórios de Gestão (PDF)` ou apenas `Acessar Relatórios de Gestão` por apontar para página agregadora.

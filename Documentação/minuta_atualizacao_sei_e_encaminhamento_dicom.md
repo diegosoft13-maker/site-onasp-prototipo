@@ -33,16 +33,11 @@ As correções e consolidações mais recentes contemplam:
 - reposicionamento, na homepage, da seção `Notícias da Ouvidoria` para o último bloco da página, em seis cards editoriais compactos com curadoria manual de links do portal da SENAPPEN relacionados à Onasp, à Rede de Ouvidorias e aos canais de atendimento;
 - substituição, na homepage, da seção `Legislação` por `Normativos`, abaixo do painel de tratamento de demandas, em tabela editorial inspirada na disposição da ESPEN e restrita aos seis PDFs atualmente disponíveis na pasta documental correspondente;
 - simplificação editorial dos títulos iniciais das subpáginas para `Renospen`, `O Plano` e `A Revista`;
+- consolidação, na abertura da subpágina `Revista Brasileira de Execução Penal`, da redação curta institucional já validada com a Espen e a DCOM;
+- verificação local do alinhamento justificado dos textos corridos nas cinco páginas HTML da prévia, com correção da folha de estilo compartilhada para alcançar homepage e subpáginas;
 - atualização da documentação estrutural e do artefato em DOCX que deve servir de peça principal para a DICOM.
 
-Para rastreabilidade do protótipo e das últimas publicações no repositório de apoio, os commits finais validados foram:
-
-- `604a117` - Padroniza textos e ajusta página da EMA.
-- `0e559ba` - Atualiza legendas das fotos da EMA.
-- `5b92546` - Renomeia seções e atualiza documentação.
-- `b519d5b` - Adiciona encontro nacional na página Renospen.
-- `8427634` - Restaura links da EMA e revalida Renospen.
-- `5dbaf72` - Reorganiza seção VI Encontro da Renospen.
+Para rastreabilidade do protótipo e das publicações recentes no repositório de apoio, recomenda-se consultar o histórico Git local desta pasta. Nesta rodada final, foram consolidados o ajuste textual da subpágina da Revista, a sincronização dos documentos principais do pacote SEI e a verificação do alinhamento justificado dos textos corridos nas cinco páginas HTML da prévia.
 
 ## Documentos-fonte que devem orientar a DICOM
 
@@ -92,7 +87,7 @@ Os documentos abaixo já estão prontos e organizados no workspace:
 - Logo após o texto introdutório de `O Plano`, a subpágina deve incluir a imagem institucional `Documentação/Banner_PenaJusta_f1.jpg`, com breve contextualização acima e abaixo da arte.
 - Após a seção `Eixos de atuação`, a subpágina do Plano deve incluir o quadro `Documentação/Plano_pena_justa.png`, com breve texto introdutório acima e síntese textual logo abaixo, sem depender apenas da leitura da imagem.
 - A primeira seção da subpágina da Revista deve permanecer com o título `A Revista`.
-- A redação da Revista deve preservar a articulação institucional com Espen, DCOM e Onasp, conforme consolidado no documento estrutural.
+- A abertura da subpágina da Revista deve usar a redação: `Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal.`
 
 ## Minuta sugerida para atualização no SEI
 
@@ -228,6 +223,7 @@ Se os arquivos abaixo já estiverem juntados aos autos, a recomendação é apen
 - [ ] O texto deixa claro que a seção `VI Encontro Nacional das Ouvidorias do Sistema Penal` deve ficar abaixo de `Mapa interativo e destaque por UF`.
 - [ ] O texto deixa claro que os rodapés visíveis da Renospen não devem usar `registro 1`, `registro 2` ou `registro 3`.
 - [ ] O texto deixa claro que observações internas de diagnóstico não podem aparecer na interface pública.
+- [ ] Os textos corridos das cinco páginas HTML da prévia local foram verificados com alinhamento justificado.
 - [ ] O texto registra que o Espírito Santo possui duas referências institucionais distintas na Rede de Ouvidorias.
 - [ ] O texto deixa claro que a seção `Referências públicas do SIDH` na EMA deve manter os links.
 - [ ] O organograma da EMA foi mencionado como parte da seção institucional.

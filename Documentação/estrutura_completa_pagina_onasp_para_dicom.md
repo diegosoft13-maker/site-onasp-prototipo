@@ -1,6 +1,6 @@
 # Estrutura completa para publicação da página da ONASP
 
-Data de atualização: 2026-05-12
+Data de atualização: 2026-05-13
 
 Documento de apoio para a DCOM reproduzir, no ambiente oficial gov.br/SENAPPEN, a estrutura da prévia criada para a página da Ouvidoria Nacional de Serviços Penais e suas subpáginas temáticas.
 
@@ -819,7 +819,7 @@ Itens para colar:
 
 ## Observações sobre formatação
 
-Na prévia local, os textos corridos foram configurados com alinhamento justificado. No gov.br, esse resultado dependerá das opções disponíveis no editor oficial. Caso o editor permita alinhamento do parágrafo, recomenda-se aplicar alinhamento justificado aos textos corridos e manter títulos, links curtos e botões com o alinhamento padrão do componente.
+Na prévia local, os textos corridos das cinco páginas HTML foram verificados em 2026-05-13 com alinhamento justificado. No gov.br, esse resultado dependerá das opções disponíveis no editor oficial. Caso o editor permita alinhamento do parágrafo, recomenda-se aplicar alinhamento justificado aos textos corridos e manter títulos, links curtos e botões com o alinhamento padrão do componente.
 
 ## Observações sobre WordPress, Plone e reaproveitamento
 
