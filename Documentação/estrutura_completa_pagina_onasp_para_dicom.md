@@ -658,6 +658,12 @@ O Plano Nacional organiza sua atuação em quatro eixos estruturantes:
 - Processos de saída da prisão e de reintegração social.
 - Políticas de não repetição do Estado de Coisas Inconstitucional no sistema prisional.
 
+Quadro de apoio a inserir logo abaixo da lista de eixos:
+
+- Imagem: `Documentação/Plano_pena_justa.png`
+- Texto de apoio acima da imagem: O quadro abaixo sintetiza medidas, metas e atores estratégicos dos eixos 2 e 4 com incidência direta sobre transparência, escuta institucional, canais de denúncia e fortalecimento das ouvidorias no sistema penal.
+- Texto de apoio abaixo da imagem: No recorte de interesse da Onasp, o quadro destaca especialmente medidas voltadas à qualificação dos serviços prestados nas prisões, à institucionalização de canais efetivos de denúncia, à criação e estruturação de ouvidorias estaduais e ao fortalecimento de políticas de não repetição.
+
 Seção:
 
 Governança e acompanhamento

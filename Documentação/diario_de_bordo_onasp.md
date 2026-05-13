@@ -237,6 +237,7 @@ O protótipo local já foi ajustado para:
 - Usar nos links temáticos as imagens fiéis salvas em `Documentação/Botao_Renospen.png`, `Documentação/Botao_EMA.png`, `Documentação/Botao_PenaJusta.png` e `Documentação/Botao_RevistaBrasileira.png`.
 - Aplicar às quatro subpáginas internas um cabeçalho simples com a imagem oficial correspondente, título consistente com a página principal e manutenção explícita da nota de pendência de conteúdo.
 - Ter subpágina `plano-pena-justa.html`, não `programa-pena-justa.html`.
+- Na subpágina `plano-pena-justa.html`, inserir após `Eixos de atuação` o quadro `Documentação/Plano_pena_justa.png`, com texto de apoio antes e depois da imagem para contextualizar os eixos 2 e 4 no recorte da Onasp.
 
 Validação realizada:
 

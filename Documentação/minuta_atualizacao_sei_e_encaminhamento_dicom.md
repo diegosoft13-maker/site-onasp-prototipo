@@ -89,6 +89,7 @@ Os documentos abaixo já estão prontos e organizados no workspace:
 ### Plano Pena Justa e Revista
 
 - A primeira seção da subpágina do Plano deve permanecer com o título `O Plano`.
+- Após a seção `Eixos de atuação`, a subpágina do Plano deve incluir o quadro `Documentação/Plano_pena_justa.png`, com breve texto introdutório acima e síntese textual logo abaixo, sem depender apenas da leitura da imagem.
 - A primeira seção da subpágina da Revista deve permanecer com o título `A Revista`.
 - A redação da Revista deve preservar a articulação institucional com Espen, DCOM e Onasp, conforme consolidado no documento estrutural.
 
@@ -100,7 +101,7 @@ Texto-base sugerido:
 >
 > O material ora consolidado tem por objetivo alinhar a publicação institucional às Notas Técnicas 9/2026/ONASP/SENAPPEN/MJ e 10/2026/ONASP/SENAPPEN/MJ, bem como aos despachos já constantes dos autos, preservando integral compatibilidade com a caixa de ferramentas do ambiente gov.br/Plone e sem demandar JavaScript próprio, CSS local, componentes customizados ou soluções externas ao padrão do portal.
 >
-> Nesta rodada, o documento principal de referência para publicação passa a ser `estrutura_completa_pagina_onasp_para_dicom.docx`, acompanhado dos apontamentos de divergência já sistematizados e do conjunto de artes institucionais correspondentes. Entre os ajustes editoriais e estruturais consolidados, destacam-se: a padronização visível de `Onasp` e `Senappen`; a manutenção da identificação `EMA - SENAPPEN`; a correção do título `Plano Pena Justa`; a adequação pública e institucional da subpágina da Rede de Ouvidorias; o tratamento do Espírito Santo com duas referências institucionais distintas; a inclusão da seção `VI Encontro Nacional das Ouvidorias do Sistema Penal` abaixo de `Mapa interativo e destaque por UF`; a retirada, dos rodapés visíveis dessa seção, dos textos `registro 1`, `registro 2` e `registro 3`; a consolidação do organograma e da seção `Decisões do SIDH` na EMA; a inclusão, na homepage, de um bloco de contato resumido e do `Currículo do Ouvidor` abaixo do mapa; a inclusão da seção `Legislação` abaixo do painel de tratamento de demandas; e a atualização das seções iniciais das subpáginas para `Renospen`, `O Plano` e `A Revista`.
+> Nesta rodada, o documento principal de referência para publicação passa a ser `estrutura_completa_pagina_onasp_para_dicom.docx`, acompanhado dos apontamentos de divergência já sistematizados e do conjunto de artes institucionais correspondentes. Entre os ajustes editoriais e estruturais consolidados, destacam-se: a padronização visível de `Onasp` e `Senappen`; a manutenção da identificação `EMA - SENAPPEN`; a correção do título `Plano Pena Justa`; a adequação pública e institucional da subpágina da Rede de Ouvidorias; o tratamento do Espírito Santo com duas referências institucionais distintas; a inclusão da seção `VI Encontro Nacional das Ouvidorias do Sistema Penal` abaixo de `Mapa interativo e destaque por UF`; a retirada, dos rodapés visíveis dessa seção, dos textos `registro 1`, `registro 2` e `registro 3`; a consolidação do organograma e da seção `Decisões do SIDH` na EMA; a inclusão, na subpágina do Pena Justa, do quadro de eixos e metas com foco nos eixos 2 e 4; a inclusão, na homepage, de um bloco de contato resumido e do `Currículo do Ouvidor` abaixo do mapa; a inclusão da seção `Legislação` abaixo do painel de tratamento de demandas; e a atualização das seções iniciais das subpáginas para `Renospen`, `O Plano` e `A Revista`.
 >
 > Solicita-se à DICOM que utilize o documento estrutural atualizado como peça orientadora da publicação, observando especialmente: i) a vedação de replicação literal do HTML/CSS do protótipo; ii) o uso exclusivo de componentes nativos disponíveis no gov.br/SENAPPEN; iii) a não publicação de observações internas de diagnóstico ou curadoria; iv) a preservação dos links textuais próximos às imagens sempre que o editor permitir; e v) a utilização das artes e denominações mais recentes encaminhadas nesta instrução.
 >
@@ -176,6 +177,10 @@ Sugestão de assunto:
 - `Documentação/Banner_Curso_Bahia.jpg`
 - `Documentação/Banner_Curso_DF.jpg`
 - `Documentação/Banner_Curso_MA.jpg`
+
+### Artes da subpágina Plano Pena Justa
+
+- `Documentação/Plano_pena_justa.png`
 
 ### Artes das páginas de decisões do SIDH
 
