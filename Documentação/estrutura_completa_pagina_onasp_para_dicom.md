@@ -253,7 +253,34 @@ Links por ano:
 - 2024: https://www.gov.br/senappen/pt-br/acesso-a-informacao/participacao-social/ouvidoria/relatorio-de-gestao-de-ouvidoria
 - 2023: https://www.gov.br/senappen/pt-br/acesso-a-informacao/participacao-social/ouvidoria/relatorio-de-gestao-de-ouvidoria
 
-### Bloco 10 - Painel de Tratamento de Demandas
+### Bloco 10 - Notícias da Ouvidoria
+
+Título da seção:
+
+Notícias da Ouvidoria
+
+Texto introdutório sugerido:
+
+Seleção de notícias publicadas no portal da SENAPPEN com relação direta à ONASP, à Rede de Ouvidorias e aos canais de atendimento ao cidadão.
+
+Lista de notícias sugerida:
+
+- 27/04/2026 - [18ª Reunião do CONSEJ: SENAPPEN reforça parceria com estados para o aprimoramento das políticas penais](https://www.gov.br/senappen/pt-br/assuntos/noticias/18a-reuniao-do-consej-senappen-reforca-parceria-com-estados-para-o-aprimoramento-das-politicas-penais)
+  Descrição: A pauta destacou a atuação da Ouvidoria e da EMA/SENAPPEN na articulação federativa.
+- 14/04/2026 - [SENAPPEN fomenta atuação da Ouvidoria da Polícia Penal de Goiás com apoio à modernização tecnológica](https://www.gov.br/senappen/pt-br/assuntos/noticias/senappen-fomenta-atuacao-da-ouvidoria-da-policia-penal-de-goias-com-apoio-a-modernizacao-tecnologica)
+  Descrição: Ação voltada ao fortalecimento da escuta institucional, com chatbot e ampliação do acesso aos canais de atendimento.
+- 13/04/2026 - [VI Encontro Nacional das Ouvidorias do Sistema Penal fortalece a escuta qualificada e a participação social](https://www.gov.br/senappen/pt-br/assuntos/noticias/vi-encontro-nacional-das-ouvidorias-do-sistema-penal-fortalece-a-escuta-qualificada-e-a-participacao-social)
+  Descrição: O encontro marcou a criação da RENOSPEN e a publicação de diretrizes para atuação das ouvidorias.
+- 02/04/2026 - [Ouvidoria da SENAPPEN divulga orientações sobre recebimento e tratamento de denúncias](https://www.gov.br/senappen/pt-br/assuntos/noticias/ouvidoria-da-senappen-divulga-orientacoes-sobre-recebimento-e-tratamento-de-denuncias)
+  Descrição: A notícia apresenta o fluxo de denúncias da ONASP e reforça os canais de atendimento e participação social.
+- 31/10/2025 - [Com foco em escuta qualificada, SENAPPEN amplia diálogo com ouvidorias de São Paulo e Goiás](https://www.gov.br/senappen/pt-br/assuntos/noticias/com-foco-em-escuta-qualificada-senappen-amplia-dialogo-com-ouvidorias-de-sao-paulo-e-goias)
+  Descrição: A agenda fortaleceu a Rede Nacional de Ouvidorias e o intercâmbio de boas práticas com os estados.
+- 06/12/2024 - [SENAPPEN lança canal de comunicação via WhatsApp para facilitar o acesso a informações sobre o sistema de execução penal](https://www.gov.br/senappen/pt-br/assuntos/noticias/senappen-lanca-canal-de-comunicacao-via-whatsapp-para-facilitar-o-acesso-a-informacoes-sobre-o-sistema-de-execucao-penal)
+  Descrição: Lançamento do canal da ONASP no WhatsApp para tornar o atendimento mais ágil e acessível.
+- 25/07/2023 - [ONASP ministra treinamento para servidores do estado do RN](https://www.gov.br/senappen/pt-br/assuntos/noticias/onasp-ministra-treinamento-para-servidores-do-estado-do-rn)
+  Descrição: Capacitação com foco em ouvidoria para aprimorar o atendimento e os fluxos de manifestação no sistema penal.
+
+### Bloco 11 - Painel de Tratamento de Demandas
 
 Título da seção:
 
@@ -271,7 +298,7 @@ Título acessível sugerido para o iframe:
 
 Painel de Tratamento de Demandas da ONASP
 
-### Bloco 11 - Legislação
+### Bloco 12 - Legislação
 
 Título da seção:
 

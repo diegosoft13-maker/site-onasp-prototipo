@@ -320,6 +320,31 @@ section {
   text-decoration: underline;
 }
 
+.news-link-list {
+  margin: 18px 0 0;
+  padding-left: 22px;
+}
+
+.news-link-list li {
+  text-align: left;
+}
+
+.news-link-list li + li {
+  margin-top: 12px;
+}
+
+.news-link-list a {
+  font-weight: 700;
+}
+
+.news-meta {
+  display: block;
+  margin-top: 4px;
+  color: #6b7280;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
 .mapa-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
