@@ -29,8 +29,12 @@ Atualização incremental em 2026-05-18.
 - A seção `Normativos` deixou a homepage e passou a existir como a subpágina `subpaginas/normativos.html`, acessível por um novo card logo abaixo da subpágina da Revista.
 - O card e a hero da nova subpágina passaram a usar a arte oficial `../Documentação/Botao_Normativos.png`.
 - A tabela da nova subpágina foi reordenada para a sequência editorial: Lei nº 12.527/2011, Lei nº 13.460/2017, Lei nº 13.709/2018, Decreto nº 9.492/2018, Decreto nº 10.153/2019 e Portaria Normativa CGU nº 116/2024.
+- As subpáginas `rede-ouvidorias.html`, `plano-pena-justa.html` e `revista-brasileira-execucao-penal.html` mantiveram os títulos curtos na hero e passaram a usar, no texto de abertura, as redações editoriais consolidadas para Renospen, Plano Pena Justa e Revista.
+- Os cards da homepage para `Rede de Ouvidorias`, `Plano Pena Justa` e `Revista Brasileira de Execução Penal` foram alinhados às mesmas redações curtas aprovadas para as subpáginas correspondentes.
+- A nota de prévia da homepage teve a grafia ajustada de `DCOM` para `Dcom`, conforme orientação editorial aplicada à interface local.
 - VS Code não apontou erros em `index.html`, `styles.css` e `subpaginas/normativos.html`.
 - Validação local adicional confirmou que todos os `src` e `href` internos dos HTML em `prototipo-dicom-onasp/` resolvem para arquivos existentes quando lidos em UTF-8 e com decodificação de URL.
+- Validação local complementar, ainda em 2026-05-18, não apontou erros em `index.html`, `subpaginas/rede-ouvidorias.html`, `subpaginas/plano-pena-justa.html` e `subpaginas/revista-brasileira-execucao-penal.html` após os ajustes de redação.
 
 ## Referências
 
@@ -53,6 +57,6 @@ Atualização incremental em 2026-05-18.
 - Publicar o QR Code oficial localizado em `../Documentação/QRcode_Whatsapp.png`, sem usar placeholder visual como publicação final.
 - A prévia principal já usa os botões fiéis salvos em `../Documentação/Botao_Renospen.png`, `../Documentação/Botao_EMA.png`, `../Documentação/Botao_PenaJusta.png`, `../Documentação/Botao_RevistaBrasileira.png` e `../Documentação/Botao_Normativos.png`.
 - As subpáginas locais também passaram a usar essas imagens em um cabeçalho visual simples, para manter coerência entre card e página temática.
-- Revalidar conteúdo editorial final das cinco subpáginas antes do envio à DCOM.
+- Revalidar conteúdo editorial final das cinco subpáginas e dos cards da homepage antes do envio à DCOM.
 - Confirmar se o link dos relatórios deve apontar para PDF direto ou página agregadora.
 - Validar acessibilidade dos banners ricos em texto e iframes no ambiente gov.br.
