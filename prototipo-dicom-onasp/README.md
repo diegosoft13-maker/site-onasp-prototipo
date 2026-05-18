@@ -24,6 +24,14 @@ Snapshot validado em 2026-05-12.
 - Validação local adicional confirmou que todos os `src` e `href` internos dos HTML em `prototipo-dicom-onasp/` resolvem para arquivos existentes.
 - Esta validação cobre a prévia estática local. Links externos, embeds remotos e o comportamento final no ambiente gov.br/DCOM continuam dependentes da publicação real.
 
+Atualização incremental em 2026-05-18.
+
+- A seção `Normativos` deixou a homepage e passou a existir como a subpágina `subpaginas/normativos.html`, acessível por um novo card logo abaixo da subpágina da Revista.
+- O card e a hero da nova subpágina passaram a usar a arte oficial `../Documentação/Botao_Normativos.png`.
+- A tabela da nova subpágina foi reordenada para a sequência editorial: Lei nº 12.527/2011, Lei nº 13.460/2017, Lei nº 13.709/2018, Decreto nº 9.492/2018, Decreto nº 10.153/2019 e Portaria Normativa CGU nº 116/2024.
+- VS Code não apontou erros em `index.html`, `styles.css` e `subpaginas/normativos.html`.
+- Validação local adicional confirmou que todos os `src` e `href` internos dos HTML em `prototipo-dicom-onasp/` resolvem para arquivos existentes quando lidos em UTF-8 e com decodificação de URL.
+
 ## Referências
 
 - Página publicada da ONASP: <https://www.gov.br/senappen/pt-br/acesso-a-informacao/participacao-social/ouvidoria>
@@ -43,8 +51,8 @@ Snapshot validado em 2026-05-12.
 
 - Confirmar telefone oficial do banner de canais de atendimento.
 - Publicar o QR Code oficial localizado em `../Documentação/QRcode_Whatsapp.png`, sem usar placeholder visual como publicação final.
-- A prévia principal já usa os botões fiéis salvos em `../Documentação/Botao_Renospen.png`, `../Documentação/Botao_EMA.png`, `../Documentação/Botao_PenaJusta.png` e `../Documentação/Botao_RevistaBrasileira.png`.
+- A prévia principal já usa os botões fiéis salvos em `../Documentação/Botao_Renospen.png`, `../Documentação/Botao_EMA.png`, `../Documentação/Botao_PenaJusta.png`, `../Documentação/Botao_RevistaBrasileira.png` e `../Documentação/Botao_Normativos.png`.
 - As subpáginas locais também passaram a usar essas imagens em um cabeçalho visual simples, para manter coerência entre card e página temática.
-- Revalidar conteúdo editorial final das quatro subpáginas antes do envio à DCOM.
+- Revalidar conteúdo editorial final das cinco subpáginas antes do envio à DCOM.
 - Confirmar se o link dos relatórios deve apontar para PDF direto ou página agregadora.
 - Validar acessibilidade dos banners ricos em texto e iframes no ambiente gov.br.

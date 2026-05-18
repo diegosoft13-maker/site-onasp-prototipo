@@ -291,3 +291,12 @@ Preparar um despacho/mensagem final para a DCOM com:
 - Checagem adicional com PowerShell confirmou que todos os `src` e `href` internos dos HTML em `prototipo-dicom-onasp/` resolvem para arquivos existentes quando lidos em UTF-8 e com decodificação de URL.
 - Limite desta validação: links externos, iframes remotos e o comportamento final no ambiente gov.br/DCOM não foram revalidados neste ciclo.
 - Observação para retomada: o `git status` desta pasta continha também alterações não relacionadas em arquivos de `Documentação/`; elas não foram revertidas nem incorporadas a esta revisão.
+
+## Fechamento parcial em 2026-05-18
+
+- Ajuste aplicado em `prototipo-dicom-onasp/index.html`: a seção `Normativos` foi removida da homepage e substituída por um novo card temático posicionado logo abaixo de `Revista Brasileira de Execução Penal`.
+- Ajuste aplicado em `prototipo-dicom-onasp/subpaginas/normativos.html`: foi criada a nova subpágina `Normativos`, com hero própria e tabela editorial baseada nos seis PDFs da pasta `Documentação/Normativas Basilares de Ouvidoria/`.
+- Ajuste aplicado em `prototipo-dicom-onasp/index.html` e `prototipo-dicom-onasp/subpaginas/normativos.html`: o card e a hero da nova subpágina passaram a usar a arte oficial `Documentação/Botao_Normativos.png`.
+- Ajuste aplicado em `prototipo-dicom-onasp/subpaginas/normativos.html`: a ordem dos itens da tabela foi consolidada para `Lei nº 12.527/2011`, `Lei nº 13.460/2017`, `Lei nº 13.709/2018`, `Decreto nº 9.492/2018`, `Decreto nº 10.153/2019` e `Portaria Normativa CGU nº 116/2024`.
+- Validação local concluída em 2026-05-18: VS Code não apontou erros em `prototipo-dicom-onasp/index.html`, `prototipo-dicom-onasp/styles.css` e `prototipo-dicom-onasp/subpaginas/normativos.html`.
+- Checagem adicional com PowerShell confirmou que todos os `src` e `href` internos dos HTML em `prototipo-dicom-onasp/` resolvem para arquivos existentes quando lidos em UTF-8 e com decodificação de URL.
