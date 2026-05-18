@@ -151,7 +151,7 @@ Rede de Ouvidorias
 
 Descrição:
 
-Iniciativa do Plano Pena Justa voltada à cooperação federativa, à harmonização de procedimentos e ao fortalecimento da proteção de direitos no âmbito das Ouvidorias de Serviços Penais.
+Ação prevista no Plano Pena Justa voltada à cooperação federativa, à harmonização de procedimentos e ao fortalecimento da proteção de direitos no âmbito das Ouvidorias de Serviços Penais.
 
 Imagem:
 
@@ -187,7 +187,7 @@ Plano Pena Justa
 
 Descrição:
 
-Ambiente dedicado integralmente ao Plano, que disponibiliza o acesso a cronogramas, documentos técnicos e relatórios de acompanhamento.
+As ações específicas da Ouvidoria Nacional de Serviços Penais frente ao Plano Pena Justa, com informações gerais, documentos públicos e marcos relacionados ao fortalecimento das ouvidorias no sistema penal.
 
 Imagem:
 
@@ -205,7 +205,7 @@ Revista Brasileira de Execução Penal
 
 Descrição:
 
-Em articulação com a Espen e a DCOM, a Onasp reúne referências da Revista Brasileira de Execução Penal, com acesso a dossiês, notícias editoriais e conteúdos relacionados à participação social, transparência e direitos no sistema penal.
+Dossiê temático voltado ao diálogo entre comunicação social, participação social e os serviços de ouvidorias penais.
 
 Imagem:
 
@@ -214,6 +214,24 @@ Documentação/Botao_RevistaBrasileira.png
 Destino:
 
 Subpágina Revista Brasileira de Execução Penal
+
+Card 5:
+
+Título:
+
+Normativos
+
+Descrição:
+
+Subpágina com os principais marcos legais que orientam a atuação da Ouvidoria Nacional de Serviços Penais, reunindo leis, decretos e portarias de referência em um único acervo.
+
+Imagem:
+
+Documentação/Botao_Normativos.png
+
+Destino:
+
+Subpágina Normativos
 
 ### Bloco 8 - Plano de Metas 2026
 
@@ -271,38 +289,7 @@ Título acessível sugerido para o iframe:
 
 Painel de Tratamento de Demandas da ONASP
 
-### Bloco 11 - Normativos
-
-Título da seção:
-
-Normativos
-
-Linha de atualização sugerida:
-
-Publicado em 13/05/2026
-
-Atualizado em 13/05/2026
-
-Padrão visual recomendado para publicação:
-
-Apresentar abaixo do painel em tabela editorial inspirada na página `Normativos` da ESPEN, com colunas `Título`, `Tipo` e `Descrição`. Para os seis itens abaixo, o campo `Tipo` pode ser publicado como `Arquivo`.
-
-Links a publicar:
-
-- Lei nº 13.460, de 26 de junho de 2017: Documentação/Normativas Basilares de Ouvidoria/LEI N°13.460.2017.pdf
-  Descrição: Dispõe sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração pública.
-- Decreto nº 9.492, de 5 de setembro de 2018: Documentação/Normativas Basilares de Ouvidoria/Decreto N°9.492.2018.pdf
-  Descrição: Regulamenta a Lei nº 13.460, de 26 de junho de 2017, institui o Sistema de Ouvidoria do Poder Executivo federal e altera o Decreto nº 8.910, de 22 de novembro de 2016.
-- Decreto nº 10.153, de 3 de dezembro de 2019: Documentação/Normativas Basilares de Ouvidoria/Decreto N°10.153.2019.pdf
-  Descrição: Dispõe sobre as salvaguardas de proteção à identidade dos denunciantes de ilícitos e de irregularidades praticados contra a administração pública federal direta e indireta.
-- Portaria Normativa CGU nº 116, de 18 de março de 2024: Documentação/Normativas Basilares de Ouvidoria/Portaria Normativa CGU - N°116.2024.pdf
-  Descrição: Estabelece orientações para o exercício das competências das unidades do Sistema de Ouvidoria do Poder Executivo Federal, instituído pelo Decreto nº 9.492, de 5 de setembro de 2018, no âmbito do Poder Executivo federal, e dá outras providências.
-- Lei nº 12.527, de 18 de novembro de 2011: Documentação/Normativas Basilares de Ouvidoria/LEI N°12.527.2011.pdf
-  Descrição: Regula o acesso a informações previsto no inciso XXXIII do art. 5º, no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal.
-- Lei nº 13.709, de 14 de agosto de 2018: Documentação/Normativas Basilares de Ouvidoria/LEI N°13.709.2018.pdf
-  Descrição: Dispõe sobre a proteção de dados pessoais e altera a Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet).
-
-### Bloco 12 - Notícias da Ouvidoria
+### Bloco 11 - Notícias da Ouvidoria
 
 Título da seção:
 
@@ -310,7 +297,7 @@ Notícias da Ouvidoria
 
 Posicionamento na página:
 
-Último bloco da homepage, abaixo de `Normativos`.
+Último bloco da homepage, abaixo do `Painel de Tratamento de Demandas`.
 
 Texto introdutório sugerido:
 
@@ -355,7 +342,7 @@ Conteúdo Técnico e Projetos Estruturantes
 
 Texto de destaque:
 
-Iniciativa do Plano Pena Justa voltada à cooperação federativa, à harmonização de procedimentos e ao fortalecimento da proteção de direitos no âmbito das Ouvidorias de Serviços Penais.
+Ação prevista no Plano Pena Justa voltada à cooperação federativa, à harmonização de procedimentos e ao fortalecimento da proteção de direitos no âmbito das Ouvidorias de Serviços Penais.
 
 Seção:
 
@@ -641,7 +628,7 @@ Conteúdo Técnico e Projetos Estruturantes
 
 Texto de destaque:
 
-Ambiente dedicado ao Plano Pena Justa, com informações gerais, documentos públicos e marcos relacionados ao fortalecimento das ouvidorias no sistema penal.
+As ações específicas da Ouvidoria Nacional de Serviços Penais frente ao Plano Pena Justa, com informações gerais, documentos públicos e marcos relacionados ao fortalecimento das ouvidorias no sistema penal.
 
 Seção:
 
@@ -765,7 +752,7 @@ Conteúdo Técnico e Projetos Estruturantes
 
 Texto de destaque:
 
-Em articulação com a Espen e a DCOM, esta subpágina reúne referências da Revista Brasileira de Execução Penal.
+Dossiê temático voltado ao diálogo entre comunicação social, participação social e os serviços de ouvidorias penais.
 
 Seção:
 
@@ -817,9 +804,64 @@ Itens para colar:
 - e-ISSN: 2675-1860.
 - Contato da revista: rbep@mj.gov.br.
 
+## Subpágina 5 - Normativos
+
+Título da página:
+
+Normativos
+
+Imagem de destaque:
+
+Documentação/Botao_Normativos.png
+
+Texto alternativo sugerido:
+
+Botão institucional dos Normativos.
+
+Identificador editorial:
+
+Conteúdo Técnico e Projetos Estruturantes
+
+Texto de destaque:
+
+Esta subpágina reúne os marcos legais basilares que orientam a atuação da Ouvidoria Nacional de Serviços Penais.
+
+Seção:
+
+Base normativa da Ouvidoria
+
+Texto para colar:
+
+O acervo abaixo consolida leis, decretos e portarias de referência para participação social, transparência pública, proteção ao denunciante, acesso à informação e proteção de dados pessoais no âmbito das ouvidorias.
+
+Linha de atualização sugerida:
+
+Publicado em 13/05/2026
+
+Atualizado em 13/05/2026
+
+Padrão visual recomendado para publicação:
+
+Apresentar em tabela editorial com colunas `Título`, `Tipo` e `Descrição`, usando o mesmo padrão já consolidado no protótipo local para a subpágina `Normativos`. Para os seis itens abaixo, o campo `Tipo` pode ser publicado como `Arquivo`.
+
+Links a publicar:
+
+- Lei nº 12.527, de 18 de novembro de 2011: Documentação/Normativas Basilares de Ouvidoria/LEI N°12.527.2011.pdf
+  Descrição: Regula o acesso a informações previsto no inciso XXXIII do art. 5º, no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal.
+- Lei nº 13.460, de 26 de junho de 2017: Documentação/Normativas Basilares de Ouvidoria/LEI N°13.460.2017.pdf
+  Descrição: Dispõe sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração pública.
+- Lei nº 13.709, de 14 de agosto de 2018: Documentação/Normativas Basilares de Ouvidoria/LEI N°13.709.2018.pdf
+  Descrição: Dispõe sobre a proteção de dados pessoais e altera a Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet).
+- Decreto nº 9.492, de 5 de setembro de 2018: Documentação/Normativas Basilares de Ouvidoria/Decreto N°9.492.2018.pdf
+  Descrição: Regulamenta a Lei nº 13.460, de 26 de junho de 2017, institui o Sistema de Ouvidoria do Poder Executivo federal e altera o Decreto nº 8.910, de 22 de novembro de 2016.
+- Decreto nº 10.153, de 3 de dezembro de 2019: Documentação/Normativas Basilares de Ouvidoria/Decreto N°10.153.2019.pdf
+  Descrição: Dispõe sobre as salvaguardas de proteção à identidade dos denunciantes de ilícitos e de irregularidades praticados contra a administração pública federal direta e indireta.
+- Portaria Normativa CGU nº 116, de 18 de março de 2024: Documentação/Normativas Basilares de Ouvidoria/Portaria Normativa CGU - N°116.2024.pdf
+  Descrição: Estabelece orientações para o exercício das competências das unidades do Sistema de Ouvidoria do Poder Executivo Federal, instituído pelo Decreto nº 9.492, de 5 de setembro de 2018, no âmbito do Poder Executivo federal, e dá outras providências.
+
 ## Observações sobre formatação
 
-Na prévia local, os textos corridos das cinco páginas HTML foram verificados em 2026-05-13 com alinhamento justificado. No gov.br, esse resultado dependerá das opções disponíveis no editor oficial. Caso o editor permita alinhamento do parágrafo, recomenda-se aplicar alinhamento justificado aos textos corridos e manter títulos, links curtos e botões com o alinhamento padrão do componente.
+Na prévia local, os textos corridos das seis páginas HTML foram verificados em 2026-05-18 com alinhamento justificado. No gov.br, esse resultado dependerá das opções disponíveis no editor oficial. Caso o editor permita alinhamento do parágrafo, recomenda-se aplicar alinhamento justificado aos textos corridos e manter títulos, links curtos e botões com o alinhamento padrão do componente.
 
 ## Observações sobre WordPress, Plone e reaproveitamento
 
