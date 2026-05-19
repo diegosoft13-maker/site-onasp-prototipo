@@ -1,14 +1,14 @@
 # Estrutura completa para publicação da página da ONASP
 
-Data de atualização: 2026-05-13
+Data de atualização: 2026-05-18
 
-Documento de apoio para a DCOM reproduzir, no ambiente oficial gov.br/SENAPPEN, a estrutura da prévia criada para a página da Ouvidoria Nacional de Serviços Penais e suas subpáginas temáticas.
+Documento de apoio para subsidiar, no ambiente oficial gov.br/SENAPPEN, a organização da estrutura editorial validada para a página da Ouvidoria Nacional de Serviços Penais e suas subpáginas temáticas.
 
-## Orientação inicial para a DCOM
+## Referência inicial para a DCOM
 
-A prévia foi construída em HTML5 e CSS3 apenas para validação visual, responsiva e editorial. A publicação final deve ser feita com os componentes nativos do ambiente gov.br, preservando a ordem dos blocos, os textos, as imagens, os links e os embeds indicados neste documento.
+A prévia foi construída em HTML5 e CSS3 apenas para validação visual, responsiva e editorial. O material pode ser adaptado aos componentes e fluxos adotados pela equipe responsável pela publicação no ambiente gov.br, preservando, quando couber, a ordem dos blocos, os textos, as imagens, os links e os embeds indicados neste documento.
 
-Não é recomendável copiar e colar o código inteiro da prévia HTML diretamente no portal oficial, pois o ambiente gov.br normalmente aplica regras próprias de estilo, componentes e sanitização de conteúdo. O conteúdo abaixo foi organizado em blocos simples para facilitar o copiar e colar no editor oficial.
+Como a prévia foi elaborada em HTML apenas para validação visual, o conteúdo abaixo foi organizado em blocos simples para facilitar seu aproveitamento no editor oficial, conforme os recursos disponíveis no portal.
 
 ## Página principal: Ouvidoria Nacional de Serviços Penais
 
@@ -30,7 +30,9 @@ Canal oficial da Senappen para escuta, transparência, participação social e e
 
 Texto para colar:
 
-A Ouvidoria Nacional de Serviços Penais (Onasp), vinculada à Secretaria Nacional de Políticas Penais (Senappen) e integrante do Sistema de Ouvidorias do Poder Executivo Federal, promove a participação social e a defesa dos direitos dos servidores, das pessoas em cumprimento de pena, dos egressos e de seus familiares. Atua no recebimento, tratamento e encaminhamento de manifestações, por meio do canal Fala.BR (elogios, sugestões, solicitações, reclamações e denúncias), visando o fortalecimento do controle social, a melhoria contínua dos serviços penais e o monitoramento dos estabelecimentos prisionais do país.
+A Ouvidoria Nacional de Serviços Penais (Onasp), vinculada à Secretaria Nacional de Políticas Penais (Senappen) e integrante do Sistema de Ouvidorias do Poder Executivo Federal, promove a participação social e a defesa dos direitos dos usuários, bem como busca qualificar o atendimento ao cidadão, assegurando escuta ativa, acessível e humanizada a servidores, pessoas privadas de liberdade, em cumprimento de pena, egressos, familiares e demais usuários dos serviços penais.
+
+Atua no recebimento, tratamento e encaminhamento de manifestações, por meio da plataforma Fala.BR (elogios, sugestões, solicitações, comunicações, reclamações e denúncias), visando ao fortalecimento do controle social, à melhoria contínua dos serviços penais e ao monitoramento dos estabelecimentos prisionais do país.
 
 A Ouvidoria também é responsável pelo Serviço de Informações ao Cidadão (SIC). Por meio da Lei de Acesso à Informação (LAI), você pode solicitar dados e documentos de acesso público através da plataforma Fala.BR. Sua demanda será analisada pela nossa equipe e encaminhada ao setor responsável para que você receba a resposta adequada. Conheça o fluxo de tratamento das denúncias.
 
@@ -89,7 +91,7 @@ https://falabr.cgu.gov.br
 
 Observação:
 
-Inserir o QR Code oficial do chatbot na própria seção de canais de atendimento, em bloco compacto com legenda curta, utilizando o arquivo Documentação/QRcode_Whatsapp.png.
+Pode ser incluído o QR Code oficial do chatbot na própria seção de canais de atendimento, em bloco compacto com legenda curta, utilizando o arquivo Documentação/QRcode_Whatsapp.png.
 
 ### Bloco 5 - Mapa de Localização
 
@@ -303,9 +305,9 @@ Texto introdutório sugerido:
 
 Curadoria manual com seis notícias do portal da SENAPPEN ligadas à ONASP, à Rede de Ouvidorias e à qualificação dos canais de atendimento ao cidadão.
 
-Padrão visual recomendado para publicação:
+Referência visual para publicação:
 
-No protótipo, apresentar em seis cards editoriais compactos, em grade 3x2 inspirada na vitrine de notícias da ESPEN: imagem no topo, rubrica curta, título clicável, resumo breve e data. Na publicação gov.br, reproduzir com componente nativo equivalente, sem feed dinâmico e sem ícones de compartilhamento.
+No protótipo, o bloco foi organizado em cards editoriais compactos, com imagem no topo, rubrica curta, título clicável, resumo breve e data. Na publicação no portal, essa lógica pode ser adaptada ao componente disponível, inclusive em arranjo equivalente e sem necessidade de feed dinâmico ou ícones de compartilhamento.
 
 Lista de notícias sugerida:
 
@@ -384,19 +386,15 @@ Texto para colar:
 
 Esta prévia reúne, em um único ponto, os contatos institucionais consolidados das unidades da federação. No ambiente de validação local, a consulta foi organizada por meio de um mapa visual com seleção por UF e painel lateral com dados resumidos da ouvidoria correspondente ou, quando cabível, das referências institucionais associadas à mesma unidade da federação.
 
-Orientação para publicação oficial:
+Referência para publicação:
 
-No ambiente gov.br, recomenda-se tratar o mapa interativo apenas como referência visual da prévia. A solução mais segura para publicação é manter um seletor simples por UF, um bloco expansível por estado ou, preferencialmente, o quadro textual de contatos apresentado abaixo, sem depender de JavaScript customizado.
+Na publicação oficial, o mapa interativo pode ser tratado apenas como referência visual da prévia. O conteúdo também pode ser apresentado em seletor simples por UF, bloco expansível por estado ou quadro textual de contatos, conforme os recursos editoriais disponíveis no portal.
 
-Quando a mesma UF tiver mais de uma referência institucional relevante, como ocorre no Espírito Santo, recomenda-se separar as informações em blocos independentes dentro do quadro lateral ou em linhas distintas no quadro textual, evitando misturar órgãos, responsáveis, telefones e endereços em uma única ficha.
+Quando a mesma UF tiver mais de uma referência institucional relevante, convém separar as informações em blocos independentes dentro do quadro lateral ou em linhas distintas no quadro textual, evitando misturar órgãos, responsáveis, telefones e endereços em uma única ficha.
 
-Regra editorial obrigatória:
+Observação editorial:
 
-Detalhes de curadoria usados para consolidar os contatos devem permanecer apenas na documentação interna de trabalho. Não publicar na página expressões como "o diagnóstico registrou", "a resposta do diagnóstico informa", menções a respostas recebidas, observações internas de validação ou listas nominais de servidores designados.
-
-Base interna de consolidação (não publicar na página):
-
-Diagnóstico de Ouvidorias Estaduais, consolidado pela ONASP a partir das respostas recebidas em 2026.
+Para a versão pública, convém apresentar apenas as informações de contato já validadas para divulgação, mantendo em registro interno observações de consolidação e referências de trabalho.
 
 Seção:
 
@@ -673,7 +671,7 @@ Texto para colar:
 
 No recorte da Ouvidoria Nacional de Serviços Penais, o acompanhamento do Pena Justa prioriza instrumentos que fortaleçam a escuta qualificada, a transparência ativa e a coordenação entre as ouvidorias dos serviços penais.
 
-Esse recorte se materializa por meio de marcos normativos e de cooperação técnica que estruturam parâmetros mínimos de atuação, incentivam integração preferencial ao Fala.BR e consolidam uma rede permanente de intercâmbio entre União, Estados e Distrito Federal.
+Esse recorte se materializa por meio de marcos normativos e de cooperação técnica voltados ao fortalecimento da articulação entre canais institucionais de manifestação e à consolidação de uma rede permanente de intercâmbio entre União, Estados e Distrito Federal.
 
 Seção:
 
@@ -693,7 +691,7 @@ Instrução Normativa nº 75/2026
 
 Texto para colar:
 
-Estabelece parâmetros mínimos para a criação e a estruturação de Ouvidorias de Serviços Penais nos Estados e no Distrito Federal, com diretrizes de autonomia, transparência, acessibilidade e integração preferencial ao Fala.BR.
+Estabelece parâmetros mínimos para a criação e a estruturação de Ouvidorias de Serviços Penais nos Estados e no Distrito Federal, com diretrizes de autonomia, transparência, acessibilidade e integração com canais institucionais de manifestação, inclusive o Fala.BR.
 
 Link:
 
@@ -840,9 +838,9 @@ Publicado em 13/05/2026
 
 Atualizado em 13/05/2026
 
-Padrão visual recomendado para publicação:
+Referência visual para publicação:
 
-Apresentar em tabela editorial com colunas `Título`, `Tipo` e `Descrição`, usando o mesmo padrão já consolidado no protótipo local para a subpágina `Normativos`. Para os seis itens abaixo, o campo `Tipo` pode ser publicado como `Arquivo`.
+A seção pode ser organizada em tabela editorial com colunas `Título`, `Tipo` e `Descrição`, em arranjo compatível com os recursos editoriais disponíveis. Para os seis itens abaixo, o campo `Tipo` pode usar a indicação `Arquivo`.
 
 Links a publicar:
 
@@ -859,14 +857,10 @@ Links a publicar:
 - Portaria Normativa CGU nº 116, de 18 de março de 2024: Documentação/Normativas Basilares de Ouvidoria/Portaria Normativa CGU - N°116.2024.pdf
   Descrição: Estabelece orientações para o exercício das competências das unidades do Sistema de Ouvidoria do Poder Executivo Federal, instituído pelo Decreto nº 9.492, de 5 de setembro de 2018, no âmbito do Poder Executivo federal, e dá outras providências.
 
-## Observações sobre formatação
+## Repositório de arquivos
 
-Na prévia local, os textos corridos das seis páginas HTML foram verificados em 2026-05-18 com alinhamento justificado. No gov.br, esse resultado dependerá das opções disponíveis no editor oficial. Caso o editor permita alinhamento do parágrafo, recomenda-se aplicar alinhamento justificado aos textos corridos e manter títulos, links curtos e botões com o alinhamento padrão do componente.
+Para facilitar a consulta ao conjunto de materiais de apoio relacionados à estrutura da página e de suas subpáginas, a documentação completa do site foi reunida em um único diretório digital. Esse compartilhamento permite acesso centralizado aos arquivos de referência e evita a necessidade de juntada individualizada de cada documento neste processo.
 
-## Observações sobre WordPress, Plone e reaproveitamento
+Acesse o link abaixo para consultar a documentação completa do site:
 
-As páginas do domínio gov.br normalmente são administradas em ambiente gov.br/Plone, e não em WordPress. A DCOM pode confirmar o ambiente exato de edição utilizado internamente, mas a estrutura pública analisada segue o padrão do gov.br, com componentes próprios de publicação.
-
-Por isso, recomenda-se não tratar a prévia como um pacote WordPress. A DCOM deve aproveitar os textos, imagens, links, embeds e ordem dos blocos, reproduzindo a montagem com os componentes oficiais disponíveis no portal.
-
-Há precedentes úteis dentro do próprio ecossistema da Senappen. A página da ESPEN e a subpágina da RESPEN mostram que o portal oficial já comporta texto institucional, links de destaque para documentos em PDF, listas simples e tabelas extensas por unidade federativa quando houver base oficial validada. Da mesma forma, o portal oficial da RBEP confirma a existência de referências institucionais, acesso à edição atual, arquivo de edições e informações para submissão que podem ser indicadas na subpágina temática da Revista.
+Link de acesso: https://justicagovbr-my.sharepoint.com/:f:/g/personal/diego_oliveira3_mj_gov_br/IgClmmBvbfHQRaLSnLF9_HvOAapvlRwLVMdUhd0m_sTJmwA?e=NusVt7

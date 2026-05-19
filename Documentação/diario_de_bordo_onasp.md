@@ -1,6 +1,6 @@
 # Diário de bordo ONASP/DCOM
 
-Data de atualização: 2026-05-13
+Data de atualização: 2026-05-19
 
 ## Objetivo deste diário
 
@@ -68,7 +68,7 @@ O HTML bruto da página foi analisado em 2026-05-07. Para preservar o padrão se
 
 Não propor nem implementar:
 
-- JavaScript próprio.
+- JavaScript próprio como requisito de publicação no gov.br/DCOM.
 - Biblioteca externa de ícones.
 - Botão customizado.
 - Card interativo fora do padrão disponível.
@@ -229,23 +229,24 @@ Texto sugerido para encaminhamento:
 
 O protótipo local já foi ajustado para:
 
-- Não usar script.
+- Não depender de script como requisito da entrega para a DCOM.
 - Não usar `lucide`.
 - Não usar botão customizado.
 - Não usar placeholder de QR Code.
 - Carregar quatro imagens: Banner 1, Banner 2, QR Code e Banner 3.
-- Exibir cards como Rede de Ouvidorias, EMA - SENAPPEN, Plano Pena Justa e Revista Brasileira de Execução Penal.
-- Usar nos links temáticos as imagens fiéis salvas em `Documentação/Botao_Renospen.png`, `Documentação/Botao_EMA.png`, `Documentação/Botao_PenaJusta.png` e `Documentação/Botao_RevistaBrasileira.png`.
-- Aplicar às quatro subpáginas internas um cabeçalho simples com a imagem oficial correspondente, título consistente com a página principal e manutenção explícita da nota de pendência de conteúdo.
+- Exibir cards como Rede de Ouvidorias, EMA - SENAPPEN, Plano Pena Justa, Revista Brasileira de Execução Penal e Normativos.
+- Usar nos links temáticos as imagens fiéis salvas em `Documentação/Botao_Renospen.png`, `Documentação/Botao_EMA.png`, `Documentação/Botao_PenaJusta.png`, `Documentação/Botao_RevistaBrasileira.png` e `Documentação/Botao_Normativos.png`.
+- Aplicar às cinco subpáginas temáticas um cabeçalho simples com a imagem oficial correspondente, título consistente com a página principal e manutenção explícita da nota de pendência de conteúdo quando cabível.
 - Ter subpágina `plano-pena-justa.html`, não `programa-pena-justa.html`.
 - Na seção `O Plano` de `plano-pena-justa.html`, inserir a imagem institucional `Documentação/Banner_PenaJusta_f1.jpg`, com breve contextualização acima e abaixo da arte.
-- Na subpágina `plano-pena-justa.html`, inserir após `Eixos de atuação` o quadro `Documentação/Plano_pena_justa.png`, com texto de apoio antes e depois da imagem para contextualizar os eixos 2 e 4 no recorte da Onasp.
+- Na subpágina `plano-pena-justa.html`, substituir a leitura do quadro integral por um quadro de referência com nove recortes temáticos, em composição única e ordem consolidada para o recorte da Onasp.
+- Manter, em `plano-pena-justa.html`, o link `Abrir quadro completo do Plano Pena Justa` abrindo um modal local com fechamento por clique fora da imagem, tecla `Esc` e botão dedicado. Esse recurso serve apenas como apoio de leitura no protótipo e não deve ser tratado como exigência para a DCOM.
 
 Validação realizada:
 
 - VS Code não apontou erros nos arquivos de `Documentação` e `prototipo-dicom-onasp`.
 - A prévia local carregou os banners e QR Code.
-- Busca confirmou ausência de `<script`, `lucide`, `data-lucide`, `class="button` e `qr-placeholder` no protótipo.
+- Busca confirmou ausência de `lucide`, `data-lucide`, `class="button` e `qr-placeholder` no protótipo. Há uma única exceção de `script`, restrita ao modal local do quadro completo em `prototipo-dicom-onasp/subpaginas/plano-pena-justa.html`.
 - O Power BI retornou 401 na prévia local, por restrição do iframe externo; isso não altera o roteiro de publicação.
 
 ## Agentes criados
@@ -274,11 +275,11 @@ Regra importante já gravada nos agentes: não propor componente, biblioteca, bo
 
 ## Próximo passo recomendado
 
-Preparar um despacho/mensagem final para a DCOM com:
+Encaminhar à DCOM a documentação consolidada e o pacote editorial já estabilizado, usando como base:
 
-- lista de ajustes objetivos;
-- arquivos anexos: QR Code, banners e textos revisados;
-- justificativa curta de governança e acessibilidade;
+- `Documentação/estrutura_completa_pagina_onasp_para_dicom.md` e `Documentação/estrutura_completa_pagina_onasp_para_dicom.docx`;
+- `Documentação/minuta_despacho_atualizado_dcom_2026-05-18.md` e `Documentação/minuta_despacho_atualizado_dcom_2026-05-18.docx`;
+- QR Code, banners e textos revisados já consolidados neste workspace;
 - pedido explícito para manter a publicação dentro da caixa gov.br/SENAPPEN.
 
 ## Fechamento parcial em 2026-05-12
@@ -304,3 +305,13 @@ Preparar um despacho/mensagem final para a DCOM com:
 - Validação local concluída em 2026-05-18: VS Code não apontou erros em `prototipo-dicom-onasp/index.html`, `prototipo-dicom-onasp/styles.css` e `prototipo-dicom-onasp/subpaginas/normativos.html`.
 - Checagem adicional com PowerShell confirmou que todos os `src` e `href` internos dos HTML em `prototipo-dicom-onasp/` resolvem para arquivos existentes quando lidos em UTF-8 e com decodificação de URL.
 - Validação local complementar em 2026-05-18: VS Code não apontou erros em `prototipo-dicom-onasp/index.html`, `prototipo-dicom-onasp/subpaginas/rede-ouvidorias.html`, `prototipo-dicom-onasp/subpaginas/plano-pena-justa.html` e `prototipo-dicom-onasp/subpaginas/revista-brasileira-execucao-penal.html` após os ajustes de redação da home e das subpáginas.
+
+## Fechamento deste ciclo em 2026-05-19
+
+- Estado publicado de referência do protótipo: `https://diegosoft13-maker.github.io/site-onasp-prototipo/prototipo-dicom-onasp/index.html`.
+- Estado publicado de referência do Plano Pena Justa: `https://diegosoft13-maker.github.io/site-onasp-prototipo/prototipo-dicom-onasp/subpaginas/plano-pena-justa.html?v=037d4b8`.
+- A subpágina `plano-pena-justa.html` foi consolidada com quadro único de nove recortes, texto editorial revisado, botão para abertura do quadro completo e modal local ampliado para leitura da imagem integral.
+- A tentativa posterior de reduzir ainda mais o tamanho dos quadros foi revertida. O estado final publicado preserva a versão imediatamente anterior a essa redução extra.
+- O pacote documental voltado à DCOM foi deixado pronto no workspace, com atualização em `Documentação/estrutura_completa_pagina_onasp_para_dicom.md` e criação de `Documentação/minuta_despacho_atualizado_dcom_2026-05-18.md`, além das versões `.docx` correspondentes.
+- Ponto de atenção para retomada futura: o modal do Plano Pena Justa é um recurso de validação local. Na publicação oficial, ele deve ser substituído por solução compatível com os componentes nativos do portal.
+- Encerramento prático deste ciclo: não há pendência local de implementação HTML/CSS considerada obrigatória antes da abertura de outro projeto. O restante depende de decisão editorial, tramitação SEI e publicação pela DCOM.

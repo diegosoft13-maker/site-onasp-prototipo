@@ -5,7 +5,7 @@ Este diretório contém uma prévia estática da ordem e do conteúdo desejados 
 ## Regra de compatibilidade
 
 - Não usar biblioteca externa de ícones.
-- Não criar JavaScript próprio.
+- Não propor JavaScript próprio como requisito para publicação na DCOM.
 - Não criar botão, menu, controle, card interativo ou funcionalidade que não exista na caixa de ferramentas do SENAPPEN/gov.br.
 - Usar somente componentes equivalentes aos já observados na página publicada: título, subtítulo, texto rico, imagem/banner linkado, iframe, link simples e card/link de subpágina.
 - Tratar o CSS deste diretório apenas como ajuda visual local; ele não deve ser enviado como requisito de implementação para a DCOM.
@@ -13,6 +13,11 @@ Este diretório contém uma prévia estática da ordem e do conteúdo desejados 
 ## Como abrir
 
 Abra `index.html` no navegador. O arquivo é apenas uma prévia local.
+
+Prévia pública mais recente no GitHub Pages:
+
+- Homepage: <https://diegosoft13-maker.github.io/site-onasp-prototipo/prototipo-dicom-onasp/index.html>
+- Plano Pena Justa: <https://diegosoft13-maker.github.io/site-onasp-prototipo/prototipo-dicom-onasp/subpaginas/plano-pena-justa.html?v=037d4b8>
 
 ## Status desta versão
 
@@ -36,6 +41,14 @@ Atualização incremental em 2026-05-18.
 - Validação local adicional confirmou que todos os `src` e `href` internos dos HTML em `prototipo-dicom-onasp/` resolvem para arquivos existentes quando lidos em UTF-8 e com decodificação de URL.
 - Validação local complementar, ainda em 2026-05-18, não apontou erros em `index.html`, `subpaginas/rede-ouvidorias.html`, `subpaginas/plano-pena-justa.html` e `subpaginas/revista-brasileira-execucao-penal.html` após os ajustes de redação.
 
+Fechamento deste ciclo em 2026-05-19.
+
+- O protótipo publicado do Plano Pena Justa foi estabilizado na revisão `037d4b8`, preservando a composição em quadro único com os nove recortes temáticos e o texto editorial consolidado da subpágina.
+- A ação `Abrir quadro completo do Plano Pena Justa` passou a usar um modal apenas na prévia local/publicada do protótipo, com fechamento por clique fora da imagem, tecla `Esc` e botão dedicado.
+- A ampliação do modal foi mantida como ajuste final do protótipo. A tentativa posterior de reduzir ainda mais o tamanho dos quadros foi revertida, de modo que o estado publicado voltou ao layout imediatamente anterior.
+- A exceção de JavaScript existente hoje está restrita a esse modal do Plano Pena Justa e serve apenas para leitura do quadro completo no ambiente de validação. Ela não deve ser tratada como requisito para a publicação oficial no gov.br.
+- O pacote documental de apoio para a DCOM ficou consolidado com `../Documentação/estrutura_completa_pagina_onasp_para_dicom.md` e `../Documentação/minuta_despacho_atualizado_dcom_2026-05-18.md`, além das respectivas versões `.docx` já presentes no workspace.
+
 ## Referências
 
 - Página publicada da ONASP: <https://www.gov.br/senappen/pt-br/acesso-a-informacao/participacao-social/ouvidoria>
@@ -47,6 +60,8 @@ Atualização incremental em 2026-05-18.
 - Apontamentos para ofício à DCOM: `../Documentação/apontamentos_divergencias_notas_tecnicas_dcom.md`
 - Apontamentos em Word: `../Documentação/apontamentos_divergencias_notas_tecnicas_dcom.docx`
 - Roteiro de publicação: `../Documentação/roteiro_publicacao_govbr_senappen.md`
+- Estrutura editorial consolidada para a DCOM: `../Documentação/estrutura_completa_pagina_onasp_para_dicom.md`
+- Minuta de despacho atualizada para a DCOM: `../Documentação/minuta_despacho_atualizado_dcom_2026-05-18.md`
 - Melhorias visuais dentro da caixa gov.br/SENAPPEN: `../Documentação/melhorias_visuais_govbr_senappen.md`
 - Inventário técnico da estrutura gov.br/SENAPPEN: `../Documentação/inventario_estrutura_govbr_senappen.md`
 - Diário de bordo para retomada por outra IA: `../Documentação/diario_de_bordo_onasp.md`
@@ -60,3 +75,4 @@ Atualização incremental em 2026-05-18.
 - Revalidar conteúdo editorial final das cinco subpáginas e dos cards da homepage antes do envio à DCOM.
 - Confirmar se o link dos relatórios deve apontar para PDF direto ou página agregadora.
 - Validar acessibilidade dos banners ricos em texto e iframes no ambiente gov.br.
+- Traduzir, na publicação oficial, o modal local do Plano Pena Justa para um recurso nativo do portal, como link simples para imagem ou bloco estático equivalente.
