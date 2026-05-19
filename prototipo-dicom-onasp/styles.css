@@ -207,13 +207,12 @@ section {
 
 .pena-justa-panels {
   display: grid;
-  gap: 10px;
+  gap: 12px;
 }
 
 .pena-justa-panels-three {
-  grid-template-columns: repeat(3, minmax(0, 220px));
-  justify-content: center;
-  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
 }
 
 .pena-justa-panel {
@@ -226,7 +225,7 @@ section {
 
 .pena-justa-panel a {
   display: block;
-  padding: 6px;
+  padding: 8px;
 }
 
 .pena-justa-panel img {
@@ -238,13 +237,13 @@ section {
 
 @media (max-width: 900px) {
   .pena-justa-panels-three {
-    grid-template-columns: repeat(2, minmax(0, 220px));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 640px) {
   .pena-justa-panels-three {
-    grid-template-columns: minmax(0, 240px);
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
