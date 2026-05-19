@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Plano Pena Justa | Prévia gov.br/Plone</title>
-  <link rel="stylesheet" href="../styles.css?v=20260519-pena-justa-eixos">
+  <link rel="stylesheet" href="../styles.css?v=20260519-pena-justa-modal">
 </head>
 <body>
   <main class="govbr-preview subpage-preview">
@@ -97,7 +97,7 @@
           </div>
         </div>
       </div>
-      <p class="compact-action-link"><strong><a href="../../Documentação/Plano_pena_justa.png?v=20260513-quadro">Abrir quadro completo do Plano Pena Justa</a></strong></p>
+      <p class="compact-action-link"><strong><a href="../../Documentação/Plano_pena_justa.png?v=20260513-quadro" class="image-modal-trigger" data-modal-image="../../Documentação/Plano_pena_justa.png?v=20260513-quadro" data-modal-alt="Quadro completo do Plano Pena Justa com medidas, metas e atores estratégicos dos eixos 2 e 4.">Abrir quadro completo do Plano Pena Justa</a></strong></p>
       <p>No recorte de interesse da Onasp, o quadro destaca especialmente medidas voltadas à qualificação dos serviços prestados nas prisões, à institucionalização de canais efetivos de denúncia, à criação e estruturação de ouvidorias estaduais e ao fortalecimento de políticas de não repetição.</p>
     </section>
 
@@ -130,5 +130,68 @@
       </ul>
     </section>
   </main>
+
+  <div class="image-modal" id="image-modal" hidden>
+    <div class="image-modal-backdrop" data-modal-close="true"></div>
+    <div class="image-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="image-modal-title">
+      <button class="image-modal-close" type="button" aria-label="Fechar imagem" data-modal-close="true">&times;</button>
+      <h2 class="image-modal-title" id="image-modal-title">Quadro completo do Plano Pena Justa</h2>
+      <img class="image-modal-content" id="image-modal-content" src="" alt="">
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var modal = document.getElementById("image-modal");
+      var modalImage = document.getElementById("image-modal-content");
+      var modalCloseButton = modal ? modal.querySelector(".image-modal-close") : null;
+      var modalTriggers = document.querySelectorAll(".image-modal-trigger");
+      var lastFocusedElement = null;
+
+      if (!modal || !modalImage || !modalCloseButton || !modalTriggers.length) {
+        return;
+      }
+
+      function closeModal() {
+        modal.hidden = true;
+        document.body.classList.remove("image-modal-open");
+        modalImage.removeAttribute("src");
+        modalImage.alt = "";
+
+        if (lastFocusedElement) {
+          lastFocusedElement.focus();
+          lastFocusedElement = null;
+        }
+      }
+
+      function openModal(trigger) {
+        lastFocusedElement = trigger;
+        modalImage.src = trigger.getAttribute("data-modal-image");
+        modalImage.alt = trigger.getAttribute("data-modal-alt") || "";
+        modal.hidden = false;
+        document.body.classList.add("image-modal-open");
+        modalCloseButton.focus();
+      }
+
+      modalTriggers.forEach(function (trigger) {
+        trigger.addEventListener("click", function (event) {
+          event.preventDefault();
+          openModal(trigger);
+        });
+      });
+
+      modal.addEventListener("click", function (event) {
+        if (event.target.closest("[data-modal-close='true']")) {
+          closeModal();
+        }
+      });
+
+      document.addEventListener("keydown", function (event) {
+        if (!modal.hidden && event.key === "Escape") {
+          closeModal();
+        }
+      });
+    }());
+  </script>
 </body>
 </html>
