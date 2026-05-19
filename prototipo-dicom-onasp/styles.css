@@ -177,22 +177,31 @@ section {
 
 .pena-justa-panels {
   display: grid;
-  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+  justify-content: center;
+  gap: 16px;
   margin: 16px 0;
 }
 
 .pena-justa-panel {
   margin: 0;
-  padding: 12px;
+  padding: 8px;
   border: 1px solid #d1d5db;
-  border-radius: 10px;
+  border-radius: 8px;
   background: #ffffff;
-  box-shadow: 0 10px 24px rgba(7, 29, 65, 0.08);
 }
 
 .pena-justa-panel img {
+  display: block;
   width: 100%;
   height: auto;
+  border-radius: 6px;
+}
+
+@media (max-width: 640px) {
+  .pena-justa-panels {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .manifestacao-banner-crop {
