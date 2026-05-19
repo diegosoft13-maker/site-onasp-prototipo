@@ -175,52 +175,43 @@ section {
   line-height: 1.45;
 }
 
-.pena-justa-gallery {
+
+.pena-justa-axis-groups {
+  display: grid;
+  gap: 18px;
   margin: 16px 0;
+}
+
+.pena-justa-axis-group {
   border: 1px solid #d1d5db;
   border-radius: 8px;
   background: #f8f9fb;
-  overflow: hidden;
-}
-
-.pena-justa-gallery summary {
-  position: relative;
-  padding: 14px 48px 14px 16px;
-  cursor: pointer;
-  font-weight: 700;
-  color: #0c326f;
-  list-style: none;
-}
-
-.pena-justa-gallery summary::-webkit-details-marker {
-  display: none;
-}
-
-.pena-justa-gallery summary::after {
-  content: "+";
-  position: absolute;
-  right: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 1.2rem;
-}
-
-.pena-justa-gallery[open] summary {
-  border-bottom: 1px solid #d1d5db;
-  background: #ffffff;
-}
-
-.pena-justa-gallery[open] summary::after {
-  content: "-";
-}
-
-.pena-justa-gallery-body {
   padding: 16px;
+}
+
+.pena-justa-axis-header {
+  margin-bottom: 12px;
+}
+
+.pena-justa-axis-header h3 {
+  margin: 0;
+  color: #0c326f;
+  font-size: 1.05rem;
+}
+
+.pena-justa-axis-header p {
+  margin: 6px 0 0;
+  color: #4b5563;
+  font-size: 0.92rem;
 }
 
 .pena-justa-panels {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.pena-justa-panels-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
 }
 
@@ -234,7 +225,7 @@ section {
 
 .pena-justa-panel a {
   display: block;
-  padding: 8px 8px 0;
+  padding: 8px;
 }
 
 .pena-justa-panel img {
@@ -244,11 +235,16 @@ section {
   border-radius: 6px;
 }
 
-.pena-justa-panel figcaption {
-  padding: 8px 10px 10px;
-  color: #4b5563;
-  font-size: 0.86rem;
-  text-align: center;
+@media (max-width: 900px) {
+  .pena-justa-panels-three {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .pena-justa-panels-three {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .manifestacao-banner-crop {
