@@ -175,6 +175,26 @@ section {
   line-height: 1.45;
 }
 
+.pena-justa-panels {
+  display: grid;
+  gap: 18px;
+  margin: 16px 0;
+}
+
+.pena-justa-panel {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(7, 29, 65, 0.08);
+}
+
+.pena-justa-panel img {
+  width: 100%;
+  height: auto;
+}
+
 .manifestacao-banner-crop {
   overflow: hidden;
   margin: 16px 0;
