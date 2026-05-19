@@ -175,20 +175,66 @@ section {
   line-height: 1.45;
 }
 
+.pena-justa-gallery {
+  margin: 16px 0;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #f8f9fb;
+  overflow: hidden;
+}
+
+.pena-justa-gallery summary {
+  position: relative;
+  padding: 14px 48px 14px 16px;
+  cursor: pointer;
+  font-weight: 700;
+  color: #0c326f;
+  list-style: none;
+}
+
+.pena-justa-gallery summary::-webkit-details-marker {
+  display: none;
+}
+
+.pena-justa-gallery summary::after {
+  content: "+";
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+}
+
+.pena-justa-gallery[open] summary {
+  border-bottom: 1px solid #d1d5db;
+  background: #ffffff;
+}
+
+.pena-justa-gallery[open] summary::after {
+  content: "-";
+}
+
+.pena-justa-gallery-body {
+  padding: 16px;
+}
+
 .pena-justa-panels {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
-  justify-content: center;
-  gap: 16px;
-  margin: 16px 0;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
 }
 
 .pena-justa-panel {
   margin: 0;
-  padding: 8px;
   border: 1px solid #d1d5db;
   border-radius: 8px;
   background: #ffffff;
+  overflow: hidden;
+}
+
+.pena-justa-panel a {
+  display: block;
+  padding: 8px 8px 0;
 }
 
 .pena-justa-panel img {
@@ -198,10 +244,11 @@ section {
   border-radius: 6px;
 }
 
-@media (max-width: 640px) {
-  .pena-justa-panels {
-    grid-template-columns: minmax(0, 1fr);
-  }
+.pena-justa-panel figcaption {
+  padding: 8px 10px 10px;
+  color: #4b5563;
+  font-size: 0.86rem;
+  text-align: center;
 }
 
 .manifestacao-banner-crop {
